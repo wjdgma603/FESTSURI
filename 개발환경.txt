@@ -12,7 +12,6 @@ git clone https://github.com/wjdgma603/FESTSURI.git
 Git window, Node 설치 확인
 
 cd FESTSURI
-npm i
 
 소스제어 - 점 3개 - 다음으로 체크아웃 (브랜치[분기] 변경 및 생성)
 
