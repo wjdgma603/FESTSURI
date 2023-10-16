@@ -8,3 +8,8 @@ gh-pages - build로 github-pages 연결 용이
 npm i 
 
 git clone https://github.com/wjdgma603/FESTSURI.git
+
+Git window, Node 설치 확인
+
+cd FESTSURI
+npm i
