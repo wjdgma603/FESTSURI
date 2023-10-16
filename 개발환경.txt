@@ -19,3 +19,18 @@ cd FESTSURI
 
 커밋 후 푸시
 변경사항 -> 모든 변경내용 스테이징(커밋 대상으로 올리기) -> 커밋메세지 작성 후 커밋 -> 푸시(변경내용 동기화)
+
+
+
+파일을 수정하고 push 하는 경우
+git checkout brchA - brchA로 체크아웃 (포커스 이동)
+git merge main - 메인으로 병합
+
+
+
+중간에 main파일이 변경되는 경우
+
+git checkout main - 메인 브랜치로 체크아웃 (포커스 이동)
+git pull origin main - 메인 브랜치 내용 가져오기
+
+
