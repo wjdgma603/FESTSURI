@@ -6,3 +6,5 @@ React router dom - 세부 페이지 컴포넌트 연결
 gh-pages - build로 github-pages 연결 용이
 
 npm i 
+
+git clone https://github.com/wjdgma603/FESTSURI.git
