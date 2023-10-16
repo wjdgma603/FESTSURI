@@ -33,5 +33,5 @@ git merge main - 메인으로 병합
 git checkout main - 메인 브랜치로 체크아웃 (포커스 이동)
 git pull origin main - 메인 브랜치 내용 가져오기
 
+오 쉣 행
 
-z오쉣 형님
