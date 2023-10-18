@@ -1,2 +1,7 @@
 * {margin: 0; padding: 0;}
-html,body {font-size: 0.0520833vw;}
+html,body {font-size: 1px;}
+
+
+@media (max-width : 1280px) {
+  html,body {font-size: clamp(0.6px,0.3125vw,0.078125vw);}
+}
