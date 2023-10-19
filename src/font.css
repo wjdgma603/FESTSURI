@@ -30,7 +30,7 @@
     src : url(../public/font/Noto_Sans_KR/NotoSansKR-Black.woff2) format('woff2');
     font-weight: 900;
 }
-/* Roboto 폰트 별 굵기, 리소스 요청 */
+/* Roboto 폰트 별 굵기, 리소스 요청, 영문 대소문자, 숫자만 적용 */
 @font-face { 
     font-family: Noto Sans KR;
     src : url(../public/font/Roboto/Roboto-Thin.woff2) format('woff2');
