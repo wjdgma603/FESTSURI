@@ -1,18 +1,28 @@
-import './font.css'
+import './font.css';
 import './App.css';
+import { Routes, Route } from 'react-router-dom'
+
 import Header from './components/Header/Header'
+import Main from "./components/Pages/Main/Main.js";
+import Party from './components/Pages/Party/Party';
+import Exhibition from './components/Pages/Exhibition/Exhibition';
+import Board from './components/Pages/Board/Board';
+import Gallery from './components/Pages/Gallery/Gallery';
+import Introduce from './components/Pages/Introduce/Introduce';
+
 
 function App() {
   return (
     <div className="App">
       <Header/>
-        <h1>대제목 40rem bold #111 -4%</h1>
-        <h2>중제목 32rem -4%</h2>
-        <h3>소제목 24rem</h3>
-        <h4>강조폰트</h4>
-        <h5>포인트폰트</h5>
-        <p>기본폰트</p>
-        <p></p>
+        <Routes>
+          <Route path='/' element={<Main/>}/>
+          <Route path='/party' element={<Party/>}/>
+          <Route path='/exhibition' element={<Exhibition/>}/>
+          <Route path='/board' element={<Board/>}/>
+          <Route path='/gallery' element={<Gallery/>}/>
+          <Route path='/introduce' element={<Introduce/>}/>
+        </Routes>
     </div>
   );
 }
