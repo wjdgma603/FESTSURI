@@ -1,12 +1,12 @@
 .Header{
     border: 1px solid black;
     height: 80px;
+    position: fixed;
+    width: 100%;
 }
 .headerWrap{
     height: 40px;
-    margin: 0 160px;
-    padding: 20px 0;
-    border: 1px solid black;
+    margin: 20px 160px;
     display: flex;
     justify-content: space-between;
 
@@ -28,9 +28,22 @@
 .Header_Personal>a{
     margin-right: 30px;
     font-size: 16px;
+    font-weight: 400;
+    color: #222;
+    position: relative;
 }
 .Header_Personal>a:last-of-type{
     margin-right: 15px;
+}
+.Header_Personal>a:not(:last-of-type)::after{
+    content: '';
+    display: inline-block;
+    width: 0px;
+    height: 14px;
+    border-right: 1px solid black;
+    position: absolute;
+    right: -17px;
+    transform: translate(-50%, 50%);
 }
 .Header_Nav{
     width: 100%;
@@ -40,6 +53,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.Header_NavUl>li>a{
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
 }
 .darkmodebox{
     width: 90px;
