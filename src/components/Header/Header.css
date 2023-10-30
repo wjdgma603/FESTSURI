@@ -1,0 +1,49 @@
+.Header{
+    border: 1px solid black;
+    height: 80px;
+}
+.headerWrap{
+    height: 40px;
+    margin: 0 160px;
+    padding: 20px 0;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+
+}
+.Header_logo{
+    width: 200px;
+}
+.Header_Navigate{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Header_Personal{
+    width: 336px;
+    display: flex;
+    align-items: center;
+}
+.Header_Personal>a{
+    margin-right: 30px;
+    font-size: 16px;
+}
+.Header_Personal>a:last-of-type{
+    margin-right: 15px;
+}
+.Header_Nav{
+    width: 100%;
+}
+.Header_NavUl{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.darkmodebox{
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #333;
+}

@@ -1,7 +1,9 @@
-* {margin: 0; padding: 0;}
-html,body {font-size: 1px;}
+* {margin: 0; padding: 0; list-style-type: none;}
+a {color: #000; text-decoration: none;}
+/* html,body {font-size: 1px;} */
+.w1280 {width: 1280px;}
 
 
-@media (max-width : 1280px) {
+/* @media (max-width : 1280px) {
   html,body {font-size: clamp(0.8px,0.3125vw,0.078125vw);}
-}
+} */
