@@ -1,13 +1,34 @@
-
-
-function Exhibition(){
+const Exhibition = () =>{
     return (
         <div className="Exhibition">
             <ul>
-                <li>홈</li>
-                <li>행사</li>
+                <li><a>홈</a></li>
+                <li><a>행사</a></li>
             </ul>
-            <ati
+            <article>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </article>
+            <article>
+            <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </article>
+            <article>
+            <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </article>
+            <article>
+            <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </article>
         </div>
     );
 }
