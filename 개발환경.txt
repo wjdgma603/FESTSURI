@@ -45,7 +45,7 @@ https://ui.toast.com/fe-guide/ko_CODING-CONVENTION
 
 게시판 관련 brd(board)
 예시 ) brd_container
-햣 
+
 갤러리 관련 gllr(gallery)
 예시 ) gllr_container
 
@@ -57,6 +57,5 @@ https://ui.toast.com/fe-guide/ko_CODING-CONVENTION
 예시 ) itr_container
 
 메인페이지 main
-
 
 정현형님 확인
