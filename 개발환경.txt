@@ -8,11 +8,21 @@ React router dom - 세부 페이지 컴포넌트 연결
 gh-pages - build로 github-pages 연결 용이
 
 
+주의사항 
+
+전역변수 선언 금지 (합칠 때 오류 발생 확률 높음)
+gh-pages 관련 용어 통제 (npm run build, npm run deploy)
+
+
+
+
 익스텐션 추천
 
 Auto Close Tag // XML 작성이 필요한 React에서 자동으로 HTML태그 닫기를 해줌
 Auto Rename Tag // XML 작성이 필요한 React에서 자동으로 태그 수정시 닫기태그도 수정됨
 Simple React Snippets // React 단축어를 사용하도록 하는 익스텐션 (sfc, ccc등)
+
+
 
 
 코드 규약
@@ -25,6 +35,8 @@ Prettier 익스텐션을 사용해서 코드를 정리하거나 귀찮으면
 
 이외 코드규약 기본적인 내용(전역변수 할당 금지)등에 관한 내용은 아래 링크 참고
 https://ui.toast.com/fe-guide/ko_CODING-CONVENTION
+
+
 
 
 클래스 규칙
