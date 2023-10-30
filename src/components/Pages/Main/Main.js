@@ -1,3 +1,5 @@
+import './Main.css'
+
 const Main = () => {
     return ( 
         <main className="Main">
@@ -8,10 +10,10 @@ const Main = () => {
 
             </section>
             <section className="Main_Gallery">
-
+        
             </section>
         </main>
      );
 }
- 
+
 export default Main;
