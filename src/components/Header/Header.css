@@ -1,49 +1,31 @@
 .Header{
-    border: 1px solid black;
+    border-bottom : 1px solid #ddd;
+    background: rgba(0, 0, 0, 0.50);
     height: 80px;
     position: fixed;
     width: 100%;
 }
+/* Header Fixed 적용 */
 .headerWrap{
     height: 40px;
     margin: 20px 160px;
     display: flex;
     justify-content: space-between;
-
 }
+/* Header Item들 가운데 정렬 */
 .Header_logo{
     width: 200px;
 }
+.Header_logo>a>svg{
+    fill: #ddd;
+    stroke: #ddd;
+}
+/* Header_logo svg 크기 지정 */
 .Header_Navigate{
     width: 800px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.Header_Personal{
-    width: 336px;
-    display: flex;
-    align-items: center;
-}
-.Header_Personal>a{
-    margin-right: 30px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #222;
-    position: relative;
-}
-.Header_Personal>a:last-of-type{
-    margin-right: 15px;
-}
-.Header_Personal>a:not(:last-of-type)::after{
-    content: '';
-    display: inline-block;
-    width: 0px;
-    height: 14px;
-    border-right: 1px solid black;
-    position: absolute;
-    right: -17px;
-    transform: translate(-50%, 50%);
 }
 .Header_Nav{
     width: 100%;
@@ -55,11 +37,38 @@
     justify-content: space-between;
 }
 .Header_NavUl>li>a{
-    color: #222;
+    color: #fff;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
 }
+/* Header Navigation */
+.Header_Personal{
+    width: 336px;
+    display: flex;
+    align-items: center;
+}
+.Header_Personal>a{
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    position: relative;
+}
+.Header_Personal>a:last-of-type{
+    margin-right: 15px;
+}
+.Header_Personal>a:not(:last-of-type)::after{
+    content: '';
+    display: inline-block;
+    width: 0px;
+    height: 14px;
+    border-right: 1px solid #fff;
+    position: absolute;
+    right: -17px;
+    transform: translate(-50%, 50%);
+}
+/* Header Personal 개인화메뉴  */
 .darkmodebox{
     width: 90px;
     height: 40px;

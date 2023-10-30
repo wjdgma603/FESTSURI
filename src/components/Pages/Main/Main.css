@@ -3,4 +3,35 @@
     height: 100vh;
     background: linear-gradient(180deg, #2C3E50 0%, #2980B9 100%);
     border: 1px solid black;
+    display: flex;
+
 }
+/* Main 배경색, 크기 */
+.Main_IntroSection>.Text_Sector{
+    padding-left: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Main_IntroSection>.Text_Sector>h1{
+    color: #FFF;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.Main_IntroSection>.Text_Sector>h1>span{
+    color: #FDE177;
+}
+.Main_IntroSection>.Text_Sector>p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.9px;
+}
+
+.Main_IntroSection>article{
+    margin-top: 80px;
+    flex: 1;
+}
+/* Main 텍스트 지정 */
