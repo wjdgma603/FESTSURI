@@ -8,10 +8,12 @@ React router dom - 세부 페이지 컴포넌트 연결
 gh-pages - build로 github-pages 연결 용이
 
 
-주의사항 
+주요 주의사항 
 
-전역변수 선언 금지 (합칠 때 오류 발생 확률 높음)
+JS 전역변수 선언 금지 (합칠 때 오류 발생 확률 높음)
 gh-pages 관련 용어 통제 (npm run build, npm run deploy)
+깃허브 커밋 시 커밋 메세지 작성 자세하게 (무슨기능 개발완료, 무슨기능 수정.)
+JS 카멜기법 사용
 
 
 
