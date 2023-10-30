@@ -58,4 +58,4 @@ https://ui.toast.com/fe-guide/ko_CODING-CONVENTION
 
 메인페이지 main
 
-정현형님 확인
+정흠 수정
