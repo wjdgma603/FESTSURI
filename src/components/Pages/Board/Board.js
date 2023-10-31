@@ -1,9 +1,9 @@
 const Board = () => {
-    return ( 
+    return (
         <section className="Board">
-            Board
+            Boarddddd
         </section>
-     );
+    );
 }
- 
+
 export default Board;
