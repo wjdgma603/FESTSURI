@@ -1,7 +1,7 @@
 const Board = () => {
     return (
         <section className="Board">
-            Boarddddd
+            Boardddddㄴㄴㄴ
         </section>
     );
 }
