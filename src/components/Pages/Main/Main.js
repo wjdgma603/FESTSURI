@@ -10,22 +10,22 @@ const Main = () => {
     useEffect(() => {
         //GLTF Loader
         const gltfLoader = new GLTFLoader();
-        let mixer;
+
         gltfLoader.load(model, (gltf)=>{    
             const imgs = gltf.scene.children[0];
             console.log(imgs)
-            imgs.position.x = -1;
-            imgs.position.y = -1.3;
+            imgs.position.z = -1.5
+            imgs.position.x = 1.5;
+            imgs.position.y = -1.1;
             scene.add(imgs)
             camera.lookAt(imgs)
-            mixer = new THREE.AnimationMixer( gltf.scene);
 
-            
-            const actions = [];
-            actions[0] = mixer.clipAction(gltf.animations[0]);
-            actions[1] = mixer.clipAction(gltf.animations[1]);
-            actions[2] = mixer.clipAction(gltf.animations[2]);
-            actions[0].play();
+            function animated() {
+                requestAnimationFrame(animated)
+                imgs.position.x = Math.sin(Date.now() * 0.002) * 2;
+                renderer.render(scene,camera)
+
+            }
         })
         
         //Renderer Setting
@@ -42,7 +42,7 @@ const Main = () => {
         scene.add(camera)   
         camera.position.z = 5;
         camera.position.y = 0;
-        camera.position.x = 2;
+        camera.position.x = 4;
 
         // light 
         const ambientLight = new THREE.AmbientLight('white', 4);
@@ -50,12 +50,11 @@ const Main = () => {
 
         // 컨트롤 셋팅
         const controls = new OrbitControls( camera, renderer.domElement );
-        controls.enabled = true
+        controls.enabled = false
         const clock = new THREE.Clock();
         const animate = ()=>{
                 const time = clock.getElapsedTime();
             controls.update()
-            if(mixer) mixer.update(time)
             renderer.render(scene, camera)
             renderer.setAnimationLoop(animate)
         }

@@ -19,7 +19,13 @@ function App() {
           <Route path='/' element={<Main/>}/>
           <Route path='/party' element={<Party/>}/>
           <Route path='/exhibition' element={<Exhibition/>}/>
-          <Route path='/board' element={<Board/>}/>
+          <Route path='/board' element={<Board/>}>
+            <Route path='NoticeCreate' element={''}/>
+            <Route path='NoticeDetail' element={''}/>
+            <Route path='InquiryDetail' element={''}/>
+            <Route path='InquiryCreate' element={''}/>
+            <Route path='FAQ' element={''}/>
+          </Route>
           <Route path='/gallery' element={<Gallery/>}/>
           <Route path='/introduce' element={<Introduce/>}/>
         </Routes>
