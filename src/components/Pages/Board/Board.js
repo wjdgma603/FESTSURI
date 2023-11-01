@@ -1,6 +1,8 @@
 import React, { useRef, useState } from 'react';
 import './Board.css';
-import BoardAnnouncement from "./Notice/BoardAnnouncement";
+import NftPage from "./NftPage";
+import IqryPage from './IqryPage';
+import FAQpage from './FAQpage';
 
 const Board = () => {
     const [activeTab, setActiveTab] = useState('Item1');
@@ -27,7 +29,7 @@ const Board = () => {
     };
 
     const blueSelecThree = () => {
-        blueSelecRef.current.style.width = '174.89px';
+        blueSelecRef.current.style.width = '181.62px';
         blueSelecRef.current.style.marginLeft = '267.22px';
         blueSelecTabsRef.current.style.marginLeft = '-267.22px';
         handleTabClick('Item3');
@@ -35,7 +37,7 @@ const Board = () => {
 
     return (
         <section className="Board">
-            <div className="noticeBoard">
+            <div className="BoardHeader">
                 <h2>게시판</h2>
             </div>
             <div className='TabSearch'>
@@ -58,9 +60,12 @@ const Board = () => {
                     <i></i>
                 </div>
             </div>
-            {activeTab === 'Item1' && <BoardAnnouncement />}
-            {/* {activeTab === 'BoardAnnouncement2' && <BoardAnnouncement2 />}
-            {activeTab === 'BoardAnnouncement3' && <BoardAnnouncement3 />} */}
+            {activeTab === 'Item1' && <NftPage />}
+            {activeTab === 'Item2' && <IqryPage />}
+            {activeTab === 'Item3' && <FAQpage />}
+            <div>
+
+            </div>
         </section>
     );
 }

@@ -1,4 +1,4 @@
-import './NoticesAndInquiries.css'
+import './Nft_style.css'
 
 const NoticeItem = () => {
     return (

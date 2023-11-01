@@ -96,21 +96,21 @@
 }
 
 .NumberPageTab .first {
-    background: url(./../../../../images/Board/first_pge_tab_btn_icon.png) no-repeat;
+    background: url(./../../../images/Board/first_pge_tab_btn_icon.png) no-repeat;
     background-size: cover;
 }
 
 .NumberPageTab .before {
-    background: url(./../../../../images/Board/before_tab_btn_icon.png) no-repeat;
+    background: url(./../../../images/Board/before_tab_btn_icon.png) no-repeat;
     background-size: cover;
 }
 
 .NumberPageTab .next {
-    background: url(./../../../../images/Board/next_tab_btn_icon.png) no-repeat;
+    background: url(./../../../images/Board/next_tab_btn_icon.png) no-repeat;
     background-size: cover;
 }
 
 .NumberPageTab .back {
-    background: url(./../../../../images/Board/back_tab_btn_icon.png) no-repeat;
+    background: url(./../../../images/Board/back_tab_btn_icon.png) no-repeat;
     background-size: cover;
 }

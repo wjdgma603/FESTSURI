@@ -9,7 +9,7 @@ import Exhibition from './components/Pages/Exhibition/Exhibition';
 import Board from './components/Pages/Board/Board';
 import Gallery from './components/Pages/Gallery/Gallery';
 import Introduce from './components/Pages/Introduce/Introduce';
-import NoticeCreate from './components/Pages/Board/Notice/NoticeCreate';
+import NftCrt from './components/Pages/Board/NftCrt'
 
 
 function App() {
@@ -20,13 +20,12 @@ function App() {
         <Route path='/' element={<Main />} />
         <Route path='/party' element={<Party />} />
         <Route path='/exhibition' element={<Exhibition />} />
-        <Route path='/board' element={<Board />}>
-          <Route path='notice-create' element={<NoticeCreate />} />
-          <Route path='NoticeDetail' element={''} />
-          <Route path='InquiryDetail' element={''} />
-          <Route path='InquiryCreate' element={''} />
-          <Route path='FAQ' element={''} />
-        </Route>
+        <Route path='/board' element={<Board />} />
+        <Route path='NftC' element={<NftCrt />} />
+        <Route path='NoticeDetail' element={''} />
+        <Route path='InquiryDetail' element={''} />
+        <Route path='InquiryCreate' element={''} />
+        <Route path='FAQ' element={''} />
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/introduce' element={<Introduce />} />
       </Routes>
