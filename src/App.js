@@ -21,7 +21,7 @@ function App() {
         <Route path='/party' element={<Party />} />
         <Route path='/exhibition' element={<Exhibition />} />
         <Route path='/board' element={<Board />} />
-        <Route path='/board/NftCrt' element={<NftCrt />} />
+        <Route path='/board/NftCrt' element={''} />
         <Route path='NoticeDetail' element={''} />
         <Route path='InquiryDetail' element={''} />
         <Route path='InquiryCreate' element={''} />
@@ -29,7 +29,7 @@ function App() {
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/introduce' element={<Introduce />} />
       </Routes>
-    </div >
+    </div>
   );
 }
 
