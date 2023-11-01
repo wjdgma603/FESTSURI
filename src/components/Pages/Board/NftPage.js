@@ -17,11 +17,9 @@ const NftPage = () => {
                 <NoticeItem></NoticeItem>
             </div>
             <div className='bottomAnnouncement'>
-                <Link to="/board/NftC">
-                    <button>
-                        <i></i>
-                        <h4>글 작성</h4>
-                    </button>
+                <Link to="/board/NftCrt">
+                    <i></i>
+                    <h4>글 작성</h4>
                 </Link>
                 <div className="NumberPageTab">
                     <ul>
