@@ -1,4 +1,3 @@
-// NftCrt.js
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 
@@ -18,7 +17,7 @@ const NftCrt = () => {
             };
 
             // 아이템 정보를 Board 컴포넌트로 전달
-            history.push('/Board', { newItem });
+            history.push('/Board', { state: { newItem } });
         } else {
             alert('제목과 내용을 입력해주세요.');
         }
