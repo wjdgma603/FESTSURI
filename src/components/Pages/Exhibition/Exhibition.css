@@ -1,0 +1,143 @@
+.sub_top {
+    width: 100%;
+    height: 300px;
+    background-image: url(../../../images/Exhibition/상단\ 배경이미지\ &\ 텍스트.png);
+    background-size: cover;
+}
+
+.sub_top>h2 {
+    padding-top: 200px;
+    color: #FFF;
+    font-size: 52px;
+    font-weight: 700;
+    padding-left: 330px;
+}
+
+.sub_go {
+    display: flex;
+    width: 130px;
+    padding: 50px 0;
+    justify-content: space-around;
+}
+
+.sub_go>li>a {
+    color: #666;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 5px 10px;
+    border: 1px solid #666;
+    border-radius: 50px;
+    display: block;
+}
+
+.Exhibition {
+    width: 1920px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.sub_middle {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.sub_menu {
+    display: flex;
+    width: 268px;
+}
+
+.sub_tab_menu_1 {
+    display: block;
+    width: 134px;
+    height: 36px;
+    background-color: #868686;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    margin: 0 auto;
+
+}
+
+.sub_tab_menu_2 {
+    display: block;
+    width: 134px;
+    height: 36px;
+    background-color: #C1C1C1;
+}
+
+.sub_tab_menu {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.sub_arrow {
+    position: relative;
+}
+
+.sub_arrow::after {
+    position: absolute;
+    left: -8px;
+    top: 8px;
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid #dddd;
+    border-right: 2px solid #dddd;
+    transform: rotate(45deg);
+}
+
+.sub_exhibitionFirst {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    width: 1280px;
+}
+
+.sub_exhibitionSecond {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    width: 1280px;
+}
+
+.sub_exhibitionThird {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    width: 1280px;
+}
+
+.sub_exhibitionFourth {
+    padding-top: 100px;
+    width: 1280px;
+}
+
+.sub_exhibition_num {
+
+    margin-top: 80px;
+    margin-bottom: 150px;
+
+}
+
+.sub_exhibition_num>a {
+    text-align: center;
+    justify-content: center;
+    background-color: #295BDE;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* .dis_none {
+    display: none;
+}
+
+.dis_none.active {
+    display: block;
+} */

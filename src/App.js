@@ -5,7 +5,7 @@ import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header/Header'
 import Main from "./components/Pages/Main/Main.js";
 import Party from './components/Pages/Party/Party';
-import Exhibition from './components/Pages/Exhibition/Exhibition';
+import Exhibition from './components/Pages/Exhibition/Exhibition.js';
 import Board from './components/Pages/Board/Board';
 import Gallery from './components/Pages/Gallery/Gallery';
 import Introduce from './components/Pages/Introduce/Introduce';
