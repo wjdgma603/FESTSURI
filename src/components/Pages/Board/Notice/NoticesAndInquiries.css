@@ -1,0 +1,116 @@
+.BoardAnnouncement .BoardHeader {
+    display: flex;
+    width: 100%;
+    padding: 5px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #222;
+    color: #222;
+}
+
+.BoardAnnouncement .BoardHeader>h5 {
+    font-weight: 500;
+}
+
+.BoardAnnouncement .BoardHeader>h5:first-child {
+    width: 70px;
+    text-align: center;
+}
+
+.BoardAnnouncement .BoardHeader>h5:last-child {
+    padding-right: 30px;
+}
+
+.sdajlkfsdfkjlsdjfkl {
+    height: 720px;
+    background-color: #ddd;
+}
+
+.BoardAnnouncement .bottomAnnouncement {
+    padding: 50px 0 150px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.BoardAnnouncement .bottomAnnouncement button {
+    width: 120px;
+    height: 50px;
+    border: none;
+    background: #0B6DB7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    cursor: pointer;
+    user-select: none;
+}
+
+.BoardAnnouncement .bottomAnnouncement button:hover {
+    background: #2183CE;
+
+}
+
+.BoardAnnouncement .bottomAnnouncement button>h4 {
+    color: #fff;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+/* 하단 페이지 네비게이션 버튼 */
+.NumberPageTab>ul {
+    display: flex;
+}
+
+.NumberPageTab>ul>li {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    background: #EEE;
+}
+
+.NumberPageTab>ul>li:last-child {
+    margin-right: 0px;
+}
+
+.NumberPageTab>ul>li:hover {
+    background-color: #ddd;
+}
+
+.NumberPageTab>ul>li>i {
+    width: 10px;
+    height: 12px;
+}
+
+.NumberPageTab .first {
+    background: url(./../../../../images/Board/first_pge_tab_btn_icon.png) no-repeat;
+    background-size: cover;
+}
+
+.NumberPageTab .before {
+    background: url(./../../../../images/Board/before_tab_btn_icon.png) no-repeat;
+    background-size: cover;
+}
+
+.NumberPageTab .next {
+    background: url(./../../../../images/Board/next_tab_btn_icon.png) no-repeat;
+    background-size: cover;
+}
+
+.NumberPageTab .back {
+    background: url(./../../../../images/Board/back_tab_btn_icon.png) no-repeat;
+    background-size: cover;
+}

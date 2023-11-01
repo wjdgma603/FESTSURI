@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './Board.css';
 
+import BoardAnnouncement from "./Notice/BoardAnnouncement";
+
 const Board = () => {
     const blueSelec = document.querySelector('.blueSelec');
     const blueSelecTabs = document.querySelector('.blueSelecTabs');
@@ -44,7 +46,7 @@ const Board = () => {
                     <i></i>
                 </div>
             </div>
-
+            <BoardAnnouncement />
         </section>
     );
 }
