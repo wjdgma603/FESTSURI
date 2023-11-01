@@ -13,7 +13,6 @@ const Main = () => {
         const gltfLoader = new GLTFLoader();
         gltfLoader.load(model, (gltf)=>{    
             const imgs = gltf.scene.children[0];
-            console.log(imgs)
             imgs.position.z = -1.5
             imgs.position.x = 1.5;
             imgs.position.y = -1.1;
@@ -62,18 +61,22 @@ const Main = () => {
     }, [])
     // useEffect 사용한 three.js 부분
 
-    const [currentIndex, setCurrentIndex] = useState(0);
-    const nextSlide = ()=>{
-        setCurrentIndex((currentIndex + 1) % SliderObj.length);
+    const [currentIndex, setCurrentIndex] = useState(7); // 초기슬라이드 index
+    const nextBtn = ()=>{
+        setCurrentIndex((currentIndex + 1) % (SliderObj.length + 1));
     };
-    const prevSlide = ()=>{
-        setCurrentIndex((currentIndex - 1 + SliderObj.length) % SliderObj.length)
+    const prevBtn = ()=>{
+        setCurrentIndex((currentIndex - 1 + (SliderObj.length + 1)) % (SliderObj.length + 1))
     }
-    useEffect(()=>{
-        const interval = setInterval(nextSlide, 3000); // 3초
+    useEffect((nextBtn)=>{
+        const interval = setInterval(nextBtn, 3000); // 3초
         return () => clearInterval(interval)
     },[])
 
+    const SliderStyle = {
+        transform : `translateX(-${currentIndex * (100 / (SliderObj.length + 1))}%)`,
+        width : `${SliderObj.length * 1280}px`
+    }
     return ( 
         <main className="Main">
             <section className="Main_IntroSection">
@@ -87,12 +90,24 @@ const Main = () => {
                 </article>
             </section>
             <section className="Main_SlideSection">
-                <article className='Main_Slider'>
+                <article className='Main_Slider' style={SliderStyle}>
                     {SliderObj.map((sliderObj)=>
                         <SliderItem key={sliderObj.id} {...sliderObj}/>
                     )}
+                    {/* {currentIndex === 0 && (
+                        <SliderItem key={SliderObj[SliderObj.length - 1].id} {...SliderObj[SliderObj.length - 1]}/>
+                    )} */}
                 </article>
-                button
+                <div className='MainSlide_PrevBtn MainSlide_Btn' onClick={prevBtn}>
+                    <svg viewBox="0 0 40 74" fill="none">
+                        <path d="M38.5 2L3 37L38 72" stroke="white" strokeWidth="3"/>
+                    </svg>
+                </div>
+                <div className='MainSlide_NextBtn MainSlide_Btn' onClick={nextBtn}>
+                    <svg viewBox="0 0 40 74" fill="none">
+                        <path d="M38.5 2L3 37L38 72" stroke="white" strokeWidth="3"/>
+                    </svg>
+                </div>
             </section>
             <section className="Main_EventSection">
 

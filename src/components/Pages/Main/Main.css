@@ -56,23 +56,49 @@
 
 /* three Sector */
 
-.Main_SlideSection{
-    height: 627px;
-    padding: 230px 0 100px 0
+.Main_SlideSection{ 
+    width: 100%;
+    /* overflow: hidden; */
+    position: relative;
+    margin: 0 auto;
 }
 
 .Main_Slider {
-    width: 100%;
+    margin: 0 calc((1920px - 1280px) / 2);
+    display: flex;
+    transition: transform .3s ease-in-out;
 }
+
 .Main_Slider>.Slide{
-    width: 100%;
-    height: calc(100% - 5px);
+    min-width: 1280px;
 }
+
 .Main_Slider>.Slide>a{
-    display: block;
-    width: 100%;
+    display: inline-block;
 }
 .Main_Slider>.Slide>a>img{
-    width: 1280px;
-    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+.MainSlide_Btn{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MainSlide_Btn>svg{
+    height: 80%;
+}
+.MainSlide_PrevBtn{
+    left: 25%;
+}
+.MainSlide_NextBtn{
+    right: 25%;
+    transform: translateY(-50%) rotate(180deg);
 }
