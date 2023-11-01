@@ -1,3 +1,9 @@
+.Board {
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
 .Board>div {
     width: 1280px;
     margin: 0 auto;

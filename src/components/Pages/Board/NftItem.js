@@ -1,11 +1,11 @@
-import './Nft_style.css'
+import './Nft_style.css';
 
-const NftItem = (props) => {
+const NftItem = ({ item }) => {
     return (
         <div className="NftItem">
-            <div className='NfcNum'>번호</div>
-            <div>{props.item}</div>
-            <div className='NfcDay'>등록일</div>
+            <div className='NfcNum'>{item.id}</div>
+            <div>{item.title}</div>
+            <div className='NfcDay'>{item.등록일}</div>
         </div>
     );
 }
