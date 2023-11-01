@@ -14,16 +14,16 @@ import Introduce from './components/Pages/Introduce/Introduce';
 function App() {
   return (
     <div className="App">
-      <Header/>
-        <Routes>
-          <Route path='/' element={<Main/>}/>
-          <Route path='/party' element={<Party/>}/>
-          <Route path='/exhibition' element={<Exhibition/>}/>
-          <Route path='/board' element={<Board/>}/>
-          <Route path='/gallery' element={<Gallery/>}/>
-          <Route path='/introduce' element={<Introduce/>}/>
-        </Routes>
-    </div>
+      <Header />
+      <Routes>
+        <Route path='/' element={<Main />} />
+        <Route path='/party' element={<Party />} />
+        <Route path='/exhibition' element={<Exhibition />} />
+        <Route path='/board' element={<Board />} />
+        <Route path='/gallery' element={<Gallery />} />
+        <Route path='/introduce' element={<Introduce />} />
+      </Routes>
+    </div >
   );
 }
 
