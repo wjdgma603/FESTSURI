@@ -9,6 +9,7 @@ import Exhibition from './components/Pages/Exhibition/Exhibition';
 import Board from './components/Pages/Board/Board';
 import Gallery from './components/Pages/Gallery/Gallery';
 import Introduce from './components/Pages/Introduce/Introduce';
+import NoticeCreate from './components/Pages/Board/Notice/NoticeCreate';
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
         <Route path='/party' element={<Party />} />
         <Route path='/exhibition' element={<Exhibition />} />
         <Route path='/board' element={<Board />}>
-          <Route path='NoticeCreate' element={''} />
+          <Route path='notice-create' element={<NoticeCreate />} />
           <Route path='NoticeDetail' element={''} />
           <Route path='InquiryDetail' element={''} />
           <Route path='InquiryCreate' element={''} />

@@ -1,26 +1,38 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import './Board.css';
-
 import BoardAnnouncement from "./Notice/BoardAnnouncement";
 
 const Board = () => {
-    const blueSelec = document.querySelector('.blueSelec');
-    const blueSelecTabs = document.querySelector('.blueSelecTabs');
+    const [activeTab, setActiveTab] = useState('Item1');
+
+    const handleTabClick = (tab) => {
+        setActiveTab(tab);
+    };
+
+    const blueSelecRef = useRef(null);
+    const blueSelecTabsRef = useRef(null);
+
     const blueSelecOne = () => {
-        blueSelec.style.width = '133.61px';
-        blueSelec.style.marginLeft = '0px';
-        blueSelecTabs.style.marginLeft = '0px';
+        blueSelecRef.current.style.width = '133.61px';
+        blueSelecRef.current.style.marginLeft = '0px';
+        blueSelecTabsRef.current.style.marginLeft = '0px';
+        handleTabClick('Item1');
     };
+
     const blueSelecTwo = () => {
-        blueSelec.style.width = '133.61px';
-        blueSelec.style.marginLeft = '133.61px';
-        blueSelecTabs.style.marginLeft = '-133.61px';
+        blueSelecRef.current.style.width = '133.61px';
+        blueSelecRef.current.style.marginLeft = '133.61px';
+        blueSelecTabsRef.current.style.marginLeft = '-133.61px';
+        handleTabClick('Item2');
     };
+
     const blueSelecThree = () => {
-        blueSelec.style.width = '174.89px';
-        blueSelec.style.marginLeft = '267.22px';
-        blueSelecTabs.style.marginLeft = '-267.22px';
+        blueSelecRef.current.style.width = '174.89px';
+        blueSelecRef.current.style.marginLeft = '267.22px';
+        blueSelecTabsRef.current.style.marginLeft = '-267.22px';
+        handleTabClick('Item3');
     };
+
     return (
         <section className="Board">
             <div className="noticeBoard">
@@ -33,8 +45,8 @@ const Board = () => {
                         <li onClick={blueSelecTwo}>문의사항</li>
                         <li onClick={blueSelecThree}>자주하는 질문</li>
                     </ul>
-                    <div className='blueSelec'>
-                        <ul className='blueSelecTabs'>
+                    <div className='blueSelec' ref={blueSelecRef}>
+                        <ul className='blueSelecTabs' ref={blueSelecTabsRef}>
                             <li>공지사항</li>
                             <li>문의사항</li>
                             <li>자주하는 질문</li>
@@ -46,7 +58,9 @@ const Board = () => {
                     <i></i>
                 </div>
             </div>
-            <BoardAnnouncement />
+            {activeTab === 'Item1' && <BoardAnnouncement />}
+            {/* {activeTab === 'BoardAnnouncement2' && <BoardAnnouncement2 />}
+            {activeTab === 'BoardAnnouncement3' && <BoardAnnouncement3 />} */}
         </section>
     );
 }

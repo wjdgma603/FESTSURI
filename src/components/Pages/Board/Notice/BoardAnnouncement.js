@@ -3,10 +3,6 @@ import './NoticesAndInquiries.css';
 import NoticeItem from './NoticeItem';
 import NumberPageTab from './NumberPageTab';
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import BoardAnnouncement from './BoardAnnouncement';
-import NoticeCreate from './NoticeCreate';
-
 import { Link } from 'react-router-dom';
 
 
@@ -22,7 +18,7 @@ const BoardAnnouncement = () => {
                 <NoticeItem></NoticeItem>
             </div>
             <div className='bottomAnnouncement'>
-                <Link to="/NoticeCreate">
+                <Link to="/notice-create">
                     <button>
                         <i></i>
                         <h4>글 작성</h4>

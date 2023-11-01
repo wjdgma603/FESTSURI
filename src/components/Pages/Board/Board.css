@@ -35,7 +35,7 @@
     color: #222;
 }
 
-.Board .Tab>div {
+.Board .Tab>.blueSelec {
     width: 133.6px;
     position: absolute;
     background: #0B6DB7;
@@ -46,7 +46,7 @@
     transition: .2s;
 }
 
-.Board .Tab>div>ul {
+.Board .Tab>.blueSelec>.blueSelecTabs {
     display: flex;
     transition: .2s;
 }
