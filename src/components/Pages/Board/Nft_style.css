@@ -1,32 +1,29 @@
-.BoardAnnouncement .BoardHeader {
-    display: flex;
+.NftPage .NftPageHeader {
     width: 100%;
     padding: 5px 0;
+    color: #222;
+
+    display: flex;
     justify-content: space-between;
     align-items: center;
+
     border-bottom: 2px solid #222;
-    color: #222;
 }
 
-.BoardAnnouncement .BoardHeader>h5 {
+.NftPage .NftPageHeader>h5 {
     font-weight: 500;
 }
 
-.BoardAnnouncement .BoardHeader>h5:first-child {
+.NftPage .NftPageHeader>h5:first-child {
     width: 70px;
     text-align: center;
 }
 
-.BoardAnnouncement .BoardHeader>h5:last-child {
+.NftPage .NftPageHeader>h5:last-child {
     padding-right: 30px;
 }
 
-.sdajlkfsdfkjlsdjfkl {
-    height: 720px;
-    background-color: #ddd;
-}
-
-.BoardAnnouncement .bottomAnnouncement {
+.NftPage .NftCrtlink {
     padding: 50px 0 150px 0;
     display: flex;
     align-items: center;
@@ -34,36 +31,50 @@
     position: relative;
 }
 
-.BoardAnnouncement .bottomAnnouncement button {
+.NftPage .NftCrtlink a {
     width: 120px;
     height: 50px;
     border: none;
     background: #0B6DB7;
+    color: #fff;
+
     display: flex;
     justify-content: center;
     align-items: center;
+
     position: absolute;
     top: 50px;
     right: 0;
+
     cursor: pointer;
     user-select: none;
 }
 
-.BoardAnnouncement .bottomAnnouncement button:hover {
+.NftPage .NftCrtlink a:hover {
     background: #2183CE;
+}
+
+/* NoticeItem 페이지 각 제목별 디자인 */
+.NftItem {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    padding: 5px 0px;
+    align-items: center;
+    border-bottom: 1px solid #DDD;
+}
+
+.NftItem .NfcNum {
+    width: 70px;
+    text-align: center;
 
 }
 
-.BoardAnnouncement .bottomAnnouncement button>h4 {
-    color: #fff;
-    font-weight: 500;
+.NftItem .NfcDay {
+    padding-right: 30px;
+
 }
-
-
-
-
-
-
 
 
 
@@ -113,4 +124,94 @@
 .NumberPageTab .back {
     background: url(./../../../images/Board/back_tab_btn_icon.png) no-repeat;
     background-size: cover;
+}
+
+
+/* NftCrt 페이지 디자인 */
+
+.NftCrt>div {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.NftCrt .NftCrtTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.NftCrt .NftCrtTop>ul,
+.NftCrt .NftCrtTop>ol,
+.NftCrt .NftCrtTop>ul>li,
+.NftCrt .NftCrtTop>ol li {
+    display: flex;
+}
+
+.NftCrt .NftCrtTop>ul {
+    display: flex;
+    width: 850px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.NftCrt .NftCrtTop>ul>li {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.NftCrt .NftCrtTop>ul>li>h4 {
+    color: #000;
+    font-weight: 700;
+}
+
+.NftCrt .NftCrtTop>ul>li>input {
+    width: 500px;
+    height: 30px;
+    border: transparent;
+    font-size: 20px;
+    color: #222;
+    outline: none;
+}
+
+.NftCrt .NftCrtTop>ol {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.NftCrt .NftCrtTop>ol li {
+    display: flex;
+    height: 40px;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    user-select: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.NftCrt .NftCrtTop>ol>a>li>i {
+    width: 20px;
+    height: 15px;
+}
+
+.NftCrt .NftCrtTop>ol>a:nth-child(1) li {
+    background: #959EA2;
+}
+
+.NftCrt .NftCrtTop>ol>a:nth-child(1) i {
+    background: url(./../../../images/Board/return_icon.png) no-repeat;
+    background-size: contain;
+}
+
+.NftCrt .NftCrtTop>ol>a:nth-child(2) li {
+    background: #2183CE;
+}
+
+.NftCrt .NftCrtTop>ol>a:nth-child(2)>li>i {
+    background: url(./../../../images/Board/check_icon.png) no-repeat;
+    background-size: contain;
 }

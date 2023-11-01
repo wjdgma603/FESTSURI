@@ -1,22 +1,20 @@
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Nft_style.css';
-
 import NoticeItem from './NftItem';
 
-import { Link } from 'react-router-dom';
-
-
-const NftPage = () => {
+const NftPage = ({ }) => {
     return (
-        <div className="BoardAnnouncement">
-            <div className="BoardHeader">
+        <div className="NftPage">
+            <div className="NftPageHeader">
                 <h5>번호</h5>
                 <h5>제목</h5>
                 <h5>등록일</h5>
             </div>
-            <div>
-                <NoticeItem></NoticeItem>
+            <div className='NftInItems'>
+                <NoticeItem />
             </div>
-            <div className='bottomAnnouncement'>
+            <div className='NftCrtlink'>
                 <Link to="/board/NftCrt">
                     <i></i>
                     <h4>글 작성</h4>

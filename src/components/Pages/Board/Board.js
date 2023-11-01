@@ -1,5 +1,7 @@
-import React, { useRef, useState } from 'react';
 import './Board.css';
+
+import { useState, useRef, useEffect } from 'react';
+
 import NftPage from "./NftPage";
 import IqryPage from './IqryPage';
 import FAQpage from './FAQpage';
@@ -63,9 +65,6 @@ const Board = () => {
             {activeTab === 'Item1' && <NftPage />}
             {activeTab === 'Item2' && <IqryPage />}
             {activeTab === 'Item3' && <FAQpage />}
-            <div>
-
-            </div>
         </section>
     );
 }
