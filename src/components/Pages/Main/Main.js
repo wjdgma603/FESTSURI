@@ -134,10 +134,24 @@ const Main = () => {
         setInitialPosition();
         // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
+    let normalimages = 35;
+    let focusimages = 100;
+
     useEffect(()=>{
+
+        // let currentSlide = document.querySelector(`.Slide${slideState.number}`)
+        // console.log(currentSlide)
+        // console.log(slideState.number)
+        // currentSlide.style.filter = `brightness(${focusimages}%)`
         SlideRef.current.style.transform = `translateX(-${slideState.number * (SlideWidth + SlideMargin)}px)`
         SlideRef.current.style.transition = slideState.hasMotion ? 'all 0.3s ease-in-out' : '';
     }, [slideState])
+    // 슬라이드 마무리
+
+    // let imageStyles = {
+    //     filter : `brightness(${slideState.number ? focusimages : normalimages}%)`,
+    // }
+
     return ( 
         <main className="Main">
             <section className="Main_IntroSection">
@@ -151,9 +165,10 @@ const Main = () => {
                 </article>
             </section>
             <section className="Main_SlideSection">
+                <div className='MainSlide_BlackBg'></div>
                 <article className='Main_Slider' ref={SlideRef}>
                     {eventState.map((event)=> 
-                        <div className='Slide' key={event.id = SlideId.current += 1}>
+                        <div className={`Slide Slide${SlideId.current}`} key={event.id = SlideId.current += 1}>
                             <Link to={event.sliderLink}>
                                 <img src={require("./images/pcSlide/slide0"+event.sliderNum+".jpg")} alt={`slidenum${event.id}`}/>
                             </Link>
