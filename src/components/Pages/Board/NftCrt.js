@@ -24,7 +24,10 @@ const NftCrt = ({ }) => {
                     value={NftTitle}
                     onChange={(e) => setNftTitle(e.target.value)}
                 />
-                <button onClick={handleCreateNft}>글 작성하기</button>
+                <div className='brd_CrtBtn'>
+                    <Link to="/board"><i></i>돌아가기</Link>
+                    <button onClick={handleCreateNft}><i></i>글 작성하기</button>
+                </div>
             </div>
             <textarea
                 placeholder="내용을 입력하세요"

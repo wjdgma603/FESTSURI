@@ -72,19 +72,94 @@
     background-size: contain;
 }
 
-
+/* 글작성페이지 */
 .NftCrt {
     width: 1280px;
     margin: 0 auto;
     padding-top: 180px;
+    padding-bottom: 250px;
 }
 
-.NftCrt .brd_titleOncheck {}
+.NftCrt .brd_titleOncheck {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-/* 하단 페이지 네비게이션 버튼 */
-.NumberPageTab>ul {
+.NftCrt .brd_CrtBtn,
+.NftCrt .brd_CrtBtn>* {
     display: flex;
 }
+
+.NftCrt .brd_CrtBtn>* {
+    height: 40px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NftCrt .brd_CrtBtn i {
+    width: 20px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.NftCrt .brd_CrtBtn>a {
+    background-color: #2183CE;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.NftCrt .brd_CrtBtn>button {
+    border: none;
+    background-color: #959EA2;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.NftCrt .brd_CrtBtn>a>i {
+    background: url(/src/images/Board/return_icon.png) no-repeat;
+    background-size: contain;
+}
+
+.NftCrt .brd_CrtBtn>button>i {
+    background: url(/src/images/Board/check_icon.png) no-repeat;
+    background-size: contain;
+}
+
+
+.NftCrt .brd_titleOncheck>input {
+    border: none;
+    border-bottom: 1px solid #999;
+    width: 800px;
+    height: 35px;
+    font-size: 20px;
+    color: #999;
+    outline: none;
+}
+
+.NftCrt>textarea {
+    width: 1280px;
+    height: 550px;
+    padding: 60px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    resize: none;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.NftCrt>textarea::placeholder {
+    color: #999;
+}
+
+/* 하단 페이지 네비게이션 버튼 */
 
 .NumberPageTab>ul>li {
     display: flex;
@@ -98,15 +173,6 @@
 
 .NumberPageTab>ul>li:last-child {
     margin-right: 0px;
-}
-
-.NumberPageTab>ul>li:hover {
-    background-color: #ddd;
-}
-
-.NumberPageTab>ul>li>i {
-    width: 10px;
-    height: 12px;
 }
 
 .NumberPageTab .first {
