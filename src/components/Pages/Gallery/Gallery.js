@@ -9,7 +9,8 @@ import GallData from "./GallDeta.json";
 
 const Gallery = () => {
   const Galllist = GallData.map((data)=>(
-    <div class="Gall_GridItem">{data.usetitle}{data.useDeta}</div>
+    <div class="Gall_GridItem">{data.usetitle}{data.useDeta}
+    <img src={require("./images/")}></img></div>
     ));
 
 
