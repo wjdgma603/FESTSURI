@@ -8,8 +8,8 @@ import Party from './components/Pages/Party/Party';
 import Exhibition from './components/Pages/Exhibition/Exhibition';
 import Board from './components/Pages/Board/Board';
 import Gallery from './components/Pages/Gallery/Gallery';
+import Party_sub from './components/Pages/PtyExbDetail/Party_sub.js';
 import Introduce from './components/Pages/Introduce/Introduce';
-import Party_sub from './components/Pages/PtyExbDetail/party_sub';
 
 function App() {
   return (

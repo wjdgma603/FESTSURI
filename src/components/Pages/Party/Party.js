@@ -6,7 +6,7 @@ function Party(){
     return (
         <div className="party">
                     <section className='party_top'>
-            <h2>전시·공연</h2>
+            <h2>행사</h2>
         </section>
         <section className='party_middle'>
             <ul className='party_go'>
