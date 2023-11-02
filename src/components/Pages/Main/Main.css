@@ -2,5 +2,103 @@
     width: 100%;
     height: 100vh;
     background: linear-gradient(180deg, #2C3E50 0%, #2980B9 100%);
-    border: 1px solid black;
+    display: flex;
+    overflow: hidden;
+
+}
+/* Main 배경색, 크기 */
+.Main_IntroSection>.Text_Sector{
+    padding-left: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Main_IntroSection>.Text_Sector>h1{
+    color: #FFF;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.Main_IntroSection>.Text_Sector>h1>span{
+    color: #FDE177;
+}
+.Main_IntroSection>.Text_Sector>p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.9px;
+}
+
+.Main_IntroSection>article{
+    margin-top: 80px;
+}
+/* Main 텍스트 지정 */
+
+.Three_Sector{
+    width: 100%;
+    height: calc(100% - 80px);
+    position: absolute;
+}
+#my_canvas {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.Three_Sector>.ThreeBackLight{
+    position: absolute;
+    right: 6%;
+    width: 50%;
+    height: 100%;
+    background: radial-gradient(50% 50% at 50% 50%, #fde0776e 0%, rgba(255, 217, 144, 0.00) 100%);
+}
+
+/* three Sector */
+
+.Main_SlideSection{ 
+    width: 100%;
+    /* overflow: hidden; */
+    position: relative;
+    margin: 0 auto;
+}
+
+.Main_Slider {
+    margin: 0 calc((1920px - 1280px) / 2);
+    display: flex;
+    transition: transform .3s ease-in-out;
+}
+
+.Main_Slider>.Slide{
+    min-width: 1280px;
+}
+
+.Main_Slider>.Slide>a{
+    display: inline-block;
+}
+.Main_Slider>.Slide>a>img{
+    max-width: 100%;
+    height: auto;
+}
+.MainSlide_Btn{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MainSlide_Btn>svg{
+    height: 80%;
+}
+.MainSlide_PrevBtn{
+    left: 25%;
+}
+.MainSlide_NextBtn{
+    right: 25%;
+    transform: translateY(-50%) rotate(180deg);
 }
