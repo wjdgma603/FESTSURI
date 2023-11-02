@@ -5,11 +5,11 @@ import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header/Header'
 import Main from "./components/Pages/Main/Main.js";
 import Party from './components/Pages/Party/Party';
-import Exhibition from './components/Pages/Exhibition/Exhibition.js';
+import Exhibition from './components/Pages/Exhibition/Exhibition';
 import Board from './components/Pages/Board/Board';
 import Gallery from './components/Pages/Gallery/Gallery';
 import Introduce from './components/Pages/Introduce/Introduce';
-import PtyExbDetail from './images/PtyExbDetail/PtyExbDetail';
+import Party_sub from './components/Pages/PtyExbDetail/party_sub';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Route path='/' element={<Main/>}/>
           <Route path='/party' element={<Party/>}/>
           <Route path='/exhibition' element={<Exhibition/>}/>
-          <Route path='/exbition/detail' element={<PtyExbDetail/>}/>
+          <Route path='/exbition/detail' element={<Party_sub/>}/>
           <Route path='/board' element={<Board/>}/>
           <Route path='/board/NftCrt' element={''}/>
           <Route path='NoticeDetail' element={''}/>

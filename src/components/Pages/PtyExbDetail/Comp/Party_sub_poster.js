@@ -12,4 +12,4 @@ const Party_sub_poster= ({id,title,sub_title}) => {
     );
 }
  
-export default Party_sub_poster{id,title,sub_title}
+export default Party_sub_poster
