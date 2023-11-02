@@ -14,7 +14,7 @@ import Introduce from './components/Pages/Introduce/Introduce';
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header />
         <Routes>
           <Route path='/' element={<Main/>}/>
           <Route path='/party' element={<Party/>}/>
