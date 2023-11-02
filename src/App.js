@@ -9,7 +9,7 @@ import Exhibition from './components/Pages/Exhibition/Exhibition';
 import Board from './components/Pages/Board/Board';
 import Gallery from './components/Pages/Gallery/Gallery';
 import Introduce from './components/Pages/Introduce/Introduce';
-import PtyExbDetail from './images/PtyExbDetail/PtyExbDetail';
+import PtyExbDetail from './components/Pages/PtyExbDetail/PtyExbDetail';
 
 function App() {
   return (

@@ -64,7 +64,11 @@ const Main = () => {
 
     const [eventState, setEventsState] = useState([]);
 
+
+
+
     const SlideWidth = 1280;
+    const SlideMargin = 0;
     const MaxSlides = 7;
     const TotalSlides = MaxSlides * 3;
     const SlideRef = useRef();
@@ -86,7 +90,7 @@ const Main = () => {
 
     
     function setInitialPosition() {
-        SlideRef.current.style.transform = `translateX(-${SlideWidth * (MaxSlides - 1)}px)`;
+        SlideRef.current.style.transform = `translateX(-${(SlideWidth + SlideMargin) * (MaxSlides - 1)}px)`;
     }
     function moveTo(setNumber, setMotion){
         setSlideState({
@@ -127,13 +131,13 @@ const Main = () => {
     useEffect(()=>{
         loadEvents()
         setInitialPosition();
-        // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
-
+    
     useEffect(()=>{
-        SlideRef.current.style.transfrom = `translateX(-${slideState.number * SlideWidth}px)`
-        SlideRef.current.style.transition = slideState.hasMotion ? 'all 0.5s ease-in-out' : '';
+        SlideRef.current.style.transform = `translateX(-${slideState.number * (SlideWidth + SlideMargin)}px)`
+        SlideRef.current.style.transition = slideState.hasMotion ? 'all 0.3s ease-in-out' : '';
     }, [slideState])
+    console.log(slideState.number)
     return ( 
         <main className="Main">
             <section className="Main_IntroSection">
