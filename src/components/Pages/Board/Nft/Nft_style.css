@@ -1,3 +1,99 @@
+.brd_tapAserch {
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NftTap .brd_tap {
+    height: 53px;
+    position: relative;
+}
+
+.NftTap .brd_tap ul {
+    display: flex;
+    white-space: nowrap;
+    box-sizing: border-box;
+    transition: .2s;
+}
+
+.NftTap .brd_tap>ul {
+    color: #222;
+    border-top: .5px solid #999;
+    border-bottom: .5px solid #999;
+    position: absolute;
+}
+
+.NftTap .brd_tap li {
+    padding: 12px 30px;
+    font-size: 20px;
+}
+
+.NftTap .brd_tap>ul>li:nth-child(1) {
+    color: #fff;
+    background: #0B6DB7;
+}
+
+.NftTap .brd_Search {
+    width: 300px;
+    height: 40px;
+    border-bottom: .5px solid #999;
+    position: relative;
+}
+
+.NftTap .brd_Search>input {
+    width: 255px;
+    height: 40px;
+    padding: 5px 0px 5px 10px;
+    font-size: 18px;
+
+    background-color: transparent;
+    border: transparent;
+    outline: none;
+
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.NftTap .brd_Search>input::placeholder {
+    color: #999;
+}
+
+.NftTap .brd_Search>i {
+    width: 22px;
+    height: 22px;
+
+    transform: translate(0, -50%);
+    position: absolute;
+    top: 50%;
+    right: 10px;
+
+    background: url(./../../../../images/Board/magnifying_glass_icon.png) no-repeat;
+    background-size: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .NftPage .NftPageHeader {
     width: 100%;
     padding: 5px 0;
@@ -107,22 +203,22 @@
 }
 
 .NumberPageTab .first {
-    background: url(./../../../images/Board/first_pge_tab_btn_icon.png) no-repeat;
+    /* background: url(./../../../images/Board/first_pge_tab_btn_icon.png) no-repeat; */
     background-size: cover;
 }
 
 .NumberPageTab .before {
-    background: url(./../../../images/Board/before_tab_btn_icon.png) no-repeat;
+    /* background: url(./../../../images/Board/before_tab_btn_icon.png) no-repeat; */
     background-size: cover;
 }
 
 .NumberPageTab .next {
-    background: url(./../../../images/Board/next_tab_btn_icon.png) no-repeat;
+    /* background: url(./../../../images/Board/next_tab_btn_icon.png) no-repeat; */
     background-size: cover;
 }
 
 .NumberPageTab .back {
-    background: url(./../../../images/Board/back_tab_btn_icon.png) no-repeat;
+    /* background: url(./../../../images/Board/back_tab_btn_icon.png) no-repeat; */
     background-size: cover;
 }
 
@@ -132,6 +228,21 @@
 .NftCrt>div {
     width: 1280px;
     margin: 0 auto;
+}
+
+.NftlinkBtnHeader {
+    padding-top: 200px;
+}
+
+.NftlinkBtnHeader a {
+    width: min-content;
+    white-space: nowrap;
+    display: block;
+    padding: 50px 50px;
+    margin-top: 50px;
+    background-color: #2183CE;
+    color: #fff;
+    border-radius: 5px;
 }
 
 .NftCrt .NftCrtTop {
@@ -203,7 +314,7 @@
 }
 
 .NftCrt .NftCrtTop>ol>a:nth-child(1) i {
-    background: url(./../../../images/Board/return_icon.png) no-repeat;
+    /* background: url(./../../../images/Board/return_icon.png) no-repeat; */
     background-size: contain;
 }
 
@@ -212,6 +323,6 @@
 }
 
 .NftCrt .NftCrtTop>ol>a:nth-child(2)>li>i {
-    background: url(./../../../images/Board/check_icon.png) no-repeat;
+    /* background: url(./../../../images/Board/check_icon.png) no-repeat; */
     background-size: contain;
 }

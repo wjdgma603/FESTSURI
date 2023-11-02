@@ -1,100 +1,62 @@
 .Board {
     width: 1280px;
     margin: 0 auto;
-    padding-top: 150px;
+    padding-top: 180px;
 }
 
-.Board>div {
-    width: 1280px;
-    margin: 0 auto;
+.Board .brd_P {
+    cursor: pointer;
+    user-select: none;
 }
 
-.BoardHeader {
-    padding: 180px 0 20px 0;
+.brd_topTitle {
+    font-weight: 700;
+    color: #111;
+    padding: 0 0 20px 10px;
 }
 
-.Board .TabSearch {
-    padding-bottom: 30px;
+/*  */
+.Board .bthflexstyle {
+    margin: 30px;
     display: flex;
+    gap: 20px;
+}
+
+.Board .addNftItembtn {
+    width: min-content;
+    white-space: nowrap;
+    display: flex;
+    height: 40px;
+    padding: 0px 20px;
+    justify-content: center;
     align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    user-select: none;
+    color: #fff;
+    border-radius: 5px;
+    background: #2183CE;
+}
+
+.Board .addNftItembtn>i {
+    width: 20px;
+    height: 15px;
+    background: url(./../../../images/Board/check_icon.png) no-repeat;
+    background-size: contain;
+}
+
+/*  */
+
+.Board .linkboxs {
+    padding: 30px;
+    display: flex;
     justify-content: space-between;
 }
 
-.Board .Tab {
-    height: 53px;
-    position: relative;
-    cursor: pointer;
-    user-select: none;
-}
-
-.Board .Tab>ul,
-.Board .Tab>div {
-    display: flex;
-    position: absolute;
-    white-space: nowrap;
-    box-sizing: border-box;
-}
-
-.Board .Tab>ul {
-    border-top: .5px solid #999;
-    border-bottom: .5px solid #999;
-    color: #222;
-}
-
-.Board .Tab>.blueSelec {
-    width: 133.6px;
-    position: absolute;
-    background: #0B6DB7;
-    border-top: .5px solid #0B6DB7;
-    border-bottom: .5px solid #0B6DB7;
+.Board .linkboxs>a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #2183CE;
     color: #fff;
-    overflow: hidden;
-    transition: .2s;
-}
-
-.Board .Tab>.blueSelec>.blueSelecTabs {
-    display: flex;
-    transition: .2s;
-}
-
-.Board .Tab>ul>li,
-.Board .Tab>div>ul>li {
-    padding: 12px 30px;
-    font-size: 20px;
-}
-
-.Board .Search {
-    position: relative;
-    width: 300px;
-    height: 40px;
-    border-bottom: .5px solid #999;
-}
-
-.Board .Search>input {
-    width: 255px;
-    height: 40px;
-    padding: 5px 0px 5px 10px;
-    background-color: transparent;
-    border: transparent;
-    outline: none;
-    font-size: 18px;
-    position: absolute;
-    box-sizing: border-box;
-}
-
-.Board input::placeholder {
-    color: #999;
-}
-
-.Board .Search>i {
-    width: 22px;
-    height: 22px;
-    transform: translate(0, -50%);
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    background: url(../../../images/Board/magnifying_glass_icon.png);
-    background-size: cover;
-    cursor: pointer;
-    user-select: none;
+    border-radius: 5px;
 }
