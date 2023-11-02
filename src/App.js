@@ -9,7 +9,7 @@ import Exhibition from './components/Pages/Exhibition/Exhibition';
 import Board from './components/Pages/Board/Board';
 import Gallery from './components/Pages/Gallery/Gallery';
 import Introduce from './components/Pages/Introduce/Introduce';
-
+import PtyExbDetail from './components/Pages/PtyExbDetail/PtyExbDetail';
 
 function App() {
   return (
@@ -19,7 +19,13 @@ function App() {
           <Route path='/' element={<Main/>}/>
           <Route path='/party' element={<Party/>}/>
           <Route path='/exhibition' element={<Exhibition/>}/>
+          <Route path='/exbition/detail' element={<PtyExbDetail/>}/>
           <Route path='/board' element={<Board/>}/>
+          <Route path='/board/NftCrt' element={''}/>
+          <Route path='NoticeDetail' element={''}/>
+          <Route path='InquiryDetail' element={''}/>
+          <Route path='InquiryCreate' element={''}/>
+          <Route path='FAQ' element={''}/>
           <Route path='/gallery' element={<Gallery/>}/>
           <Route path='/introduce' element={<Introduce/>}/>
         </Routes>
