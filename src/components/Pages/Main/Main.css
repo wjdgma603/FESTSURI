@@ -58,15 +58,14 @@
 
 .Main_SlideSection{ 
     width: 100%;
-    /* overflow: hidden; */
+    overflow: hidden;
     position: relative;
-    margin: 0 auto;
 }
 
 .Main_Slider {
     margin: 0 calc((1920px - 1280px) / 2);
     display: flex;
-    transition: transform .3s ease-in-out;
+    /* transition: transform .3s ease-in-out; */
 }
 
 .Main_Slider>.Slide{
