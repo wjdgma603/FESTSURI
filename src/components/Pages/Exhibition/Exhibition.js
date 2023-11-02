@@ -10,7 +10,7 @@ function Exhibition (){
         </section>
         <section className='exh_middle'>
             <ul className='exh_go'>
-                <li><Link to ='/'>홈</Link></li>
+                <li>홈</li>
                 <li className='exh_arrow'></li>
                 <li><a>전시·공연</a></li>
             </ul>
