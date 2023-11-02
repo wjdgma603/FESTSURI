@@ -16,47 +16,37 @@
 }
 
 /*  */
-.Board .bthflexstyle {
-    margin: 30px;
-    display: flex;
-    gap: 20px;
-}
 
-.Board .addNftItembtn {
-    width: min-content;
-    white-space: nowrap;
-    display: flex;
+.brd_NftIqryTitle,
+.NftItem {
     height: 40px;
-    padding: 0px 20px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    cursor: pointer;
-    user-select: none;
-    color: #fff;
-    border-radius: 5px;
-    background: #2183CE;
-}
+    padding: 5px 0px;
 
-.Board .addNftItembtn>i {
-    width: 20px;
-    height: 15px;
-    background: url(./../../../images/Board/check_icon.png) no-repeat;
-    background-size: contain;
-}
-
-/*  */
-
-.Board .linkboxs {
-    padding: 30px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
-.Board .linkboxs>a {
-    display: block;
-    padding: 10px 20px;
-    background-color: #2183CE;
-    color: #fff;
-    border-radius: 5px;
+.brd_NftIqryTitle {
+    border-bottom: 2px solid #222;
+}
+
+.NftItem {
+    border-bottom: 1px solid #DDD;
+}
+
+.brd_NftIqryTitle>li {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.brd_NftIqryTitle>li:nth-child(1),
+.brd_NftIqryItemNum {
+    width: 70px;
+    text-align: center;
+}
+
+.brd_NftIqryTitle>li:nth-child(3),
+.brd_NftIqryItemDay {
+    padding: 0 30px;
 }

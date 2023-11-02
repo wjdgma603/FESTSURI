@@ -68,111 +68,18 @@
     top: 50%;
     right: 10px;
 
-    background: url(./../../../../images/Board/magnifying_glass_icon.png) no-repeat;
+    background: url(/src/images/Board/magnifying_glass_icon.png) no-repeat;
     background-size: contain;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.NftPage .NftPageHeader {
-    width: 100%;
-    padding: 5px 0;
-    color: #222;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    border-bottom: 2px solid #222;
+.NftCrt {
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 180px;
 }
 
-.NftPage .NftPageHeader>h5 {
-    font-weight: 500;
-}
-
-.NftPage .NftPageHeader>h5:first-child {
-    width: 70px;
-    text-align: center;
-}
-
-.NftPage .NftPageHeader>h5:last-child {
-    padding-right: 30px;
-}
-
-.NftPage .NftCrtlink {
-    padding: 50px 0 150px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.NftPage .NftCrtlink a {
-    width: 120px;
-    height: 50px;
-    border: none;
-    background: #0B6DB7;
-    color: #fff;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    position: absolute;
-    top: 50px;
-    right: 0;
-
-    cursor: pointer;
-    user-select: none;
-}
-
-.NftPage .NftCrtlink a:hover {
-    background: #2183CE;
-}
-
-/* NoticeItem 페이지 각 제목별 디자인 */
-.NftItem {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 40px;
-    padding: 5px 0px;
-    align-items: center;
-    border-bottom: 1px solid #DDD;
-}
-
-.NftItem .NfcNum {
-    width: 70px;
-    text-align: center;
-
-}
-
-.NftItem .NfcDay {
-    padding-right: 30px;
-
-}
-
-
+.NftCrt .brd_titleOncheck {}
 
 /* 하단 페이지 네비게이션 버튼 */
 .NumberPageTab>ul {
