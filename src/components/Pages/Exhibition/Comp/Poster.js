@@ -1,6 +1,5 @@
-import { Link } from 'react-router-dom';
 import './Poster.css';
-const Poster = ({id,img,title,sub_title})=>{
+const Poster = ({id,title,sub_title})=>{
     return(
         <div className='poster'>
             <img className ='poster_img' src={require("../../../../images/Exhibition/ex"+id+".png")}/>

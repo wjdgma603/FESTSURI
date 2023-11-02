@@ -1,0 +1,16 @@
+.Party_sub_poster {
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.Party_sub_poster_title {
+    color: #111;
+    font-size: 32px;
+    font-weight: 700;
+}
+.Party_sub_poster_sub_title {
+    color: #222;
+    font-size: 20px;
+    font-weight: 500;
+}
