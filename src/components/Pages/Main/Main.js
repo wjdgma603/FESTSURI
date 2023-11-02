@@ -1,11 +1,12 @@
 import './Main.css'
 import * as THREE from 'three'
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef, React } from 'react';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import model from './model/scene.gltf'
-import SliderItem from './item/sliderItem';
-import SliderObj from './sliderObj.json'
+import { Link } from 'react-router-dom';
+import SlideEvent from './sliderObj.json'
+// import SliderItem from './item/sliderItem';
 
 const Main = () => {
     useEffect(() => {
@@ -61,22 +62,78 @@ const Main = () => {
     }, [])
     // useEffect 사용한 three.js 부분
 
-    const [currentIndex, setCurrentIndex] = useState(7); // 초기슬라이드 index
-    const nextBtn = ()=>{
-        setCurrentIndex((currentIndex + 1) % (SliderObj.length + 1));
-    };
-    const prevBtn = ()=>{
-        setCurrentIndex((currentIndex - 1 + (SliderObj.length + 1)) % (SliderObj.length + 1))
+    const [eventState, setEventsState] = useState([]);
+
+    const SlideWidth = 1280;
+    const MaxSlides = 7;
+    const TotalSlides = MaxSlides * 3;
+    const SlideRef = useRef();
+    let threeTimesEvents = [];
+    const NextEnd = TotalSlides - 1;
+    const NextStart = (TotalSlides * 1/3) + 2;
+    const START = (TotalSlides * 2/3) + 1;
+    const PrevStart = 2
+    const PrevEnd = (TotalSlides * 2/3) - 1;
+    const [slideState, setSlideState] = useState({number: START,})
+
+    const SlideId = useRef(0);
+
+    async function loadEvents(){
+        const events = SlideEvent;
+        threeTimesEvents = [...events, ...events, ...events];
+        setEventsState(threeTimesEvents);
     }
-    useEffect((nextBtn)=>{
-        const interval = setInterval(nextBtn, 3000); // 3초
-        return () => clearInterval(interval)
+
+    
+    function setInitialPosition() {
+        SlideRef.current.style.transform = `translateX(-${SlideWidth * (MaxSlides - 1)}px)`;
+    }
+    function moveTo(setNumber, setMotion){
+        setSlideState({
+            memo: slideState.number,
+            number: setNumber,
+            hasMotion: setMotion
+        })
+    }
+    function slideAfterMove(setNumber, setMotion) {
+        setTimeout(()=>{
+            moveTo(setNumber, setMotion)
+        }, 50)
+    }
+
+
+    function handleSlideRight() {
+        if(slideState.number === NextEnd && slideState.memo === NextEnd - 1) {
+            moveTo(PrevEnd, false);
+            slideAfterMove(PrevEnd + 1, true);
+        } else if (slideState.number === NextStart && slideState.memo === NextStart - 1){
+            moveTo(PrevStart, false)
+            slideAfterMove(PrevStart, true);
+        } else {
+            moveTo(slideState.number + 1, true);
+        }
+    }
+    function handleSlideLeft() {
+        if(slideState.number === PrevEnd && slideState.memo === PrevEnd + 1) {
+            moveTo(NextEnd, false);
+            slideAfterMove(NextEnd - 1, true);
+        } else if (slideState.number === PrevStart && slideState.memo === PrevStart - 1){
+            moveTo(NextStart, false)
+            slideAfterMove(NextStart, true);
+        } else {
+            moveTo(slideState.number - 1, true);
+        }
+    }
+    useEffect(()=>{
+        loadEvents()
+        setInitialPosition();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
 
-    const SliderStyle = {
-        transform : `translateX(-${currentIndex * (100 / (SliderObj.length + 1))}%)`,
-        width : `${SliderObj.length * 1280}px`
-    }
+    useEffect(()=>{
+        SlideRef.current.style.transfrom = `translateX(-${slideState.number * SlideWidth}px)`
+        SlideRef.current.style.transition = slideState.hasMotion ? 'all 0.5s ease-in-out' : '';
+    }, [slideState])
     return ( 
         <main className="Main">
             <section className="Main_IntroSection">
@@ -90,20 +147,21 @@ const Main = () => {
                 </article>
             </section>
             <section className="Main_SlideSection">
-                <article className='Main_Slider' style={SliderStyle}>
-                    {SliderObj.map((sliderObj)=>
-                        <SliderItem key={sliderObj.id} {...sliderObj}/>
+                <article className='Main_Slider' ref={SlideRef}>
+                    {eventState.map((event)=> 
+                        <div className='Slide' key={event.id = SlideId.current += 1}>
+                            <Link to={event.sliderLink}>
+                                <img src={require("../../../images/Main/pcSlide/slide0"+event.sliderNum+".jpg")} alt={`slidenum${event.id}`}/>
+                            </Link>
+                        </div>
                     )}
-                    {/* {currentIndex === 0 && (
-                        <SliderItem key={SliderObj[SliderObj.length - 1].id} {...SliderObj[SliderObj.length - 1]}/>
-                    )} */}
                 </article>
-                <div className='MainSlide_PrevBtn MainSlide_Btn' onClick={prevBtn}>
+                <div className='MainSlide_PrevBtn MainSlide_Btn' onClick={handleSlideLeft}>
                     <svg viewBox="0 0 40 74" fill="none">
                         <path d="M38.5 2L3 37L38 72" stroke="white" strokeWidth="3"/>
                     </svg>
                 </div>
-                <div className='MainSlide_NextBtn MainSlide_Btn' onClick={nextBtn}>
+                <div className='MainSlide_NextBtn MainSlide_Btn' onClick={handleSlideRight}>
                     <svg viewBox="0 0 40 74" fill="none">
                         <path d="M38.5 2L3 37L38 72" stroke="white" strokeWidth="3"/>
                     </svg>
