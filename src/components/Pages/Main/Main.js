@@ -67,31 +67,32 @@ const Main = () => {
 
 
 
-    const SlideWidth = 1280;
-    const SlideMargin = 0;
-    const MaxSlides = 7;
-    const TotalSlides = MaxSlides * 3;
-    const SlideRef = useRef();
-    let threeTimesEvents = [];
-    const NextEnd = TotalSlides - 1;
-    const NextStart = (TotalSlides * 1/3) + 2;
-    const START = (TotalSlides * 2/3) + 1;
-    const PrevStart = 2
-    const PrevEnd = (TotalSlides * 2/3) - 1;
-    const [slideState, setSlideState] = useState({number: START,})
+    const SlideWidth = 1280; // 슬라이드 넓이값
+    const SlideMargin = 0; // 슬라이드 마진값 (사용안함)
+    const MaxSlides = SlideEvent.length; // 현 슬라이드 숫자 = json 객체 숫자
+    const TotalSlides = MaxSlides * 3; // 전체 슬라이드 숫자 = 앞 뒤로 존재하는 슬라이드 포함
+    const SlideRef = useRef(); // 슬라이드 감싸는 요소 찾기용 Ref
+    let threeTimesEvents = []; // 슬라이드 앞 뒤로 복사하는 내용을 저장하는 배열
+    const NextEnd = TotalSlides - 2; // 마지막 슬라이드 마지막 부분
+    const NextStart = (TotalSlides * 1/3) + 3; // 마지막 슬라이드 시작 부분 
+    const START = (TotalSlides * 2/3) + 1; // 기본 슬라이드 위치
+    const PrevStart = 3 // 첫번째 슬라이드 시작부분
+    const PrevEnd = (TotalSlides * 2/3) - 2; //첫번째 슬라이드 마지막부분
+    const [slideState, setSlideState] = useState({number: START,}) 
 
-    const SlideId = useRef(0);
+    const SlideId = useRef(0); // 슬라이드 id 각자 다르게 생성, 컴포넌트 고유 키값
 
     async function loadEvents(){
         const events = SlideEvent;
         threeTimesEvents = [...events, ...events, ...events];
         setEventsState(threeTimesEvents);
     }
+    // Json내용 복사 후 전개, State문 안에 저장
 
-    
     function setInitialPosition() {
         SlideRef.current.style.transform = `translateX(-${(SlideWidth + SlideMargin) * (MaxSlides - 1)}px)`;
     }
+    //첫번째로 노출할 슬라이드의 값
     function moveTo(setNumber, setMotion){
         setSlideState({
             memo: slideState.number,
@@ -99,20 +100,24 @@ const Main = () => {
             hasMotion: setMotion
         })
     }
+    //State문에 저장된 memo(슬라이드 번호), number(슬라이드 위치), hasMotion(전환효과 사용유무)
     function slideAfterMove(setNumber, setMotion) {
         setTimeout(()=>{
             moveTo(setNumber, setMotion)
-        }, 50)
+        }, 1)
     }
-
-
+    //Slide가 움직일 때 0.001초의 지연시간을 줌
     function handleSlideRight() {
         if(slideState.number === NextEnd && slideState.memo === NextEnd - 1) {
             moveTo(PrevEnd, false);
             slideAfterMove(PrevEnd + 1, true);
+            //슬라이드 번호와 NextEnd의 번호일치, 슬라이드 현 위치가 NextEnd의 전 위치
+            //전환효과를 비활성화하고 PrevEnd로 이동, 전환효과를 활성화하고 한칸 앞으로 이동
         } else if (slideState.number === NextStart && slideState.memo === NextStart - 1){
             moveTo(PrevStart, false)
             slideAfterMove(PrevStart, true);
+            //슬라이드 번호와 NextStart의 번호일치, 슬라이드 현 위치가 NextStart의 전 위치
+            //전환효과를 비활성화하고 PrevEnd로 이동, 전환효과를 활성화하고 한칸 앞으로 이동
         } else {
             moveTo(slideState.number + 1, true);
         }
@@ -155,7 +160,7 @@ const Main = () => {
                     {eventState.map((event)=> 
                         <div className='Slide' key={event.id = SlideId.current += 1}>
                             <Link to={event.sliderLink}>
-                                <img src={require("../../../images/Main/pcSlide/slide0"+event.sliderNum+".jpg")} alt={`slidenum${event.id}`}/>
+                                <img src={require("./images/pcSlide/slide0"+event.sliderNum+".jpg")} alt={`slidenum${event.id}`}/>
                             </Link>
                         </div>
                     )}
