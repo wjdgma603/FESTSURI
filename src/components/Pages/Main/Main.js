@@ -6,7 +6,8 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import model from './model/scene.gltf'
 import { Link } from 'react-router-dom';
 import SlideEvent from './sliderObj.json'
-// import SliderItem from './item/sliderItem';
+import mainTitleItem from './SubComponents/mainTitleItem.json'
+import MainTitleWrap from './SubComponents/mainTitleWrap';
 
 const Main = ({itIsLoaded}) => {
     itIsLoaded();
@@ -136,6 +137,16 @@ const Main = ({itIsLoaded}) => {
         else{return{filter : `brightness(50%)`}}
     }
     // 슬라이드 배경 필터 스타일 함수
+    useEffect(()=>{
+        setTimeout(()=>{
+            let SlideMargin = 60;
+            const MainSlideSec = document.querySelector('.Main_SlideSection')
+            let SlideHeight = SlideRef.current.clientHeight
+            MainSlideSec.style.height = `${SlideHeight + SlideMargin}px`
+        }, 50)
+    })
+
+    // 슬라이드 상하 여백 계산
     return ( 
         <main className="Main">
             <section className="Main_IntroSection">
@@ -172,7 +183,19 @@ const Main = ({itIsLoaded}) => {
                     </div>
                 </article>
             </section>
-            <section className="Main_EventSection">
+            <MainTitleWrap {...mainTitleItem[0]}/>
+            <section className='Main_PtySection'>
+
+            </section>
+            <MainTitleWrap {...mainTitleItem[1]}/>
+            <section className='Main_ExbSection'>
+
+            </section>
+            <MainTitleWrap {...mainTitleItem[2]}/>
+            <section className='Main_EventSection'>
+
+            </section>
+            <section className='Main_ItrSection'>
 
             </section>
         </main>
