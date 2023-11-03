@@ -1,18 +1,35 @@
 import "./Gallery.css";
-// import ReactDOM from 'react-dom';
-import React from 'react';
+import { useState } from "react";
 
 import GallHeader from "./GallHeader";
 import GallDeps from "./GallDeps";
 import GallData from "./GallDeta.json";
 
-
 const Gallery = () => {
-  const Galllist = GallData.map((data)=>(
-    <div class="Gall_GridItem">{data.usetitle}{data.useDeta}
-    <img src={require("./images/")}></img></div>
-    ));
+  const [selectedData, setSelectedData] = useState(null);
 
+  const openModal = (data) => {
+    setSelectedData(data);
+  };
+
+  const closeModal = () => {
+    setSelectedData(null);
+  };
+
+  const Galllist = GallData.map((data) => (
+    <div class="Gall_GridItem">
+      <img src={require(`./images/data_${data.id}.jpg`)} onClick={() => openModal(data)} />
+      {selectedData && selectedData.id === data.id && (
+        <div className="GallModalTop">
+          <div className="GallModal-Content" onClick={closeModal}>
+            <img src={require(`./images/data_${data.id}.jpg`)}  />
+            <h5>{data.usetitle}</h5>
+            <div className="GallJsonText" dangerouslySetInnerHTML={{ __html: data.useDeta.replace(/\n/g, '<br />') }} />
+          </div>
+        </div>
+      )}
+    </div>
+  ));
 
   return (
     <section className="Gallery">
@@ -22,11 +39,8 @@ const Gallery = () => {
       <article>
         <GallDeps></GallDeps>
       </article>
-
       <article className="Gall_GridSection">
-      <div class="Gall_GridContainer">
-          {Galllist}
-      </div>
+        <div className="Gall_GridContainer">{Galllist}</div>
       </article>
 
       <article></article>
