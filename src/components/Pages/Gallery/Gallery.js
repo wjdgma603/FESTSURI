@@ -20,9 +20,9 @@ const Gallery = () => {
     <div class="Gall_GridItem">
       <img src={require(`./images/data_${data.id}.jpg`)} onClick={() => openModal(data)} />
       {selectedData && selectedData.id === data.id && (
-        <div className="GallModalTop">
-          <div className="GallModal-Content" onClick={closeModal}>
-            <img src={require(`./images/data_${data.id}.jpg`)}  />
+        <div className="GallModalTop" onClick={closeModal}>
+          <div className="GallModal-Content" >
+            <img src={require(`./images/data_${data.id}.jpg`)} />
             <h5>{data.usetitle}</h5>
             <div className="GallJsonText" dangerouslySetInnerHTML={{ __html: data.useDeta.replace(/\n/g, '<br />') }} />
           </div>
