@@ -16,8 +16,8 @@ function Party(){
                 <li><a>행사</a></li>
             </ul>
             <section className="party_poster1">
-                {Party_comp.map((ParComp)=>
-               <Link to : `./ <Party_poster {...ParComp} />  `:${id} />
+              {Party_comp.map((ParComp)=>
+                 <Party_poster {...ParComp} />
                  )}
             </section>
             </section>
