@@ -10,13 +10,25 @@ import Board from './components/Pages/Board/Board';
 import Gallery from './components/Pages/Gallery/Gallery';
 import Introduce from './components/Pages/Introduce/Introduce';
 import PtyExbDetail from './components/Pages/PtyExbDetail/PtyExbDetail';
+import { useState, useEffect } from 'react';
 
 function App() {
+
+  const [isLoaded, setIsLoaded] = useState(false);
+  function IsComponentLoaded() {
+    useEffect(() => {
+      setIsLoaded(true);
+      return () => {
+        setIsLoaded(false);
+      };
+    }, []);
+    return isLoaded;
+  }
   return (
     <div className="App">
-      <Header/>
+      <Header Loaded={isLoaded}/>
         <Routes>
-          <Route path='/' element={<Main/>}/>
+          <Route path='/' element={<Main itIsLoaded={IsComponentLoaded}/>}/>
           <Route path='/party' element={<Party/>}/>
           <Route path='/exhibition' element={<Exhibition/>}/>
           <Route path='/exbition/detail' element={<PtyExbDetail/>}/>

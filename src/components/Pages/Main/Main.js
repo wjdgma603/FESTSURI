@@ -8,7 +8,8 @@ import { Link } from 'react-router-dom';
 import SlideEvent from './sliderObj.json'
 // import SliderItem from './item/sliderItem';
 
-const Main = () => {
+const Main = ({itIsLoaded}) => {
+    itIsLoaded();
     useEffect(() => {
         //GLTF Loader
         const gltfLoader = new GLTFLoader();
@@ -63,10 +64,6 @@ const Main = () => {
     // useEffect 사용한 three.js 부분
 
     const [eventState, setEventsState] = useState([]);
-
-
-
-
     const SlideWidth = 1280; // 슬라이드 넓이값
     const SlideMargin = 0; // 슬라이드 마진값 (사용안함)
     const MaxSlides = SlideEvent.length; // 현 슬라이드 숫자 = json 객체 숫자
@@ -79,8 +76,6 @@ const Main = () => {
     const PrevStart = 3 // 첫번째 슬라이드 시작부분
     const PrevEnd = (TotalSlides * 2/3) - 2; //첫번째 슬라이드 마지막부분
     const [slideState, setSlideState] = useState({number: START,}) 
-
-    const SlideId = useRef(0);
 
     async function loadEvents(){
         const events = SlideEvent;
@@ -103,9 +98,6 @@ const Main = () => {
             moveTo(setNumber, setMotion)
         }, 1)
     }// 슬라이드 움직이는 함수 지연시간
-
-
-
     function handleSlideRight() {
         if(slideState.number === NextEnd && slideState.memo === NextEnd - 1) {
             moveTo(PrevEnd, false);
@@ -134,24 +126,16 @@ const Main = () => {
         setInitialPosition();
         // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
-    let normalimages = 35;
-    let focusimages = 100;
-
     useEffect(()=>{
-
-        // let currentSlide = document.querySelector(`.Slide${slideState.number}`)
-        // console.log(currentSlide)
-        // console.log(slideState.number)
-        // currentSlide.style.filter = `brightness(${focusimages}%)`
         SlideRef.current.style.transform = `translateX(-${slideState.number * (SlideWidth + SlideMargin)}px)`
         SlideRef.current.style.transition = slideState.hasMotion ? 'all 0.3s ease-in-out' : '';
     }, [slideState])
     // 슬라이드 마무리
-
-    // let imageStyles = {
-    //     filter : `brightness(${slideState.number ? focusimages : normalimages}%)`,
-    // }
-
+    function slideStyle(index){
+        if(index === slideState.number){return{filter : `brightness(100%)`}}
+        else{return{filter : `brightness(50%)`}}
+    }
+    // 슬라이드 배경 필터 스타일 함수
     return ( 
         <main className="Main">
             <section className="Main_IntroSection">
@@ -167,24 +151,26 @@ const Main = () => {
             <section className="Main_SlideSection">
                 <div className='MainSlide_BlackBg'></div>
                 <article className='Main_Slider' ref={SlideRef}>
-                    {eventState.map((event)=> 
-                        <div className={`Slide Slide${SlideId.current}`} key={event.id = SlideId.current += 1}>
+                    {eventState.map((event, index)=> 
+                        <div className={`Slide Slide${index}`} key={event.id = index} style={slideStyle(index)}>
                             <Link to={event.sliderLink}>
                                 <img src={require("./images/pcSlide/slide0"+event.sliderNum+".jpg")} alt={`slidenum${event.id}`}/>
                             </Link>
                         </div>
                     )}
                 </article>
-                <div className='MainSlide_PrevBtn MainSlide_Btn' onClick={handleSlideLeft}>
-                    <svg viewBox="0 0 40 74" fill="none">
-                        <path d="M38.5 2L3 37L38 72" stroke="white" strokeWidth="3"/>
-                    </svg>
-                </div>
-                <div className='MainSlide_NextBtn MainSlide_Btn' onClick={handleSlideRight}>
-                    <svg viewBox="0 0 40 74" fill="none">
-                        <path d="M38.5 2L3 37L38 72" stroke="white" strokeWidth="3"/>
-                    </svg>
-                </div>
+                <article className='MainSlide_BtnWrap'>
+                    <div className='MainSlide_PrevBtn MainSlide_Btn' onClick={handleSlideLeft}>
+                        <svg viewBox="0 0 40 74" fill="none">
+                            <path d="M38.5 2L3 37L38 72" stroke="white" strokeWidth="3"/>
+                        </svg>
+                    </div>
+                    <div className='MainSlide_NextBtn MainSlide_Btn' onClick={handleSlideRight}>
+                        <svg viewBox="0 0 40 74" fill="none">
+                            <path d="M38.5 2L3 37L38 72" stroke="white" strokeWidth="3"/>
+                        </svg>
+                    </div>
+                </article>
             </section>
             <section className="Main_EventSection">
 
