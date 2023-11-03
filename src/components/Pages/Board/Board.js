@@ -1,9 +1,11 @@
 import './Board.css';
-import { useState, useRef, useEffect } from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { useState, useRef } from 'react';
+import { Routes, Route } from 'react-router-dom'
 import jsonData from './NftData.json';
 import NftTap from './NftTap';
 import NftCrt from './NftCrt';
+import NftDeta from './NftDeta';
+import NftItem from './NftItem';
 
 jsonData.sort((a, b) => b.NftId - a.NftId);
 
@@ -27,9 +29,10 @@ const Board = () => {
         <div className='Board'>
             <h2 className='brd_topTitle'>게시판</h2>
             <Routes>
-                <Route path='/' element={<NftTap NftData={NftData} />} />
+                <Route path="/" element={<NftTap NftData={NftData} />} />
+                <Route path="/details/:id" element={<NftDeta NftData={NftData} />} />
             </Routes>
-            <Link to="NftCrt">글작성 페이지</Link>
+            <NftCrt createNft={createNft} />
         </div>
     );
 };

@@ -146,7 +146,7 @@
 .NftCrt>textarea {
     width: 1280px;
     height: 550px;
-    padding: 60px;
+    padding: 40px;
     font-size: 16px;
     border: none;
     outline: none;
@@ -159,143 +159,71 @@
     color: #999;
 }
 
-/* 하단 페이지 네비게이션 버튼 */
+/* NftDeta 공지사항 디테일 페이지 디자인 */
+.NftDeta {
+    padding-bottom: 250px;
+}
 
-.NumberPageTab>ul>li {
+.brd_NftIqryDetatop {
     display: flex;
-    width: 30px;
-    height: 30px;
-    justify-content: center;
+    align-items: end;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.brd_DetaLeft>div {
+    display: flex;
+    gap: 5px;
+    padding-bottom: 15px;
+}
+
+.brd_DetaLeft>div>h4:nth-child(2) {
+    font-weight: 500;
+}
+
+.brd_DetaLeft>ul {
+    display: flex;
+    gap: 20px;
+}
+
+.brd_DetaLeft>ul>li {
+    display: flex;
+    gap: 10px;
+    font-size: 13px;
+}
+
+.brd_DetaLeft>ul>li>div:nth-child(1) {
+    font-weight: 500;
+}
+
+.brd_DetaLeft>ul>li>div:nth-child(2) {
+    color: #333;
+}
+
+.brd_DetaRight>ul {
+    padding: 8px 22.5px;
+    color: #fff;
+    background: #B82647;
+    border-radius: 5px;
+
+    display: flex;
     align-items: center;
-    margin-right: 5px;
-    background: #EEE;
+    gap: 10px;
 }
 
-.NumberPageTab>ul>li:last-child {
-    margin-right: 0px;
-}
-
-.NumberPageTab .first {
-    /* background: url(./../../../images/Board/first_pge_tab_btn_icon.png) no-repeat; */
+.brd_DetaRight>ul>i {
+    width: 16.12px;
+    height: 18.35px;
+    background: url(/src/images/Board/trash_can_icon.png) no-repeat;
     background-size: cover;
 }
 
-.NumberPageTab .before {
-    /* background: url(./../../../images/Board/before_tab_btn_icon.png) no-repeat; */
-    background-size: cover;
-}
-
-.NumberPageTab .next {
-    /* background: url(./../../../images/Board/next_tab_btn_icon.png) no-repeat; */
-    background-size: cover;
-}
-
-.NumberPageTab .back {
-    /* background: url(./../../../images/Board/back_tab_btn_icon.png) no-repeat; */
-    background-size: cover;
-}
-
-
-/* NftCrt 페이지 디자인 */
-
-.NftCrt>div {
+.brd_NftIqryDetaText {
     width: 1280px;
-    margin: 0 auto;
-}
+    padding: 30px 20px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
 
-.NftlinkBtnHeader {
-    padding-top: 200px;
-}
-
-.NftlinkBtnHeader a {
-    width: min-content;
-    white-space: nowrap;
-    display: block;
-    padding: 50px 50px;
-    margin-top: 50px;
-    background-color: #2183CE;
-    color: #fff;
-    border-radius: 5px;
-}
-
-.NftCrt .NftCrtTop {
-    display: flex;
-    justify-content: space-between;
-}
-
-.NftCrt .NftCrtTop>ul,
-.NftCrt .NftCrtTop>ol,
-.NftCrt .NftCrtTop>ul>li,
-.NftCrt .NftCrtTop>ol li {
-    display: flex;
-}
-
-.NftCrt .NftCrtTop>ul {
-    display: flex;
-    width: 850px;
-    justify-content: space-between;
-    align-items: center;
-    flex-shrink: 0;
-}
-
-.NftCrt .NftCrtTop>ul>li {
     display: flex;
     align-items: center;
-    gap: 30px;
-}
-
-.NftCrt .NftCrtTop>ul>li>h4 {
-    color: #000;
-    font-weight: 700;
-}
-
-.NftCrt .NftCrtTop>ul>li>input {
-    width: 500px;
-    height: 30px;
-    border: transparent;
-    font-size: 20px;
-    color: #222;
-    outline: none;
-}
-
-.NftCrt .NftCrtTop>ol {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-}
-
-.NftCrt .NftCrtTop>ol li {
-    display: flex;
-    height: 40px;
-    padding: 0px 20px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    cursor: pointer;
-    user-select: none;
-    color: #fff;
-    border-radius: 5px;
-}
-
-.NftCrt .NftCrtTop>ol>a>li>i {
-    width: 20px;
-    height: 15px;
-}
-
-.NftCrt .NftCrtTop>ol>a:nth-child(1) li {
-    background: #959EA2;
-}
-
-.NftCrt .NftCrtTop>ol>a:nth-child(1) i {
-    /* background: url(./../../../images/Board/return_icon.png) no-repeat; */
-    background-size: contain;
-}
-
-.NftCrt .NftCrtTop>ol>a:nth-child(2) li {
-    background: #2183CE;
-}
-
-.NftCrt .NftCrtTop>ol>a:nth-child(2)>li>i {
-    /* background: url(./../../../images/Board/check_icon.png) no-repeat; */
-    background-size: contain;
 }

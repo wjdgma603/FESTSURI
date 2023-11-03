@@ -1,6 +1,6 @@
 import './Nft_style.css';
 import Nftitem from './NftItem';
-import { Routes, Route, Link, Outlet } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 const NftTap = ({ NftData }) => {
@@ -25,11 +25,10 @@ const NftTap = ({ NftData }) => {
                 <li>등록일</li>
             </ul>
             <div>
-                {NftData.map((NftDItem) => (
-                    <Nftitem
-                        key={NftDItem.NftId}
-                        {...NftDItem}
-                    />
+                {NftData.map((NftItem) => (
+                    <Link to={`/details/${NftItem.NftId}`} key={NftItem.NftId}>
+                        <Nftitem {...NftItem} />
+                    </Link>
                 ))}
             </div>
         </div>

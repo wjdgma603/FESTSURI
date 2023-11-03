@@ -1,14 +1,13 @@
 import './Nft_style.css';
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-// createNft
-const NftCrt = ({ }) => {
+const NftCrt = ({ createNft }) => {
     const navigate = useNavigate();
     const [NftTitle, setNftTitle] = useState('');
     const [NftContent, setNftContent] = useState('');
 
     const handleCreateNft = () => {
-        // createNft(NftTitle, NftContent);
+        createNft(NftTitle, NftContent);
         setNftTitle('');
         setNftContent('');
         navigate('/board');
