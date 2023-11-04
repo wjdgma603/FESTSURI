@@ -71,12 +71,10 @@
 }
 
 .Main_Slider {
-    margin: 0 calc((1920px - 1280px) / 2);
     background: #282828;
     display: flex;
     align-items: center;
     z-index: 3;
-    /* transition: transform .3s ease-in-out; */
 }
 
 .Main_Slider>.Slide{
@@ -171,6 +169,18 @@
 }
 .Main_TitleWrap .Link_ArrowPoint>svg {
     fill: #000;
+    position: relative;
+}
+.Main_TitleWrap .Item_Link>a>.Link_ArrowPoint>svg>path.Main_Item_ArrowPath {
+    transform: scaleX(1);   
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+.Main_TitleWrap .Item_Link:hover>a>.Link_ArrowPoint>svg>path.Main_Item_ArrowPath {
+    transform: scaleX(0);
+    transform-origin: right center;
+    transition: 1s ease-in-out;
 }
 .Main_TitleWrap .Link_ArrowPoint::after{
     content: '';

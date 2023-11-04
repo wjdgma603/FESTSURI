@@ -128,6 +128,7 @@ const Main = ({itIsLoaded}) => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
     useEffect(()=>{
+        SlideRef.current.style.margin = `0 ${(window.innerWidth - SlideWidth) / 2}px`
         SlideRef.current.style.transform = `translateX(-${slideState.number * (SlideWidth + SlideMargin)}px)`
         SlideRef.current.style.transition = slideState.hasMotion ? 'all 0.3s ease-in-out' : '';
     }, [slideState])
