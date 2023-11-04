@@ -1,8 +1,6 @@
 .Board {
     width: 1280px;
     margin: 0 auto;
-    padding-top: 180px;
-    padding-bottom: 250px;
 }
 
 .Board .brd_P {
@@ -50,4 +48,122 @@
 .brd_NftIqryTitle>li:nth-child(3),
 .brd_NftIqryItemDay {
     padding: 0 30px;
+}
+
+.brd_NftIqryMiddle {
+    height: 480px;
+}
+
+.brd_Nftbottom>div:nth-child(2)>.selected {
+    background-color: #295bde;
+    color: #fff;
+}
+
+.brd_Nftbottom>div>div>i {
+    width: 10px;
+    height: 10px;
+}
+
+.brd_TapFirstPageBtn>i {
+    background: url(/src/images/Board/first_pge_tab_btn_icon.png) no-repeat;
+    background-size: contain;
+}
+
+.brd_TapPrevPageBtn>i {
+    background: url(/src/images/Board/before_tab_btn_icon.png) no-repeat;
+    background-size: contain;
+}
+
+.brd_TapNextPageBtn>i {
+    background: url(/src/images/Board/next_tab_btn_icon.png) no-repeat;
+    background-size: contain;
+}
+
+.brd_TapLastPageBtn>i {
+    background: url(/src/images/Board/back_tab_btn_icon.png) no-repeat;
+    background-size: contain;
+}
+
+
+.brd_DetaRight>ul {
+    padding: 8px 22.5px;
+    color: #fff;
+    background: #B82647;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.brd_DetaRight>ul>i {
+    width: 16.12px;
+    height: 18.35px;
+    background: url(/src/images/Board/trash_can_icon.png) no-repeat;
+    background-size: cover;
+}
+
+.brd_NftIqryDetaText {
+    width: 1280px;
+    min-height: 400px;
+    padding: 30px 20px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+
+.brd_NftIqryDetaText>textarea {
+    width: 100%;
+    height: 333px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.brd_correction,
+.brd_correctionList {
+    padding: 30px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.brd_correctionList {
+    justify-content: center;
+}
+
+.brd_correction>ul,
+.brd_correctionList>ul {
+    display: flex;
+    height: 40px;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.brd_correction>ul {
+    background: #0B6DB7;
+}
+
+.brd_correctionList>ul {
+    background: #616264;
+}
+
+.brd_correction>ul>i {
+    width: 18px;
+    height: 18px;
+    background: url(/src/images/Board/pencil_icon.png) no-repeat;
+    background-size: contain;
+}
+
+.brd_correctionList>ul>i {
+    width: 18px;
+    height: 18px;
+    background: url(/src/images/Board/list_icon.png) no-repeat;
+    background-size: contain;
 }

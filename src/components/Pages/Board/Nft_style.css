@@ -5,6 +5,10 @@
     justify-content: space-between;
 }
 
+.NftTap {
+    padding-top: 180px;
+}
+
 .NftTap .brd_tap {
     height: 53px;
     position: relative;
@@ -70,6 +74,42 @@
 
     background: url(/src/images/Board/magnifying_glass_icon.png) no-repeat;
     background-size: contain;
+}
+
+.brd_Nftbottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 150px 0;
+}
+
+.brd_Nftbottom>div:nth-child(1) {
+    width: 119.2px;
+}
+
+.brd_Nftbottom>div:nth-child(2) {
+    display: flex;
+    gap: 5px;
+}
+
+.brd_Nftbottom>div:nth-child(2)>div {
+    width: 30px;
+    height: 30px;
+    background: #EEE;
+    color: #888;
+    font-size: 13px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brd_Nftbottom>div:nth-child(3) {
+    padding: 7px 32px;
+    background: #185A9D;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 /* 글작성페이지 */
@@ -161,6 +201,7 @@
 
 /* NftDeta 공지사항 디테일 페이지 디자인 */
 .NftDeta {
+    padding-top: 180px;
     padding-bottom: 250px;
 }
 
@@ -175,6 +216,15 @@
     display: flex;
     gap: 5px;
     padding-bottom: 15px;
+}
+
+.brd_DetaLeft>div:nth-child(1)>input {
+    width: 700px;
+    font-size: 20px;
+
+    background-color: transparent;
+    border: transparent;
+    outline: none;
 }
 
 .brd_DetaLeft>div>h4:nth-child(2) {
@@ -198,32 +248,4 @@
 
 .brd_DetaLeft>ul>li>div:nth-child(2) {
     color: #333;
-}
-
-.brd_DetaRight>ul {
-    padding: 8px 22.5px;
-    color: #fff;
-    background: #B82647;
-    border-radius: 5px;
-
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.brd_DetaRight>ul>i {
-    width: 16.12px;
-    height: 18.35px;
-    background: url(/src/images/Board/trash_can_icon.png) no-repeat;
-    background-size: cover;
-}
-
-.brd_NftIqryDetaText {
-    width: 1280px;
-    padding: 30px 20px;
-    border-top: 1px solid #999;
-    border-bottom: 1px solid #999;
-
-    display: flex;
-    align-items: center;
 }
