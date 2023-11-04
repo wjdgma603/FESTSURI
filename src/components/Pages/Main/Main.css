@@ -205,13 +205,3 @@
     transform-origin: center center;
     transition: transform 1s ease-in-out;
 }
-
-
-
-
-.Main_TitleWrap .Link_ArrowPoint::after{
-    content: '';
-    display: block;
-    position: absolute;
-    top: 50%;
-}
