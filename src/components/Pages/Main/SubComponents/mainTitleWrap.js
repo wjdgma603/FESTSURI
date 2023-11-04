@@ -1,4 +1,5 @@
 
+import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 
@@ -14,9 +15,11 @@ const MainTitleWrap = ({ItemTitle, ItemSubTitle, ItemLink, ItemEndPoint}) => {
                 <Link to={ItemLink}>
                     <div className='Item_LinkTitle'>{ItemEndPoint}</div>
                     <div className='Link_ArrowPoint'>
-                        <svg width="62" height="16" viewBox="0 0 62 16" fill="none">
-                            <path className='Main_Item_ArrowPath' fillRule="evenodd" clipRule="evenodd" d="M60 9H0V7H60V9Z" fill="black"/>
-                            <path className='Main_Item_ArrowHead' d="M61.7071 8.70711C62.0976 8.31658 62.0976 7.68342 61.7071 7.29289L55.3431 0.928932C54.9526 0.538408 54.3195 0.538408 53.9289 0.928932C53.5384 1.31946 53.5384 1.95262 53.9289 2.34315L59.5858 8L53.9289 13.6569C53.5384 14.0474 53.5384 14.6805 53.9289 15.0711C54.3195 15.4616 54.9526 15.4616 55.3431 15.0711L61.7071 8.70711ZM60 9H61V7H60V9Z" fill="black"/>
+                        <svg className='Main_Item_ArrowStroke' viewBox="0 0 60 3" fill="none">
+                            <line className='Main_Item_ArrowLine' y1="1.37988" x2="60" y2="1.37988" stroke="black" stroke-width="2"/>
+                        </svg>
+                        <svg width="9" height="15" viewBox="0 0 9 15" fill="none">
+                            <path className='Main_Item_ArrowHead' d="M8.70711 8.08699C9.09763 7.69647 9.09763 7.0633 8.70711 6.67278L2.34315 0.308815C1.95262 -0.0817094 1.31946 -0.0817094 0.928932 0.308815C0.538408 0.699339 0.538408 1.3325 0.928932 1.72303L6.58579 7.37988L0.928932 13.0367C0.538408 13.4273 0.538408 14.0604 0.928932 14.451C1.31946 14.8415 1.95262 14.8415 2.34315 14.451L8.70711 8.08699ZM7 8.37988H8V6.37988H7V8.37988Z" fill="black"/>
                         </svg>
                     </div>
                 </Link>

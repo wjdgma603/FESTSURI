@@ -138,6 +138,11 @@
     display: flex;
     justify-content: space-between;
 }
+.Main_TitleWrap>.Item_Link{
+    width: 250px;
+    display: flex;
+    justify-content: right;
+}
 .Main_TitleWrap>.Item_Link>a{
     height: 100%;
     display: flex;
@@ -166,25 +171,47 @@
     align-items: center;
     height: 26px;
     overflow: hidden;
+    transform: translateY(1px);
 }
 .Main_TitleWrap .Link_ArrowPoint>svg {
     fill: #000;
     position: relative;
+    overflow: visible;
 }
-.Main_TitleWrap .Item_Link>a>.Link_ArrowPoint>svg>path.Main_Item_ArrowPath {
-    transform: scaleX(1);   
-    position: absolute;
-    right: 0;
-    width: 100%;
+.Main_TitleWrap svg.Main_Item_ArrowStroke{
+    width: 60px;
+    height: 16px;
 }
-.Main_TitleWrap .Item_Link:hover>a>.Link_ArrowPoint>svg>path.Main_Item_ArrowPath {
-    transform: scaleX(0);
+.Main_TitleWrap .Item_Link:hover svg.Main_Item_ArrowStroke{
+    width: 0px;
+    height: 16px;
+    transition: width 1s ease-in-out;
+    
+}
+
+.Main_TitleWrap .Item_Link>a>.Link_ArrowPoint>svg>line.Main_Item_ArrowLine {
+    transform: translateX(10%) scaleX(1);
+}
+.Main_TitleWrap .Item_Link:hover>a>.Link_ArrowPoint>svg>line.Main_Item_ArrowLine {
+    transform: translateX(10%) scaleX(0);
     transform-origin: right center;
-    transition: 1s ease-in-out;
+    transition: transform 1s ease-in-out;
 }
+.Main_TitleWrap .Item_Link>a>.Link_ArrowPoint>svg>path.Main_Item_ArrowHead{
+    transform: translateY(-0.5px) scale(1);
+}
+.Main_TitleWrap .Item_Link:hover>a>.Link_ArrowPoint>svg>path.Main_Item_ArrowHead{
+    transform:  translateY(-0.5px) scale(1.10);
+    transform-origin: center center;
+    transition: transform 1s ease-in-out;
+}
+
+
+
+
 .Main_TitleWrap .Link_ArrowPoint::after{
     content: '';
     display: block;
     position: absolute;
-    top: 50%
+    top: 50%;
 }
