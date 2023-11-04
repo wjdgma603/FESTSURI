@@ -23,15 +23,24 @@
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .brd_NftIqryTitle {
+    justify-content: space-between;
     border-bottom: 2px solid #222;
 }
 
 .NftItem {
     border-bottom: 1px solid #DDD;
+}
+
+.NftItem:hover {
+    font-weight: bold;
+    color: #555;
+}
+
+.NftItem>div:nth-child(2) {
+    margin: 0 auto 0 0;
 }
 
 .brd_NftIqryTitle>li {
@@ -45,6 +54,10 @@
     text-align: center;
 }
 
+.brd_NftIqryTitle>li:nth-child(1) {
+    margin-right: 39px;
+}
+
 .brd_NftIqryTitle>li:nth-child(3),
 .brd_NftIqryItemDay {
     padding: 0 30px;
@@ -54,12 +67,12 @@
     height: 480px;
 }
 
-.brd_Nftbottom>div:nth-child(2)>.selected {
+.brd_bottom>div:nth-child(2)>.selected {
     background-color: #295bde;
     color: #fff;
 }
 
-.brd_Nftbottom>div>div>i {
+.brd_bottom>div>div>i {
     width: 10px;
     height: 10px;
 }
@@ -84,6 +97,14 @@
     background-size: contain;
 }
 
+.brd_DetaRight {
+    display: flex;
+    gap: 20px;
+}
+
+.brd_DetaRight .brd_correction {
+    padding: 0;
+}
 
 .brd_DetaRight>ul {
     padding: 8px 22.5px;
@@ -118,6 +139,7 @@
     border: none;
     outline: none;
     resize: none;
+    font-weight: bold;
     box-sizing: border-box;
 }
 

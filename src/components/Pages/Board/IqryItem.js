@@ -1,8 +1,8 @@
 import React from 'react';
 
-const NftItem = ({ NftId, NftTitle, NftContent, NftDay, NftWriter, ClickNftInfor }) => {
+const IqryItem = ({ IqryId, IqryTitle, IqryContent, IqryWriter, IqryDay, Iqryanswer, ClickIqryInfor }) => {
     const handleClick = () => {
-        ClickNftInfor(NftId);
+        ClickIqryInfor(IqryId);
     };
 
     const formatDate = (timestamp) => {
@@ -15,11 +15,11 @@ const NftItem = ({ NftId, NftTitle, NftContent, NftDay, NftWriter, ClickNftInfor
 
     return (
         <div className="NftItem brd_P" onClick={handleClick}>
-            <div className="brd_NftIqryItemNum">{NftId}</div>
-            <div className="brd_NftIqryItemTitle">{NftTitle}</div>
-            <div className="brd_NftIqryItemDay">{formatDate(NftDay)}</div>
+            <div className="brd_NftIqryItemNum">{IqryId}</div>
+            <div className="brd_NftIqryItemTitle">{IqryTitle}</div>
+            <div className="brd_NftIqryItemDay">{formatDate(IqryDay)}</div>
         </div>
     );
 }
 
-export default NftItem;
+export default IqryItem;

@@ -88,7 +88,7 @@ const NftDeta = ({ NftData, deleteNft, UpdateNftInfor, ComponentChange }) => {
             </div>
             <div className="brd_correction brd_P">
                 {isEditing ? (
-                    <ul onClick={onSaveChanges}>
+                    <ul onClick={onSaveChanges} className="brd_correction brd_P">
                         <i></i>
                         <li>저장</li>
                     </ul>

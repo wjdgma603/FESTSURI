@@ -1,702 +1,802 @@
 [
     {
-        "NftId": 1,
-        "NftTitle": "1번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 1,
+        "IqryTitle": "1번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
+    },
+    {
+        "IqryId": 2,
+        "IqryTitle": "2번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
+    },
+    {
+        "IqryId": 3,
+        "IqryTitle": "3번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
+    },
+    {
+        "IqryId": 4,
+        "IqryTitle": "4번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
+    },
+    {
+        "IqryId": 5,
+        "IqryTitle": "5번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
+    },
+    {
+        "IqryId": 6,
+        "IqryTitle": "6번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
+    },
+    {
+        "IqryId": 7,
+        "IqryTitle": "7번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
+    },
+    {
+        "IqryId": 8,
+        "IqryTitle": "8번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
+    },
+    {
+        "IqryId": 9,
+        "IqryTitle": "9번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
+    },
+    {
+        "IqryId": 10,
+        "IqryTitle": "10번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
+    },
+    {
+        "IqryId": 11,
+        "IqryTitle": "11번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
+    },
+    {
+        "IqryId": 12,
+        "IqryTitle": "12번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
+    },
+    {
+        "IqryId": 13,
+        "IqryTitle": "13번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 2,
-        "NftTitle": "2번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 14,
+        "IqryTitle": "14번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 3,
-        "NftTitle": "3번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 15,
+        "IqryTitle": "15번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 4,
-        "NftTitle": "4번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 16,
+        "IqryTitle": "16번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 5,
-        "NftTitle": "5번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 17,
+        "IqryTitle": "17번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 6,
-        "NftTitle": "6번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 18,
+        "IqryTitle": "18번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 7,
-        "NftTitle": "7번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 19,
+        "IqryTitle": "19번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 8,
-        "NftTitle": "8번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 20,
+        "IqryTitle": "20번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 9,
-        "NftTitle": "9번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 21,
+        "IqryTitle": "21번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 10,
-        "NftTitle": "10번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 22,
+        "IqryTitle": "22번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 11,
-        "NftTitle": "11번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 23,
+        "IqryTitle": "23번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 12,
-        "NftTitle": "12번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 24,
+        "IqryTitle": "24번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 13,
-        "NftTitle": "13번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 25,
+        "IqryTitle": "25번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 14,
-        "NftTitle": "14번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 26,
+        "IqryTitle": "26번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 15,
-        "NftTitle": "15번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 27,
+        "IqryTitle": "27번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 16,
-        "NftTitle": "16번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 28,
+        "IqryTitle": "28번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 17,
-        "NftTitle": "17번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 29,
+        "IqryTitle": "29번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 18,
-        "NftTitle": "18번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 30,
+        "IqryTitle": "30번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 19,
-        "NftTitle": "19번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 31,
+        "IqryTitle": "31번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 20,
-        "NftTitle": "20번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 32,
+        "IqryTitle": "32번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 21,
-        "NftTitle": "21번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 33,
+        "IqryTitle": "33번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 22,
-        "NftTitle": "22번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 34,
+        "IqryTitle": "34번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 23,
-        "NftTitle": "23번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 35,
+        "IqryTitle": "35번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 24,
-        "NftTitle": "24번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 36,
+        "IqryTitle": "36번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 25,
-        "NftTitle": "25번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 37,
+        "IqryTitle": "37번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 26,
-        "NftTitle": "26번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 38,
+        "IqryTitle": "38번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 27,
-        "NftTitle": "27번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 39,
+        "IqryTitle": "39번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 28,
-        "NftTitle": "28번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 40,
+        "IqryTitle": "40번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 29,
-        "NftTitle": "29번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 41,
+        "IqryTitle": "41번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 30,
-        "NftTitle": "30번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 42,
+        "IqryTitle": "42번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 31,
-        "NftTitle": "31번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 43,
+        "IqryTitle": "43번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 32,
-        "NftTitle": "32번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 44,
+        "IqryTitle": "44번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 33,
-        "NftTitle": "33번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 45,
+        "IqryTitle": "45번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 34,
-        "NftTitle": "34번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 46,
+        "IqryTitle": "46번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 35,
-        "NftTitle": "35번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 47,
+        "IqryTitle": "47번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 36,
-        "NftTitle": "36번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 48,
+        "IqryTitle": "48번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 37,
-        "NftTitle": "37번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 49,
+        "IqryTitle": "49번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 38,
-        "NftTitle": "38번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 50,
+        "IqryTitle": "50번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 39,
-        "NftTitle": "39번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 51,
+        "IqryTitle": "51번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 40,
-        "NftTitle": "40번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 52,
+        "IqryTitle": "52번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 41,
-        "NftTitle": "41번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 53,
+        "IqryTitle": "53번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 42,
-        "NftTitle": "42번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 54,
+        "IqryTitle": "54번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 43,
-        "NftTitle": "43번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 55,
+        "IqryTitle": "55번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 44,
-        "NftTitle": "44번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 56,
+        "IqryTitle": "56번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 45,
-        "NftTitle": "45번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 57,
+        "IqryTitle": "57번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 46,
-        "NftTitle": "46번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 58,
+        "IqryTitle": "58번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 47,
-        "NftTitle": "47번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 59,
+        "IqryTitle": "59번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 48,
-        "NftTitle": "48번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 60,
+        "IqryTitle": "60번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 49,
-        "NftTitle": "49번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 61,
+        "IqryTitle": "61번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 50,
-        "NftTitle": "50번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 62,
+        "IqryTitle": "62번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 51,
-        "NftTitle": "51번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 63,
+        "IqryTitle": "63번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 52,
-        "NftTitle": "52번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 64,
+        "IqryTitle": "64번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 53,
-        "NftTitle": "53번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 65,
+        "IqryTitle": "65번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 54,
-        "NftTitle": "54번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 66,
+        "IqryTitle": "66번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 55,
-        "NftTitle": "55번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 67,
+        "IqryTitle": "67번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 56,
-        "NftTitle": "56번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 68,
+        "IqryTitle": "68번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 57,
-        "NftTitle": "57번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 69,
+        "IqryTitle": "69번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 58,
-        "NftTitle": "58번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 70,
+        "IqryTitle": "70번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 59,
-        "NftTitle": "59번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 71,
+        "IqryTitle": "71번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 60,
-        "NftTitle": "60번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 72,
+        "IqryTitle": "72번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 61,
-        "NftTitle": "61번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 73,
+        "IqryTitle": "73번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 62,
-        "NftTitle": "62번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 74,
+        "IqryTitle": "74번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 63,
-        "NftTitle": "63번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 75,
+        "IqryTitle": "75번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 64,
-        "NftTitle": "64번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 76,
+        "IqryTitle": "76번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 65,
-        "NftTitle": "65번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 77,
+        "IqryTitle": "77번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 66,
-        "NftTitle": "66번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 78,
+        "IqryTitle": "78번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 67,
-        "NftTitle": "67번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 79,
+        "IqryTitle": "79번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 68,
-        "NftTitle": "68번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 80,
+        "IqryTitle": "80번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 69,
-        "NftTitle": "69번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 81,
+        "IqryTitle": "81번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 70,
-        "NftTitle": "70번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 82,
+        "IqryTitle": "82번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 71,
-        "NftTitle": "71번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 83,
+        "IqryTitle": "83번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 72,
-        "NftTitle": "72번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 84,
+        "IqryTitle": "84번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 73,
-        "NftTitle": "73번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 85,
+        "IqryTitle": "85번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 74,
-        "NftTitle": "74번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 86,
+        "IqryTitle": "86번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 75,
-        "NftTitle": "75번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 87,
+        "IqryTitle": "87번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     },
     {
-        "NftId": 76,
-        "NftTitle": "76번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 77,
-        "NftTitle": "77번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 78,
-        "NftTitle": "78번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 79,
-        "NftTitle": "79번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 80,
-        "NftTitle": "80번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 81,
-        "NftTitle": "81번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 82,
-        "NftTitle": "82번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 83,
-        "NftTitle": "83번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 84,
-        "NftTitle": "84번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 85,
-        "NftTitle": "85번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 86,
-        "NftTitle": "86번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 87,
-        "NftTitle": "87번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 88,
-        "NftTitle": "88번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 89,
-        "NftTitle": "89번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 90,
-        "NftTitle": "90번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 91,
-        "NftTitle": "91번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 92,
-        "NftTitle": "92번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 93,
-        "NftTitle": "93번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 94,
-        "NftTitle": "94번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 95,
-        "NftTitle": "95번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 96,
-        "NftTitle": "96번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 97,
-        "NftTitle": "97번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 98,
-        "NftTitle": "98번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 99,
-        "NftTitle": "99번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 100,
-        "NftTitle": "100번 게시물 입니다.",
-        "NftContent": "내용을 적어주시면 적용됩니다.",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "IqryId": 88,
+        "IqryTitle": "88번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
+    },
+    {
+        "IqryId": 89,
+        "IqryTitle": "89번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
+    },
+    {
+        "IqryId": 90,
+        "IqryTitle": "90번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
+    },
+    {
+        "IqryId": 91,
+        "IqryTitle": "91번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
+    },
+    {
+        "IqryId": 92,
+        "IqryTitle": "92번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
+    },
+    {
+        "IqryId": 93,
+        "IqryTitle": "93번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
+    },
+    {
+        "IqryId": 94,
+        "IqryTitle": "94번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
+    },
+    {
+        "IqryId": 95,
+        "IqryTitle": "95번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
+    },
+    {
+        "IqryId": 96,
+        "IqryTitle": "96번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
+    },
+    {
+        "IqryId": 97,
+        "IqryTitle": "97번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
+    },
+    {
+        "IqryId": 98,
+        "IqryTitle": "98번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
+    },
+    {
+        "IqryId": 99,
+        "IqryTitle": "99번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
+    },
+    {
+        "IqryId": 100,
+        "IqryTitle": "100번 문의사항입니다.",
+        "IqryContent": "수고가 많으십니다~",
+        "IqryWriter": "박민영",
+        "IqryDay": "2023-11-05",
+        "Iqryanswer": "등록된 답변이 없습니다."
     }
 ]

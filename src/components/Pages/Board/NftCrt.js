@@ -1,9 +1,7 @@
-import './Nft_style.css';
+import './style.css';
 import { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
 
 const NftCrt = ({ createNft, ComponentChange }) => {
-    const navigate = useNavigate();
     const [NftTitle, setNftTitle] = useState('');
     const [NftContent, setNftContent] = useState('');
 
@@ -25,8 +23,8 @@ const NftCrt = ({ createNft, ComponentChange }) => {
                     onChange={(e) => setNftTitle(e.target.value)}
                 />
                 <div className='brd_CrtBtn'>
-                    <div onClick={() => ComponentChange('NftTap')}><i></i>돌아가기</div>
-                    <button onClick={handleCreateNft} ><i></i>글 작성하기</button>
+                    <div className='brd_P' onClick={() => ComponentChange('NftTap')}><i></i>돌아가기</div>
+                    <button className='brd_P' onClick={handleCreateNft} ><i></i>글 작성하기</button>
                 </div>
             </div>
             <textarea

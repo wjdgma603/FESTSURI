@@ -5,47 +5,55 @@
     justify-content: space-between;
 }
 
-.NftTap {
+.NftTap,
+.IqryTap {
     padding-top: 180px;
 }
 
-.NftTap .brd_tap {
+.NftTap .brd_tap,
+.IqryTap .brd_tap {
     height: 53px;
     position: relative;
 }
 
-.NftTap .brd_tap ul {
+.NftTap .brd_tap ul,
+.IqryTap .brd_tap ul {
     display: flex;
     white-space: nowrap;
     box-sizing: border-box;
     transition: .2s;
 }
 
-.NftTap .brd_tap>ul {
+.NftTap .brd_tap>ul,
+.IqryTap .brd_tap>ul {
     color: #222;
     border-top: .5px solid #999;
     border-bottom: .5px solid #999;
     position: absolute;
 }
 
-.NftTap .brd_tap li {
+.NftTap .brd_tap li,
+.IqryTap .brd_tap li {
     padding: 12px 30px;
     font-size: 20px;
 }
 
-.NftTap .brd_tap>ul>li:nth-child(1) {
+.NftTap .brd_tap>ul>li:nth-child(1),
+.IqryTap .brd_tap>ul>li:nth-child(2) {
     color: #fff;
     background: #0B6DB7;
 }
 
-.NftTap .brd_Search {
+.NftTap .brd_Search,
+.IqryTap .brd_Search {
     width: 300px;
     height: 40px;
     border-bottom: .5px solid #999;
     position: relative;
 }
 
-.NftTap .brd_Search>input {
+.NftTap .brd_Search>input,
+.IqryTap .brd_Search>input {
     width: 255px;
     height: 40px;
     padding: 5px 0px 5px 10px;
@@ -59,11 +67,13 @@
     box-sizing: border-box;
 }
 
-.NftTap .brd_Search>input::placeholder {
+.NftTap .brd_Search>input::placeholder,
+.IqryTap .brd_Search>input::placeholder {
     color: #999;
 }
 
-.NftTap .brd_Search>i {
+.NftTap .brd_Search>i,
+.IqryTap .brd_Search>i {
     width: 22px;
     height: 22px;
 
@@ -76,22 +86,22 @@
     background-size: contain;
 }
 
-.brd_Nftbottom {
+.brd_bottom {
     display: flex;
     justify-content: space-between;
     padding: 50px 0 150px 0;
 }
 
-.brd_Nftbottom>div:nth-child(1) {
+.brd_bottom>div:nth-child(1) {
     width: 119.2px;
 }
 
-.brd_Nftbottom>div:nth-child(2) {
+.brd_bottom>div:nth-child(2) {
     display: flex;
     gap: 5px;
 }
 
-.brd_Nftbottom>div:nth-child(2)>div {
+.brd_bottom>div:nth-child(2)>div {
     width: 30px;
     height: 30px;
     background: #EEE;
@@ -104,7 +114,7 @@
     align-items: center;
 }
 
-.brd_Nftbottom>div:nth-child(3) {
+.brd_bottom>div:nth-child(3) {
     padding: 7px 32px;
     background: #185A9D;
     color: #fff;
@@ -113,67 +123,105 @@
 }
 
 /* 글작성페이지 */
-.NftCrt {
+.NftCrt,
+.IqryCrt {
     width: 1280px;
     margin: 0 auto;
     padding-top: 180px;
     padding-bottom: 250px;
 }
 
-.NftCrt .brd_titleOncheck {
+.NftCrt .brd_titleOncheck,
+.IqryCrt .brd_titleOncheck {
     padding-bottom: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.IqryCrt .IqryCrtTitle {
+    width: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.IqryCrt .IqryCrtTitle>div {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+}
+
+.IqryCrt .IqryCrtTitle>div>input {
+    width: 200px;
+    font-size: 20px;
+    color: #999;
+    font-weight: 500;
+
+    background-color: transparent;
+    border: transparent;
+    outline: none;
+    box-sizing: border-box;
+}
+
 .NftCrt .brd_CrtBtn,
-.NftCrt .brd_CrtBtn>* {
+.NftCrt .brd_CrtBtn>*,
+.IqryCrt .brd_CrtBtn,
+.IqryCrt .brd_CrtBtn>* {
     display: flex;
 }
 
-.NftCrt .brd_CrtBtn>* {
+.NftCrt .brd_CrtBtn>*,
+.IqryCrt .brd_CrtBtn>* {
     height: 40px;
     padding: 0 20px;
-    display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
 
-.NftCrt .brd_CrtBtn i {
+.NftCrt .brd_CrtBtn i,
+.IqryCrt .brd_CrtBtn i {
     width: 20px;
     height: 18px;
     margin-right: 5px;
 }
 
-.NftCrt .brd_CrtBtn>a {
-    background-color: #2183CE;
+.NftCrt .brd_CrtBtn>div,
+.IqryCrt .brd_CrtBtn>div {
+    background-color: #959EA2;
     margin-right: 20px;
     font-size: 16px;
     font-weight: 500;
     color: #fff;
 }
 
-.NftCrt .brd_CrtBtn>button {
+.NftCrt .brd_CrtBtn>button,
+.IqryCrt .brd_CrtBtn>button {
     border: none;
-    background-color: #959EA2;
+    background: #2183CE;
     font-size: 16px;
     font-weight: 500;
     color: #fff;
 }
 
-.NftCrt .brd_CrtBtn>a>i {
+.NftCrt .brd_CrtBtn>div>i,
+.IqryCrt .brd_CrtBtn>div>i {
     background: url(/src/images/Board/return_icon.png) no-repeat;
     background-size: contain;
 }
 
-.NftCrt .brd_CrtBtn>button>i {
+.NftCrt .brd_CrtBtn>button>i,
+.IqryCrt .brd_CrtBtn>button>i {
     background: url(/src/images/Board/check_icon.png) no-repeat;
     background-size: contain;
 }
 
 
-.NftCrt .brd_titleOncheck>input {
+.NftCrt .brd_titleOncheck>input,
+.IqryCrt .brd_titleOncheck>input {
     border: none;
     border-bottom: 1px solid #999;
     width: 800px;
@@ -183,7 +231,8 @@
     outline: none;
 }
 
-.NftCrt>textarea {
+.NftCrt>textarea,
+.IqryCrt>textarea {
     width: 1280px;
     height: 550px;
     padding: 40px;
@@ -200,7 +249,8 @@
 }
 
 /* NftDeta 공지사항 디테일 페이지 디자인 */
-.NftDeta {
+.NftDeta,
+.IqryDeta {
     padding-top: 180px;
     padding-bottom: 250px;
 }
@@ -225,6 +275,8 @@
     background-color: transparent;
     border: transparent;
     outline: none;
+
+    font-weight: bold;
 }
 
 .brd_DetaLeft>div>h4:nth-child(2) {
@@ -248,4 +300,82 @@
 
 .brd_DetaLeft>ul>li>div:nth-child(2) {
     color: #333;
+}
+
+/* 문의사항 페이지 답변 */
+.brd_IqryAnswer {
+    display: flex;
+    width: 1280px;
+    padding: 30px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    border-bottom: 1px solid #999;
+}
+
+.brd_IqryAnswer>h5 {
+    min-height: 100px;
+    color: #000;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.brd_IqryAnswer>div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.brd_IqryAnswer>textarea {
+    width: 100%;
+    min-height: 100px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    resize: none;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.brd_IqryAnswer>div>ul {
+    display: flex;
+    height: 40px;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #0B6DB7;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.brd_IqryAnswer>div>ul>i {
+    width: 18px;
+    height: 18px;
+    background: url(/src/images/Board/pencil_icon.png) no-repeat;
+    background-size: contain;
+}
+
+.brd_IqryAnswer>div>ol {
+    display: flex;
+    height: 40px;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #B82647;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.brd_IqryAnswer>div>ol>i {
+    width: 16.12px;
+    height: 18.35px;
+    background: url(/src/images/Board/trash_can_icon.png) no-repeat;
+    background-size: cover;
 }

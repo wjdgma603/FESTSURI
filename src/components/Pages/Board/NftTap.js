@@ -1,4 +1,4 @@
-import './Nft_style.css';
+import './style.css';
 import React, { useState, useEffect } from 'react';
 import NftItem from './NftItem';
 
@@ -195,7 +195,7 @@ const NftTap = ({ NftData, ClickNftInfor, ComponentChange }) => {
             <div className='brd_NftIqryMiddle'>
                 {(savedSearchTerm || filteredData) ? renderFilteredItems() : renderItems()}
             </div>
-            <div className="brd_Nftbottom brd_P">
+            <div className="brd_bottom brd_P">
                 <div></div>
                 <div>
                     {renderTabNumbers()}
