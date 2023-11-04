@@ -9,6 +9,7 @@ import NftDeta from './NftDeta';
 NftjsonData.sort((a, b) => b.NftId - a.NftId);
 
 const Board = () => {
+    // 공지사항 페이지 관련 함수 모음
     const [componentName, setComponentName] = useState('NftTap');
     const [NftData, setNftData] = useState(NftjsonData);
 
@@ -21,17 +22,6 @@ const Board = () => {
         setSelectedNft(selectedItem); // 선택된 항목의 세부 정보를 업데이트
     };
 
-    const DeletNftInfor = (NftId) => {
-        const updatedNftData = NftData.filter(NftItem => NftItem.NftId !== NftId);
-
-        const reassignIds = updatedNftData.map((item, index) => ({
-            ...item,
-            NftId: updatedNftData.length - index
-        }));
-
-        setNftData(reassignIds);
-    };
-
     const UpdateNftInfor = (updatedNftData) => {
         const updatedData = NftData.map((item) =>
             item.NftId === updatedNftData.NftId ? updatedNftData : item
@@ -40,6 +30,7 @@ const Board = () => {
         setSelectedNft(updatedNftData);
     };
 
+    //문의사항 페이지 함수모음
 
     const NftNum = useRef(NftData.length + 1);
 
@@ -57,6 +48,13 @@ const Board = () => {
         setNftData([newNftData, ...NftData]);
     }; // 생성 함수 
 
+    const deleteNft = (NftId) => {
+        const filteredData = NftData.filter(item => item.NftId !== NftId);
+        setNftData(filteredData.map((item, index) => ({ ...item, NftId: NftData.length - (index + 1) })));
+    };
+
+
+
     return (
         <div className='Board'>
             {componentName === 'NftTap' && <NftTap
@@ -64,12 +62,13 @@ const Board = () => {
                 ClickNftInfor={ClickNftInfor}
                 ComponentChange={ComponentChange}
             />}
-            {componentName === 'NftCrt' && (
-                <NftCrt createNft={createNft} ComponentChange={ComponentChange} />
-            )}
+            {componentName === 'NftCrt' && <NftCrt
+                createNft={createNft}
+                ComponentChange={ComponentChange}
+            />}
             {componentName === 'NftDeta' && <NftDeta
                 NftData={selectedNft}
-                DeletNftInfor={DeletNftInfor}
+                deleteNft={deleteNft}
                 UpdateNftInfor={UpdateNftInfor}
                 ComponentChange={ComponentChange}
             />}

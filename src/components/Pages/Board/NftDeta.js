@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const NftDeta = ({ NftData, DeletNftInfor, UpdateNftInfor, ComponentChange }) => {
+const NftDeta = ({ NftData, deleteNft, UpdateNftInfor, ComponentChange }) => {
     const [isEditing, setIsEditing] = useState(false); //수정중인지 완료한상태인지
     const [editedTitle, setEditedTitle] = useState(''); // 타이틀 변경된거 전송하는
     const [editedContent, setEditedContent] = useState(''); // 컨텐츠 변경된거 전송하는
@@ -30,6 +30,11 @@ const NftDeta = ({ NftData, DeletNftInfor, UpdateNftInfor, ComponentChange }) =>
         setIsEditing(true);
         setEditedTitle(NftData?.NftTitle || '');
         setEditedContent(NftData?.NftContent || '');
+    };
+
+    const handleDelete = () => {
+        deleteNft(NftData.NftId);
+        ComponentChange('NftTap');
     };
 
     if (!NftData) {
@@ -65,7 +70,7 @@ const NftDeta = ({ NftData, DeletNftInfor, UpdateNftInfor, ComponentChange }) =>
                     </ul>
                 </div>
                 <div className="brd_DetaRight brd_P">
-                    <ul onClick={DeletNftInfor}>
+                    <ul onClick={handleDelete}>
                         <i></i>
                         <li>삭제</li>
                     </ul>
