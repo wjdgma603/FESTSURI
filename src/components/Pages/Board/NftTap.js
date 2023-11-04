@@ -1,11 +1,19 @@
 import './Nft_style.css';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import NftItem from './NftItem';
 
 const NftTap = ({ NftData, ClickNftInfor, ComponentChange }) => {
     const [searchTerm, setSearchTerm] = useState('');
     const [filteredData, setFilteredData] = useState(null);
     const [savedSearchTerm, setSavedSearchTerm] = useState('');
+    const [totalPages, setTotalPages] = useState(1);
+    const [currentPage, setCurrentPage] = useState(1);
+    const [selectedTab, setSelectedTab] = useState(1);
+
+    useEffect(() => {
+        const totalPagesCount = Math.ceil((filteredData || NftData).length / 12);
+        setTotalPages(totalPagesCount);
+    }, [filteredData, NftData]);
 
     const handleSearch = (event) => {
         setSearchTerm(event.target.value);
@@ -25,6 +33,8 @@ const NftTap = ({ NftData, ClickNftInfor, ComponentChange }) => {
             setSavedSearchTerm('');
             setFilteredData(null);
         }
+        setCurrentPage(1);
+        setSelectedTab(1);
     };
 
     const renderFilteredItems = () => {
@@ -34,9 +44,15 @@ const NftTap = ({ NftData, ClickNftInfor, ComponentChange }) => {
             itemsToRender = itemsToRender.slice(0, 12);
         }
 
-        return itemsToRender.map((item) => (
-            <div key={item.NftId} onClick={() => ClickNftInfor(item.NftId)}>
-                <NftItem {...item} />
+        return itemsToRender.map((NftItemIt) => (
+            <div
+                key={NftItemIt.NftId}
+                onClick={() => NftItemSelection(NftItemIt.NftId)}
+            >
+                <NftItem
+                    {...NftItemIt}
+                    ClickNftInfor={NftItemSelection}
+                />
             </div>
         ));
     };
@@ -57,24 +73,20 @@ const NftTap = ({ NftData, ClickNftInfor, ComponentChange }) => {
                 />
             </div>
         ));
-    }; // 전달하는 데이터를 선별하는 함수
+    };
 
-    const itemsPerPage = 12; // 페이지 당 아이템 수
-    const [currentPage, setCurrentPage] = useState(1);
-    const [selectedTab, setSelectedTab] = useState(1);
-
-    const totalPages = Math.ceil(NftData.length / itemsPerPage); // 페이지에 나오는 아이템은 12개씩으로
+    const itemsPerPage = 12;
 
     const NftItemSelection = (NftId) => {
         const selectedItem = NftData.find((item) => item.NftId === NftId);
         ClickNftInfor(selectedItem);
         ComponentChange('NftDeta')
-    }; // 클릭한 아이템의 내용을 디테일 페이지로 정보를 넘겨주는
+    };
 
     const changePage = (page) => {
         setCurrentPage(page);
         setSelectedTab(page);
-    }; // 하단 탭전환 함수
+    };
 
     const handlePrevPage = () => {
         setCurrentPage(currentPage - 1);
@@ -84,15 +96,12 @@ const NftTap = ({ NftData, ClickNftInfor, ComponentChange }) => {
         setCurrentPage(currentPage + 1);
     };
 
-    const maxTabNumbers = 5; // 최대 5개의 탭을 표시
-
-
-    const halfMaxTabs = Math.floor(maxTabNumbers / 2);
-
     const renderTabNumbers = () => {
         const buttons = [];
-        let totalPagesToUse = filteredData ? Math.ceil(filteredData.length / itemsPerPage) : totalPages;
+        let totalPagesToUse = filteredData ? Math.ceil(filteredData.length / 12) : totalPages;
         let currentPageToUse = filteredData ? 1 : currentPage;
+        const maxTabNumbers = totalPagesToUse < 5 ? totalPagesToUse : 5;
+        const halfMaxTabs = Math.floor(maxTabNumbers / 2);
 
         if (totalPagesToUse > maxTabNumbers) {
             if (currentPageToUse > halfMaxTabs + 1) {
@@ -161,7 +170,6 @@ const NftTap = ({ NftData, ClickNftInfor, ComponentChange }) => {
 
         return buttons;
     };
-
 
     return (
         <div className="NftTap">
