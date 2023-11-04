@@ -154,7 +154,6 @@
     font-size: 18px;
     font-weight: 300;
 }
-
 .Main_TitleWrap .Item_MainTitle{
     color: #111;
     font-size: 26px;
@@ -186,7 +185,6 @@
     width: 0px;
     height: 16px;
     transition: width 1s ease-in-out;
-    
 }
 
 .Main_TitleWrap .Item_Link>a>.Link_ArrowPoint>svg>line.Main_Item_ArrowLine {
@@ -205,3 +203,6 @@
     transform-origin: center center;
     transition: transform 1s ease-in-out;
 }
+
+/* 제목 컴포넌트 속성 끝 */
+
