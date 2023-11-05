@@ -6,18 +6,21 @@
 }
 
 .NftTap,
-.IqryTap {
+.IqryTap,
+.FAQTap {
     padding-top: 180px;
 }
 
 .NftTap .brd_tap,
-.IqryTap .brd_tap {
+.IqryTap .brd_tap,
+.FAQTap .brd_tap {
     height: 53px;
     position: relative;
 }
 
 .NftTap .brd_tap ul,
-.IqryTap .brd_tap ul {
+.IqryTap .brd_tap ul,
+.FAQTap .brd_tap ul {
     display: flex;
     white-space: nowrap;
     box-sizing: border-box;
@@ -25,7 +28,8 @@
 }
 
 .NftTap .brd_tap>ul,
-.IqryTap .brd_tap>ul {
+.IqryTap .brd_tap>ul,
+.FAQTap .brd_tap>ul {
     color: #222;
     border-top: .5px solid #999;
     border-bottom: .5px solid #999;
@@ -33,13 +37,15 @@
 }
 
 .NftTap .brd_tap li,
-.IqryTap .brd_tap li {
+.IqryTap .brd_tap li,
+.FAQTap .brd_tap li {
     padding: 12px 30px;
     font-size: 20px;
 }
 
 .NftTap .brd_tap>ul>li:nth-child(1),
-.IqryTap .brd_tap>ul>li:nth-child(2) {
+.IqryTap .brd_tap>ul>li:nth-child(2),
+.FAQTap .brd_tap>ul>li:nth-child(3) {
     color: #fff;
     background: #0B6DB7;
 }
@@ -378,4 +384,75 @@
     height: 18.35px;
     background: url(/src/images/Board/trash_can_icon.png) no-repeat;
     background-size: cover;
+}
+
+/* 문의사항 탭 css */
+.FAQItem {
+    background-color: #fff;
+}
+
+.FAQItem>.brd_FAQItemTitle {
+    padding: 11px 30px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    color: #222;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.FAQItem>.brd_FAQItemTitle>div {
+    display: flex;
+    align-items: center;
+}
+
+.FAQItem>.brd_FAQItemTitle>i {
+    width: 15px;
+    height: 15px;
+    stroke-width: 2px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    transform: rotate(-45deg);
+    transition: .4s;
+}
+
+.FAQItemUl {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-bottom: 1px solid #DDD;
+    background: #FFF;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.10) inset;
+    overflow: hidden;
+    transition: .4s;
+}
+
+.FAQItem .brd_FAQContent {
+    padding: 30px 40px 0 40px;
+    color: #222;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.FAQItem .brd_FAQWriter {
+    display: flex;
+    padding: 10px 80px 50px 100px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.FAQItem .brd_FAQWriter {
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
 }

@@ -11,6 +11,9 @@ import IqryTap from './IqryTap';
 import IqryCrt from './IqryCrt';
 import IqryDeta from './IqryDeta';
 
+import FAQjsonData from './FAQData.json';
+import FAQTap from './FAQTap';
+
 NftjsonData.sort((a, b) => b.NftId - a.NftId);
 
 const Board = () => {
@@ -90,6 +93,8 @@ const Board = () => {
         setIqryData(filteredData.map((item, index) => ({ ...item, IqryId: IqryData.length - (index + 1) })));
     }; // 지우는 함수
 
+    //자주하는질문 함수 모음
+    const [FAQData, setFAQData] = useState(FAQjsonData);
 
 
     return (
@@ -123,6 +128,11 @@ const Board = () => {
                 IqryData={selectedIqry}
                 deleteIqry={deleteIqry}
                 UpdateIqryInfor={UpdateIqryInfor}
+                ComponentChange={ComponentChange}
+            />}
+
+            {componentName === 'FAQTap' && <FAQTap
+                FAQData={FAQData}
                 ComponentChange={ComponentChange}
             />}
         </div>

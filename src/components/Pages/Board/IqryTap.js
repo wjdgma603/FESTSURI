@@ -180,7 +180,7 @@ const IqryTap = ({ IqryData, ClickIqryInfor, ComponentChange }) => {
                 <div className="brd_tap brd_P">
                     <ul>
                         <li onClick={() => ComponentChange('NftTap')}>공지사항</li>
-                        <li>문의사항</li>
+                        <li onClick={() => ComponentChange('IqryTap')}>문의사항</li>
                         <li onClick={() => ComponentChange('FAQTap')}>자주하는 질문</li>
                     </ul>
                 </div>
