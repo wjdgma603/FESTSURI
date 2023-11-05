@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 import SlideEvent from './sliderObj.json'
 import mainTitleItem from './SubComponents/mainTitleItem.json'
 import MainTitleWrap from './SubComponents/mainTitleWrap';
+import MainEventSection from './SubComponents/MainEventSection';
 
 const Main = ({itIsLoaded}) => {
     itIsLoaded();
@@ -193,50 +194,7 @@ const Main = ({itIsLoaded}) => {
 
             </section>
             <MainTitleWrap {...mainTitleItem[2]}/>
-            <section className='Main_EventSection'>
-                <article className='FESTSURI_App_Intro'>
-                    <div className='Store_Interlock'>
-                        <div className='Gradient_Box'>
-                            <div className='Emoji_Box'></div>
-                        </div>
-                        <div className='Suggest_Box'>
-                            <div className='Logo_Box'></div>
-                            <div className='Text_Box'></div>
-                            <div className='Store_Link_Box'>
-                                <div className='PlayStore_Btn'></div>
-                                <div className='AppStore_Btn'></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='Notice_Interlock'>
-                        <div className='Gradient_Box'>
-                            <div className='Logo_Box'></div>
-                            {/* <div className='Transition_Text'>최신 축제 정보, 지도, 알람, 그리고 더 <br/>많은 것을 담은 앱을 만나보세요.</div> */}
-                        </div>
-                        <div className='Notice_InterBox'>
-                            <div className='NoticeTitle'>최신 축제 정보, 지도, 알람, 그리고 더 <br/>많은 것을 담은 앱을 만나보세요.</div>
-                            <div className='MoreView_Btn'>자세히 알아보기</div>
-                        </div>
-                    </div>
-                </article>
-                <article className='FESTSURI_App_Info'>
-                    <div className='Ticket_Wrap'>
-                        <div className='Text_Item'></div>
-                        <div className='Coupon_Item1'></div>
-                        <div className='Coupon_Item2'></div>
-                    </div>
-                    <div className='Map_Wrap'>
-                        <div className='Text_Item'></div>
-                        <div className='Map_Item'></div>
-                    </div>
-                    <div className='Photo_Wrap'>
-                        <div className='Text_Item'></div>   
-                        <div className='Photo_Item1'></div>
-                        <div className='Photo_Item2'></div>
-                        <div className='Camera_Item'></div>
-                    </div>
-                </article>
-            </section>
+            <MainEventSection/>
             <section className='Main_ItrSection'>
 
             </section>
