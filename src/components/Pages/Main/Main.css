@@ -371,8 +371,6 @@
     right: 30px;
     bottom: 30px;
 }
-
-
 .FESTSURI_App_Intro>.Notice_Interlock .Notice_Transition_InterBox{
     z-index: 1;
 }
@@ -475,9 +473,34 @@
     top: 85px;
     right: -5px;
 }
+/* 쿠폰 랩 호버 */
+
 .FESTSURI_App_Info>.Map_Wrap .Map_Item svg{
     transition: .5s ease-in-out;
 }
 .FESTSURI_App_Info>.Map_Wrap:hover .Map_Item svg{
-    transform: rotate(20deg) scale(1.05) translateY(20px);
+    transform: rotate(20deg) scale(1.15) translate( 25px,5px);
 }
+/* 맵 랩 호버 */
+
+.FESTSURI_App_Info>.Photo_Wrap:hover .Photo_Item1{
+    transform: rotate(7.686deg);
+    right: 63px;
+    top: 30px;
+}
+.FESTSURI_App_Info>.Photo_Wrap:hover .Photo_Item2{
+    right: 30px;
+    top: 31px;
+    transform: rotate(-18.922deg);
+}
+/* 포토 랩 호버 */
+
+.FESTSURI_App_Info>div span{
+    display: inline-block;
+    transition: transform .5s ease-in-out;
+}
+.FESTSURI_App_Info>div:hover span{
+    transform: scale(1.1);
+    transform-origin: center center;
+}
+/* Span 호버 */

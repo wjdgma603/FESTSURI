@@ -196,7 +196,7 @@ const Main = ({itIsLoaded}) => {
             <MainTitleWrap {...mainTitleItem[2]}/>
             <MainEventSection/>
             <section className='Main_ItrSection'>
-
+                
             </section>
         </main>
      );

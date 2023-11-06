@@ -136,7 +136,7 @@ const MainEventSection = () => {
                     <div className='Text_Item'>추억을 공유하면<br/>추첨을 통한 <span className='Blue_Highlight'>상품 증정</span></div>   
                     <div className='Img_Item'>
                         <div className='Photo_Item1'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="122" height="126" viewBox="0 0 122 126" fill="none">
+                            <svg width="122" height="126" viewBox="0 0 122 126" fill="none">
                                 <g filter="url(#filter0_d_841_40494)">
                                     <rect x="4.33623" y="38.4579" width="82.077" height="88.429" transform="rotate(-26.9897 4.33623 38.4579)" fill="white" stroke="black" strokeWidth="0.5"/>
                                     <rect x="9.55107" y="39.3662" width="73.6075" height="82.077" transform="rotate(-26.9897 9.55107 39.3662)" fill="#CEDCFF" stroke="black" strokeWidth="0.5"/>
@@ -156,7 +156,7 @@ const MainEventSection = () => {
                             </svg>
                         </div>
                         <div className='Photo_Item2'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="127" height="133" viewBox="0 0 127 133" fill="none">
+                            <svg width="127" height="133" viewBox="0 0 127 133" fill="none">
                                 <g filter="url(#filter0_d_841_40497)">
                                     <rect x="41.9717" y="0.349866" width="86.4732" height="98.244" transform="rotate(22.4105 41.9717 0.349866)" fill="white" stroke="black" strokeWidth="0.5"/>
                                     <rect x="44.751" y="5.3108" width="77.5528" height="91.1908" transform="rotate(22.4105 44.751 5.3108)" fill="#FFCEDD" stroke="black" strokeWidth="0.5"/>
