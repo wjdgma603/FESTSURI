@@ -219,6 +219,8 @@
 }
 .FESTSURI_App_Intro>div,.FESTSURI_App_Info>div{
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.40);
+    position: relative;
+    overflow: hidden;
 } /* 페스츠리 앱 소개 전체 박스 스타일 */
 .Store_Interlock{
     height: 420px;
@@ -413,4 +415,69 @@
 }
 .FESTSURI_App_Info>div>.Text_Item span.Blue_Highlight{
     color: #3678BB;
+}
+
+/* 텍스트랩 공통설정  */
+
+.FESTSURI_App_Info .Img_Item img{
+    width: 100%;
+}
+/* 이미지랩 공통설정 */
+
+.FESTSURI_App_Info>.Ticket_Wrap .Coupon_Item1{
+    width: 108px;
+    transform: scaleX(-1);
+    position: absolute;
+    right: 104px;
+    bottom: 118px;
+    transition: all .5s ease-in-out;
+}
+.FESTSURI_App_Info>.Ticket_Wrap .Coupon_Item2{
+    width: 174px;
+    position: absolute;
+    top: 60px;
+    right: 12px;
+    transition: all .5s ease-in-out;
+}
+/* 쿠폰 랩 */
+
+.FESTSURI_App_Info>.Photo_Wrap .Photo_Item1{
+    position: absolute;
+    right: 86px;
+    top: 39px;
+    transition: all .5s ease-in-out;
+}
+.FESTSURI_App_Info>.Photo_Wrap .Photo_Item2{
+    position: absolute;
+    right: 25px;
+    top: 31px;
+    transition: all .5s ease-in-out;
+}
+
+.FESTSURI_App_Info>.Photo_Wrap .Camera_Item{
+    width: 130px;
+    position: absolute;
+    right: 50px;
+    top:65px;
+}
+
+/* 포토 랩 */
+
+.FESTSURI_App_Info>.Ticket_Wrap:hover .Coupon_Item1{
+    width: 130px;
+    transform: scaleX(-1) rotate(-10deg);
+    right: 86px;
+    bottom: 86px;
+}
+.FESTSURI_App_Info>.Ticket_Wrap:hover .Coupon_Item2{
+    transform: rotate(-8.308deg);
+    width: 184px;
+    top: 85px;
+    right: -5px;
+}
+.FESTSURI_App_Info>.Map_Wrap .Map_Item svg{
+    transition: .5s ease-in-out;
+}
+.FESTSURI_App_Info>.Map_Wrap:hover .Map_Item svg{
+    transform: rotate(20deg) scale(1.05) translateY(20px);
 }
