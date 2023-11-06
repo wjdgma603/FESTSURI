@@ -1,19 +1,22 @@
 import './Main.css'
 import * as THREE from 'three'
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef, React } from 'react';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import model from './model/scene.gltf'
-import SliderItem from './item/sliderItem';
-import SliderObj from './sliderObj.json'
+import { Link } from 'react-router-dom';
+import SlideEvent from './sliderObj.json'
+import mainTitleItem from './SubComponents/mainTitleItem.json'
+import MainTitleWrap from './SubComponents/mainTitleWrap';
+import MainEventSection from './SubComponents/MainEventSection';
 
-const Main = () => {
+const Main = ({itIsLoaded}) => {
+    itIsLoaded();
     useEffect(() => {
         //GLTF Loader
         const gltfLoader = new GLTFLoader();
         gltfLoader.load(model, (gltf)=>{    
             const imgs = gltf.scene.children[0];
-            console.log(imgs)
             imgs.position.z = -1.5
             imgs.position.x = 1.5;
             imgs.position.y = -1.1;
@@ -62,18 +65,90 @@ const Main = () => {
     }, [])
     // useEffect 사용한 three.js 부분
 
-    const [currentIndex, setCurrentIndex] = useState(0);
-    const nextSlide = ()=>{
-        setCurrentIndex((currentIndex + 1) % SliderObj.length);
-    };
-    const prevSlide = ()=>{
-        setCurrentIndex((currentIndex - 1 + SliderObj.length) % SliderObj.length)
-    }
-    useEffect(()=>{
-        const interval = setInterval(nextSlide, 3000); // 3초
-        return () => clearInterval(interval)
-    },[])
+    const [eventState, setEventsState] = useState([]);
+    const SlideWidth = 1280; // 슬라이드 넓이값
+    const SlideMargin = 0; // 슬라이드 마진값 (사용안함)
+    const MaxSlides = SlideEvent.length; // 현 슬라이드 숫자 = json 객체 숫자
+    const TotalSlides = MaxSlides * 3; // 전체 슬라이드 숫자 = 앞 뒤로 존재하는 슬라이드 포함
+    const SlideRef = useRef(); // 슬라이드 감싸는 요소 찾기용 Ref
+    let threeTimesEvents = []; // 슬라이드 앞 뒤로 복사하는 내용을 저장하는 배열
+    const NextEnd = TotalSlides - 2; // 마지막 슬라이드 마지막 부분
+    const NextStart = (TotalSlides * 1/3) + 3; // 마지막 슬라이드 시작 부분 
+    const START = (TotalSlides * 2/3) - 1; // 기본 슬라이드 위치
+    const PrevStart = 3 // 첫번째 슬라이드 시작부분
+    const PrevEnd = (TotalSlides * 2/3) - 2; //첫번째 슬라이드 마지막부분
+    const [slideState, setSlideState] = useState({number: START,}) 
 
+    async function loadEvents(){
+        const events = SlideEvent;
+        threeTimesEvents = [...events, ...events, ...events];
+        setEventsState(threeTimesEvents);
+    }
+    function setInitialPosition() {
+        SlideRef.current.style.transform = `translateX(-${(SlideWidth + SlideMargin) * (MaxSlides - 1)}px)`;
+    }
+    function moveTo(setNumber, setMotion){
+        setSlideState({
+            memo: slideState.number,
+            number: setNumber,
+            hasMotion: setMotion
+        })
+    }// 슬라이드 움직이는 함수(슬라이드 번호, 전환효과)
+
+    function slideAfterMove(setNumber, setMotion) {
+        setTimeout(()=>{
+            moveTo(setNumber, setMotion)
+        }, 1)
+    }// 슬라이드 움직이는 함수 지연시간
+    function handleSlideRight() {
+        if(slideState.number === NextEnd && slideState.memo === NextEnd - 1) {
+            moveTo(PrevEnd, false);
+            slideAfterMove(PrevEnd + 1, true);
+        } else if (slideState.number === NextStart && slideState.memo === NextStart - 1){
+            moveTo(PrevStart, false)
+            slideAfterMove(PrevStart, true);
+        } else {
+            moveTo(slideState.number + 1, true);
+        }
+    }
+    function handleSlideLeft() {
+        if(slideState.number === PrevEnd && slideState.memo === PrevEnd + 1) {
+            moveTo(NextEnd, false);
+            slideAfterMove(NextEnd - 1, true);
+        } else if (slideState.number === PrevStart && slideState.memo === PrevStart - 1){
+            moveTo(NextStart, false)
+            slideAfterMove(NextStart, true);
+        } else {
+            moveTo(slideState.number - 1, true);
+        }
+    }
+    // 슬라이드 버튼 함수
+    useEffect(()=>{
+        loadEvents()
+        setInitialPosition();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[])
+    useEffect(()=>{
+        SlideRef.current.style.margin = `0 ${(window.innerWidth - SlideWidth) / 2}px`
+        SlideRef.current.style.transform = `translateX(-${slideState.number * (SlideWidth + SlideMargin)}px)`
+        SlideRef.current.style.transition = slideState.hasMotion ? 'all 0.3s ease-in-out' : '';
+    }, [slideState])
+    // 슬라이드 마무리
+    function slideStyle(index){
+        if(index === slideState.number){return{filter : `brightness(100%)`}}
+        else{return{filter : `brightness(50%)`}}
+    }
+    // 슬라이드 배경 필터 스타일 함수
+    useEffect(()=>{
+        setTimeout(()=>{
+            let SlideMargin = 60;
+            const MainSlideSec = document.querySelector('.Main_SlideSection')
+            let SlideHeight = SlideRef.current.clientHeight
+            MainSlideSec.style.height = `${SlideHeight + SlideMargin}px`
+        }, 50)
+    })
+
+    // 슬라이드 상하 여백 계산
     return ( 
         <main className="Main">
             <section className="Main_IntroSection">
@@ -87,14 +162,40 @@ const Main = () => {
                 </article>
             </section>
             <section className="Main_SlideSection">
-                <article className='Main_Slider'>
-                    {SliderObj.map((sliderObj)=>
-                        <SliderItem key={sliderObj.id} {...sliderObj}/>
+                <div className='MainSlide_BlackBg'></div>
+                <article className='Main_Slider' ref={SlideRef}>
+                    {eventState.map((event, index)=> 
+                        <div className={`Slide Slide${index}`} key={event.id = index} style={slideStyle(index)}>
+                            <Link to={event.sliderLink}>
+                                <img src={require("./images/pcSlide/slide0"+event.sliderNum+".jpg")} alt={`slidenum${event.id}`}/>
+                            </Link>
+                        </div>
                     )}
                 </article>
-                button
+                <article className='MainSlide_BtnWrap'>
+                    <div className='MainSlide_PrevBtn MainSlide_Btn' onClick={handleSlideLeft}>
+                        <svg viewBox="0 0 40 74" fill="none">
+                            <path d="M38.5 2L3 37L38 72" stroke="white" strokeWidth="3"/>
+                        </svg>
+                    </div>
+                    <div className='MainSlide_NextBtn MainSlide_Btn' onClick={handleSlideRight}>
+                        <svg viewBox="0 0 40 74" fill="none">
+                            <path d="M38.5 2L3 37L38 72" stroke="white" strokeWidth="3"/>
+                        </svg>
+                    </div>
+                </article>
             </section>
-            <section className="Main_EventSection">
+            <MainTitleWrap {...mainTitleItem[0]}/>
+            <section className='Main_PtySection'>
+
+            </section>
+            <MainTitleWrap {...mainTitleItem[1]}/>
+            <section className='Main_ExbSection'>
+
+            </section>
+            <MainTitleWrap {...mainTitleItem[2]}/>
+            <MainEventSection/>
+            <section className='Main_ItrSection'>
 
             </section>
         </main>
