@@ -126,21 +126,30 @@
 
 .brd_NftIqryDetaText {
     width: 1280px;
-    min-height: 400px;
     padding: 30px 20px;
     border-top: 1px solid #999;
     border-bottom: 1px solid #999;
+    white-space: pre-line
 }
 
 .brd_NftIqryDetaText>textarea {
     width: 100%;
-    height: 333px;
+    height: auto;
+    min-height: 30px;
     font-size: 16px;
     border: none;
     outline: none;
-    resize: none;
     font-weight: bold;
-    box-sizing: border-box;
+}
+
+.brd_NftIqrytopImage,
+.brd_NftIqrybottomImage {
+    width: 100%;
+    padding: 10px;
+}
+
+.brd_NftIqryDetaText img {
+    width: 100%;
 }
 
 .brd_correction,
@@ -188,4 +197,13 @@
     height: 18px;
     background: url(/src/images/Board/list_icon.png) no-repeat;
     background-size: contain;
+}
+
+.askdjfljsdkljklasdjfklsdjf {
+    background: url(./images/Nft/2023_11_06_1.png);
+    background: url(./../../../images/Main/pcSlide/slide01.jpg);
+    background: url(./../../../images/Main/pcSlide/slide01.jpg);
+    background: url(/src/images/Main/pcSlide/slide01.jpg);
+    background: url(./../../../../src/images/Main/pcSlide/slide01.jpg);
+    background: url(../../../../src/images/Main/pcSlide/slide01.jpg);
 }

@@ -445,14 +445,10 @@
 .FAQItem .brd_FAQWriter {
     display: flex;
     padding: 10px 80px 50px 100px;
-    align-items: flex-start;
     gap: 10px;
-    align-self: stretch;
-}
-
-.FAQItem .brd_FAQWriter {
     color: #666;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
+    white-space: pre-line
 }

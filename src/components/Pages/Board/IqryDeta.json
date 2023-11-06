@@ -2,7 +2,7 @@
     {
         "IqryId": 1,
         "IqryTitle": "1번 문의사항입니다.",
-        "IqryContent": "수고가 많으십니다~",
+        "IqryContent": "수고\n가\n 많\n으\n십니다~",
         "IqryWriter": "박민영",
         "IqryDay": "2023-11-05",
         "Iqryanswer": "등록된 답변이 없습니다."
@@ -794,7 +794,7 @@
     {
         "IqryId": 100,
         "IqryTitle": "100번 문의사항입니다.",
-        "IqryContent": "수고가 많으십니다~",
+        "IqryContent": "수고가 많으십니다~\n줄바꿈이 되는지\n테스트입니다.",
         "IqryWriter": "박민영",
         "IqryDay": "2023-11-05",
         "Iqryanswer": "등록된 답변이 없습니다."

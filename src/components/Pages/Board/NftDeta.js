@@ -77,14 +77,21 @@ const NftDeta = ({ NftData, deleteNft, UpdateNftInfor, ComponentChange }) => {
                 </div>
             </div>
             <div className="brd_NftIqryDetaText">
+                <div className="brd_NftIqrytopImage">
+                    {NftData.NftTopimg && <img src={require(`${NftData.NftTopimg}`)} alt="상단 이미지" />}
+                </div>
                 {isEditing ? (
                     <textarea
                         value={editedContent}
                         onChange={(e) => setEditedContent(e.target.value)}
+                        rows={editedContent.split('\n').length} // 현재 줄 수에 따라 동적으로 높이 설정
                     ></textarea>
                 ) : (
                     <p>{NftData.NftContent}</p>
                 )}
+                <div className="brd_NftIqrybottomImage">
+                    {NftData.Nftbottomimg && <img src={require(`${NftData.Nftbottomimg}`)} alt="하단 이미지" />}
+                </div>
             </div>
             <div className="brd_correction brd_P">
                 {isEditing ? (
@@ -105,7 +112,7 @@ const NftDeta = ({ NftData, deleteNft, UpdateNftInfor, ComponentChange }) => {
                     <li>목록</li>
                 </ul>
             </div>
-        </div>
+        </div >
     );
 }
 
