@@ -690,17 +690,17 @@
     {
         "NftId": 99,
         "NftTitle": "99번게시물입니다",
-        "NftTopimg": "",
+        "NftTopimg": "Main/images/pcSlide/slide02.jpg",
         "NftContent": "내용을\n 적어주시면\n 적용됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
         "NftDay": "2023-11-05"
     },
     {
-        "NftId": 100,
-        "NftTitle": "2023년 국가무형문화재 전승지원사업 안내 10월",
-        "NftTopimg": "./../../../images/Main/pcSlide/slide01.jpg",
-        "NftContent": "내용을\n 적어주시면\n 적용됩니다.",
+        "NftId": 999,
+        "NftTitle": "페스츠리 앱을 소개합니다.",
+        "NftTopimg": "Main/images/pcSlide/slide01.jpg",
+        "NftContent": "페스츠리 앱을 소개합니다.\n\n저희 페스츠리 앱은 일정, 북마크, 알람, 맞춤형 지도 등 을 지원하며\n더욱 편안한 이용을 위해 제작되었습니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
         "NftDay": "2023-11-06"

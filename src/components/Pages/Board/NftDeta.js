@@ -78,7 +78,7 @@ const NftDeta = ({ NftData, deleteNft, UpdateNftInfor, ComponentChange }) => {
             </div>
             <div className="brd_NftIqryDetaText">
                 <div className="brd_NftIqrytopImage">
-                    {NftData.NftTopimg && <img src={require(`${NftData.NftTopimg}`)} alt="상단 이미지" />}
+                    {NftData.NftTopimg && <img src={require(`../${NftData.NftTopimg}`)} alt="상단 이미지" />}
                 </div>
                 {isEditing ? (
                     <textarea
@@ -91,6 +91,7 @@ const NftDeta = ({ NftData, deleteNft, UpdateNftInfor, ComponentChange }) => {
                 )}
                 <div className="brd_NftIqrybottomImage">
                     {NftData.Nftbottomimg && <img src={require(`${NftData.Nftbottomimg}`)} alt="하단 이미지" />}
+                    {/* {require('../Main/images/pcSlide/slide01.jpg')} */}
                 </div>
             </div>
             <div className="brd_correction brd_P">

@@ -78,22 +78,22 @@
 }
 
 .brd_TapFirstPageBtn>i {
-    background: url(/src/images/Board/first_pge_tab_btn_icon.png) no-repeat;
+    background: url(./images/icon/first_pge_tab_btn_icon.png) no-repeat;
     background-size: contain;
 }
 
 .brd_TapPrevPageBtn>i {
-    background: url(/src/images/Board/before_tab_btn_icon.png) no-repeat;
+    background: url(./images/icon/before_tab_btn_icon.png) no-repeat;
     background-size: contain;
 }
 
 .brd_TapNextPageBtn>i {
-    background: url(/src/images/Board/next_tab_btn_icon.png) no-repeat;
+    background: url(./images/icon/next_tab_btn_icon.png) no-repeat;
     background-size: contain;
 }
 
 .brd_TapLastPageBtn>i {
-    background: url(/src/images/Board/back_tab_btn_icon.png) no-repeat;
+    background: url(./images/icon/back_tab_btn_icon.png) no-repeat;
     background-size: contain;
 }
 
@@ -120,7 +120,7 @@
 .brd_DetaRight>ul>i {
     width: 16.12px;
     height: 18.35px;
-    background: url(/src/images/Board/trash_can_icon.png) no-repeat;
+    background: url(./images/icon/trash_can_icon.png) no-repeat;
     background-size: cover;
 }
 
@@ -188,22 +188,17 @@
 .brd_correction>ul>i {
     width: 18px;
     height: 18px;
-    background: url(/src/images/Board/pencil_icon.png) no-repeat;
+    background: url(./images/icon/pencil_icon.png) no-repeat;
     background-size: contain;
 }
 
 .brd_correctionList>ul>i {
     width: 18px;
     height: 18px;
-    background: url(/src/images/Board/list_icon.png) no-repeat;
+    background: url(./images/icon/list_icon.png) no-repeat;
     background-size: contain;
 }
 
 .askdjfljsdkljklasdjfklsdjf {
-    background: url(./images/Nft/2023_11_06_1.png);
-    background: url(./../../../images/Main/pcSlide/slide01.jpg);
-    background: url(./../../../images/Main/pcSlide/slide01.jpg);
-    background: url(/src/images/Main/pcSlide/slide01.jpg);
-    background: url(./../../../../src/images/Main/pcSlide/slide01.jpg);
-    background: url(../../../../src/images/Main/pcSlide/slide01.jpg);
+    background: url(../Board/images/Nft/2023_11_06_1.png);
 }

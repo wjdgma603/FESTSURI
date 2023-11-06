@@ -88,7 +88,7 @@
     top: 50%;
     right: 10px;
 
-    background: url(/src/images/Board/magnifying_glass_icon.png) no-repeat;
+    background: url(./images/icon/magnifying_glass_icon.png) no-repeat;
     background-size: contain;
 }
 
@@ -215,13 +215,13 @@
 
 .NftCrt .brd_CrtBtn>div>i,
 .IqryCrt .brd_CrtBtn>div>i {
-    background: url(/src/images/Board/return_icon.png) no-repeat;
+    background: url(./images/icon/return_icon.png) no-repeat;
     background-size: contain;
 }
 
 .NftCrt .brd_CrtBtn>button>i,
 .IqryCrt .brd_CrtBtn>button>i {
-    background: url(/src/images/Board/check_icon.png) no-repeat;
+    background: url(./images/icon/check_icon.png) no-repeat;
     background-size: contain;
 }
 
@@ -361,7 +361,7 @@
 .brd_IqryAnswer>div>ul>i {
     width: 18px;
     height: 18px;
-    background: url(/src/images/Board/pencil_icon.png) no-repeat;
+    background: url(./images/icon/pencil_icon.png) no-repeat;
     background-size: contain;
 }
 
@@ -382,7 +382,7 @@
 .brd_IqryAnswer>div>ol>i {
     width: 16.12px;
     height: 18.35px;
-    background: url(/src/images/Board/trash_can_icon.png) no-repeat;
+    background: url(./images/icon/trash_can_icon.png) no-repeat;
     background-size: cover;
 }
 
