@@ -1,6 +1,6 @@
 import React from 'react';
 
-const IqryItem = ({ IqryId, IqryTitle, IqryContent, IqryWriter, IqryDay, Iqryanswer, ClickIqryInfor }) => {
+const IqryItem = ({ IqryId, IqryTitle, IqryContent, IqryDay, IqryWriter, ClickIqryInfor, itemNumber }) => {
     const handleClick = () => {
         ClickIqryInfor(IqryId);
     };
@@ -15,7 +15,7 @@ const IqryItem = ({ IqryId, IqryTitle, IqryContent, IqryWriter, IqryDay, Iqryans
 
     return (
         <div className="NftItem brd_P" onClick={handleClick}>
-            <div className="brd_NftIqryItemNum">{IqryId}</div>
+            <div className="brd_NftIqryItemNum">{itemNumber}</div>
             <div className="brd_NftIqryItemTitle">{IqryTitle}</div>
             <div className="brd_NftIqryItemDay">{formatDate(IqryDay)}</div>
         </div>

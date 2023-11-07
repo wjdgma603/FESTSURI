@@ -44,14 +44,17 @@ const IqryTap = ({ IqryData, ClickIqryInfor, ComponentChange }) => {
             itemsToRender = itemsToRender.slice(0, 12);
         }
 
-        return itemsToRender.map((IqryItemIt) => (
-            <div
-                key={IqryItemIt.IqryId}
-                onClick={() => IqryItemSelection(IqryItemIt.IqryId)}
-            >
+        return itemsToRender.map((IqryItemIt, index) => (
+            <div key={IqryItemIt.IqryId}>
                 <IqryItem
-                    {...IqryItemIt}
+                    IqryId={IqryItemIt.IqryId}
+                    IqryTitle={IqryItemIt.IqryTitle}
+                    IqryContent={IqryItemIt.IqryContent}
+                    IqryWriter={IqryItemIt.IqryWriter}
+                    IqryDay={IqryItemIt.IqryDay}
+                    Iqryanswer={IqryItemIt.Iqryanswer}
                     ClickIqryInfor={IqryItemSelection}
+                    itemNumber={filteredData ? itemsToRender.length - index : IqryData.length - index}
                 />
             </div>
         ));
@@ -64,14 +67,17 @@ const IqryTap = ({ IqryData, ClickIqryInfor, ComponentChange }) => {
         const indexOfFirstItem = indexOfLastItem - itemsPerPage;
         currentItems = currentItems.slice(indexOfFirstItem, indexOfLastItem);
 
-        return currentItems.map((IqryItemIt) => (
-            <div
-                key={IqryItemIt.IqryId}
-                onClick={() => IqryItemSelection(IqryItemIt.IqryId)}
-            >
+        return currentItems.map((IqryItemIt, index) => (
+            <div key={IqryItemIt.IqryId}>
                 <IqryItem
-                    {...IqryItemIt}
+                    IqryId={IqryItemIt.IqryId}
+                    IqryTitle={IqryItemIt.IqryTitle}
+                    IqryContent={IqryItemIt.IqryContent}
+                    IqryWriter={IqryItemIt.IqryWriter}
+                    IqryDay={IqryItemIt.IqryDay}
+                    Iqryanswer={IqryItemIt.Iqryanswer}
                     ClickIqryInfor={IqryItemSelection}
+                    itemNumber={IqryData.length - index}
                 />
             </div>
         ));

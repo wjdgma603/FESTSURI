@@ -1,6 +1,6 @@
 import React from 'react';
 
-const NftItem = ({ NftId, NftTitle, NftContent, NftDay, NftWriter, ClickNftInfor }) => {
+const NftItem = ({ NftId, NftTitle, NftContent, NftDay, NftWriter, ClickNftInfor, itemNumber }) => {
     const handleClick = () => {
         ClickNftInfor(NftId);
     };
@@ -15,7 +15,7 @@ const NftItem = ({ NftId, NftTitle, NftContent, NftDay, NftWriter, ClickNftInfor
 
     return (
         <div className="NftItem brd_P" onClick={handleClick}>
-            <div className="brd_NftIqryItemNum">{NftId}</div>
+            <div className="brd_NftIqryItemNum">{itemNumber}</div>
             <div className="brd_NftIqryItemTitle">{NftTitle}</div>
             <div className="brd_NftIqryItemDay">{formatDate(NftDay)}</div>
         </div>

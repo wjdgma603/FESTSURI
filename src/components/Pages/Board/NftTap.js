@@ -44,14 +44,16 @@ const NftTap = ({ NftData, ClickNftInfor, ComponentChange }) => {
             itemsToRender = itemsToRender.slice(0, 12);
         }
 
-        return itemsToRender.map((NftItemIt) => (
-            <div
-                key={NftItemIt.NftId}
-                onClick={() => NftItemSelection(NftItemIt.NftId)}
-            >
+        return itemsToRender.map((NftItemIt, index) => (
+            <div key={NftItemIt.NftId}>
                 <NftItem
-                    {...NftItemIt}
+                    NftId={NftItemIt.NftId}
+                    NftTitle={NftItemIt.NftTitle}
+                    NftContent={NftItemIt.NftContent}
+                    NftDay={NftItemIt.NftDay}
+                    NftWriter={NftItemIt.NftWriter}
                     ClickNftInfor={NftItemSelection}
+                    itemNumber={filteredData ? itemsToRender.length - index : NftData.length - index}
                 />
             </div>
         ));
@@ -62,14 +64,16 @@ const NftTap = ({ NftData, ClickNftInfor, ComponentChange }) => {
         const indexOfFirstItem = indexOfLastItem - itemsPerPage;
         const currentItems = NftData.slice(indexOfFirstItem, indexOfLastItem);
 
-        return currentItems.map((NftItemIt) => (
-            <div
-                key={NftItemIt.NftId}
-                onClick={() => NftItemSelection(NftItemIt.NftId)}
-            >
+        return currentItems.map((NftItemIt, index) => (
+            <div key={NftItemIt.NftId}>
                 <NftItem
-                    {...NftItemIt}
+                    NftId={NftItemIt.NftId}
+                    NftTitle={NftItemIt.NftTitle}
+                    NftContent={NftItemIt.NftContent}
+                    NftDay={NftItemIt.NftDay}
+                    NftWriter={NftItemIt.NftWriter}
                     ClickNftInfor={NftItemSelection}
+                    itemNumber={NftData.length - index}
                 />
             </div>
         ));

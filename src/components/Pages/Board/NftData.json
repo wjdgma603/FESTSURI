@@ -1,702 +1,894 @@
 [
     {
         "NftId": 1,
-        "NftTitle": "1번 게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 2,
-        "NftTitle": "2번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 3,
-        "NftTitle": "3번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 4,
-        "NftTitle": "4번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 5,
-        "NftTitle": "5번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 6,
-        "NftTitle": "6번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 7,
-        "NftTitle": "7번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 8,
-        "NftTitle": "8번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 9,
-        "NftTitle": "9번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 10,
-        "NftTitle": "10번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 11,
-        "NftTitle": "11번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 12,
-        "NftTitle": "12번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 13,
-        "NftTitle": "13번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 14,
-        "NftTitle": "14번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 15,
-        "NftTitle": "15번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 16,
-        "NftTitle": "16번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 17,
-        "NftTitle": "17번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 18,
-        "NftTitle": "18번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 19,
-        "NftTitle": "19번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 20,
-        "NftTitle": "20번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 21,
-        "NftTitle": "21번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 22,
-        "NftTitle": "22번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 23,
-        "NftTitle": "23번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 24,
-        "NftTitle": "24번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 25,
-        "NftTitle": "25번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 26,
-        "NftTitle": "26번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 27,
-        "NftTitle": "27번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 28,
-        "NftTitle": "28번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 29,
-        "NftTitle": "29번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 30,
-        "NftTitle": "30번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 31,
-        "NftTitle": "31번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 32,
-        "NftTitle": "32번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 33,
-        "NftTitle": "33번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 34,
-        "NftTitle": "34번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 35,
-        "NftTitle": "35번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 36,
-        "NftTitle": "36번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 37,
-        "NftTitle": "37번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 38,
-        "NftTitle": "38번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 39,
-        "NftTitle": "39번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 40,
-        "NftTitle": "40번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 41,
-        "NftTitle": "41번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 42,
-        "NftTitle": "42번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 43,
-        "NftTitle": "43번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 44,
-        "NftTitle": "44번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 45,
-        "NftTitle": "45번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 46,
-        "NftTitle": "46번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 47,
-        "NftTitle": "47번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 48,
-        "NftTitle": "48번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 49,
-        "NftTitle": "49번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 50,
-        "NftTitle": "50번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 51,
-        "NftTitle": "51번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 52,
-        "NftTitle": "52번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 53,
-        "NftTitle": "53번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 54,
-        "NftTitle": "54번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 55,
-        "NftTitle": "55번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 56,
-        "NftTitle": "56번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 57,
-        "NftTitle": "57번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 58,
-        "NftTitle": "58번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 59,
-        "NftTitle": "59번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 60,
-        "NftTitle": "60번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 61,
-        "NftTitle": "61번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 62,
-        "NftTitle": "62번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 63,
-        "NftTitle": "63번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 64,
-        "NftTitle": "64번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 65,
-        "NftTitle": "65번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 66,
-        "NftTitle": "66번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 67,
-        "NftTitle": "67번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 68,
-        "NftTitle": "68번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 69,
-        "NftTitle": "69번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 70,
-        "NftTitle": "70번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 71,
-        "NftTitle": "71번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 72,
-        "NftTitle": "72번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 73,
-        "NftTitle": "73번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 74,
-        "NftTitle": "74번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 75,
-        "NftTitle": "75번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 76,
-        "NftTitle": "76번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 77,
-        "NftTitle": "77번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 78,
-        "NftTitle": "78번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 79,
-        "NftTitle": "79번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 80,
-        "NftTitle": "80번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 81,
-        "NftTitle": "81번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 82,
-        "NftTitle": "82번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 83,
-        "NftTitle": "83번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 84,
-        "NftTitle": "84번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 85,
-        "NftTitle": "85번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 86,
-        "NftTitle": "86번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 87,
-        "NftTitle": "87번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 88,
-        "NftTitle": "88번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 89,
-        "NftTitle": "89번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 90,
-        "NftTitle": "90번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 91,
-        "NftTitle": "91번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 92,
-        "NftTitle": "92번게시물입니다",
-        "NftContent": "내용",
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 93,
-        "NftTitle": "93번게시물입니다",
-        "NftContent": "내용",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 94,
-        "NftTitle": "94번게시물입니다",
-        "NftContent": "내용",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 95,
-        "NftTitle": "95번게시물입니다",
-        "NftContent": "내용",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 96,
-        "NftTitle": "96번게시물입니다",
-        "NftContent": "내용",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-05"
-    },
-    {
-        "NftId": 97,
-        "NftTitle": "페스츠리 앱을 소개합니다.",
-        "NftTopimg": "Main/images/pcSlide/slide01.jpg",
-        "NftContent": "페스츠리 앱을 소개합니다.\n\n저희 페스츠리 앱은 일정, 북마크, 알람, 맞춤형 지도 등 을 지원하며\n더욱 편안한 이용을 위해 제작되었습니다.",
-        "Nftbottomimg": "",
-        "NftWriter": "관리자",
-        "NftDay": "2023-11-03"
-    },
-    {
-        "NftId": 98,
         "NftTitle": "2023년 국가무형문화재 전승지원사업 안내 11월",
         "NftTopimg": "Board/images/Nft/2023_11_06_1.png",
         "NftContent": "1. 기간 : 2023년 10월 1일 (일) ~ 2023년 10월 31일 (화)\n\n2. 주최 : 문화재청 국립무형유산원\n\n3. 주관 : 한국문화재재단\n\n4. 문의 : 02-3011-2166",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-06"
+        "NftDay": "2023-11-07"
     },
     {
-        "NftId": 99,
+        "NftId": 94,
         "NftTitle": "대조전 및 희정당 관람환경 개선공사에 따른 관람 중지 알림",
         "NftTopimg": "Main/images/pcSlide/slide07.jpg",
         "NftContent": "창덕궁 대조전 및 희정당 관람환경 개선 공사에 따른 관람 제한(대조전/희정당 권역 관람 중지)을 안내해 드리니 많은 양해 부탁드립니다.\n\n1. 제한관람구역 : 대조전 및 희정당 권역\n2. 제한기간 : 2023. 02. 25 ~ 2023. 10월 10일\n\n3. 공사개요\n1) 공 사 명 : 창덕궁 대조전 및 희정당 관람환경 개선공사\n2) 공사기간: 2023. 02. 25 ~ 2023. 10월 10일\n3) 공사내용 : 대조전 및 희정당 권역 정비\n4) 시 공 사 : 페스츠리건설(주)",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-03"
+        "NftDay": "2023-11-07"
+    },
+    {
+        "NftId": 95,
+        "NftTitle": "페스츠리 앱을 소개합니다.",
+        "NftTopimg": "Main/images/pcSlide/slide01.jpg",
+        "NftContent": "페스츠리 앱을 소개합니다.\n\n저희 페스츠리 앱은 일정, 북마크, 알람, 맞춤형 지도 등 을 지원하며\n더욱 편안한 이용을 위해 제작되었습니다.",
+        "Nftbottomimg": "",
+        "NftWriter": "관리자",
+        "NftDay": "2023-11-07"
+    },
+    {
+        "NftId": 96,
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
+        "NftWriter": "관리자",
+        "NftDay": "2023-11-07"
+    },
+    {
+        "NftId": 97,
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
+        "NftWriter": "관리자",
+        "NftDay": "2023-11-07"
+    },
+    {
+        "NftId": 98,
+        "NftTitle": "타이틀_내용",
+        "NftTopimg": "",
+        "NftContent": "내용들어가는곳",
+        "Nftbottomimg": "",
+        "NftWriter": "관리자",
+        "NftDay": "2023-11-07"
+    },
+    {
+        "NftId": 99,
+        "NftTitle": "이용약관",
+        "NftTopimg": "",
+        "NftContent": "",
+        "Nftbottomimg": "",
+        "NftWriter": "관리자",
+        "NftDay": "2023-11-07"
     },
     {
         "NftId": 100,
@@ -705,6 +897,6 @@
         "NftContent": "",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-04"
+        "NftDay": "2023-11-07"
     }
 ]

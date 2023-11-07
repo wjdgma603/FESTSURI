@@ -27,6 +27,14 @@ const Board = () => {
         setComponentName(componentName);
     };
 
+    const getMaxId = (data) => {
+        if (data.length === 0) {
+            return 0;
+        }
+        const maxId = Math.max(...data.map(item => item.NftId));
+        return maxId;
+    };
+
     // 공지사항 페이지 관련 함수 모음
     const [NftData, setNftData] = useState(NftjsonData);
 
@@ -51,7 +59,7 @@ const Board = () => {
             NftTitle,
             NftContent,
             NftDay,
-            NftId: NftData.length + 1,
+            NftId: getMaxId(NftData) + 1,
         };
 
         setNftData([newNftData, ...NftData]);
@@ -59,8 +67,8 @@ const Board = () => {
 
     const deleteNft = (NftId) => {
         const filteredData = NftData.filter(item => item.NftId !== NftId);
-        setNftData(filteredData.map((item, index) => ({ ...item, NftId: NftData.length - (index + 1) })));
-    }; // 지우는 함수
+        setNftData(filteredData);
+    };
 
     //문의사항 함수 모음
     const [IqryData, setIqryData] = useState(IqryjsonData);
@@ -86,7 +94,7 @@ const Board = () => {
             IqryContent,
             IqryDay,
             Iqryanswer: "아직 등록된 답변이 없습니다.",
-            IqryId: IqryData.length + 1,
+            IqryId: getMaxId(IqryData) + 1,
         };
 
         setIqryData([newIqryData, ...IqryData]);
@@ -94,7 +102,7 @@ const Board = () => {
 
     const deleteIqry = (IqryId) => {
         const filteredData = IqryData.filter(item => item.IqryId !== IqryId);
-        setIqryData(filteredData.map((item, index) => ({ ...item, IqryId: IqryData.length - (index + 1) })));
+        setIqryData(filteredData);
     }; // 지우는 함수
 
     //자주하는질문 함수 모음

@@ -202,3 +202,12 @@
 .askdjfljsdkljklasdjfklsdjf {
     background: url(../Board/images/Nft/Personal_information_processing.png);
 }
+
+
+
+/* 공지사항 기타 별도 디자인 */
+.brd_NftIqryDetaText .brd_TermsOfUse {
+    width: 100%;
+    height: 300px;
+    background-color: #222;
+}
