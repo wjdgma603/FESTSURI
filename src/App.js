@@ -8,8 +8,9 @@ import Party from './components/Pages/Party/Party';
 import Exhibition from './components/Pages/Exhibition/Exhibition';
 import Board from './components/Pages/Board/Board';
 import Gallery from './components/Pages/Gallery/Gallery';
+import Party_sub from './components/Pages/PtyExbDetail/Party_sub.js';
 import Introduce from './components/Pages/Introduce/Introduce';
-import PtyExbDetail from './components/Pages/PtyExbDetail/PtyExbDetail';
+// import PtyExbDetail from './components/Pages/PtyExbDetail/PtyExbDetail';
 import Footer from './components/Footer/Footer';
 import Login from './components/Pages/Personal/Login';
 import { useState, useEffect } from 'react';
@@ -45,7 +46,7 @@ function App() {
           <Route path='/login' element={<Login IsFooterLoaded={IsFooterLoaded}/>}/>
           <Route path='/party' element={<Party/>}/>
           <Route path='/exhibition' element={<Exhibition/>}/>
-          <Route path='/exbition/detail' element={<PtyExbDetail/>}/>
+          <Route path='/exbition/detail' element={<Party_sub/>}/>
           <Route path='/board' element={<Board IsFooterLoaded={IsFooterLoaded}/>}/>
           <Route path='/gallery' element={<Gallery/>}/>
           <Route path='/introduce' element={<Introduce/>}/>
