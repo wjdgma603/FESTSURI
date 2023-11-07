@@ -153,24 +153,21 @@
 
 
 
-/* -----------페이지--------------------
-.brd_bottom {
+/* -----------페이지-------------------- */
+
+
+.Gall_tab_container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 50px 0 150px 0;
-    
 }
 
-.brd_bottom>div:nth-child(1) {
-    width: 119.2px;
-}
-
-.brd_bottom>div:nth-child(2) {
+.Gall_tab {
     display: flex;
     gap: 5px;
 }
 
-.brd_bottom>div:nth-child(2)>div {
+.Gall_tab>div {
     width: 30px;
     height: 30px;
     background: #EEE;
@@ -181,19 +178,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.brd_bottom>div:nth-child(3) {
-    padding: 7px 32px;
-    background: #185A9D;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
 }
 
 
 
-.brd_bottom>div:nth-child(2)>.selected {
+.Gallery .Gall_tab .selectedTab {
     background-color: #295bde;
     color: #fff;
 }
@@ -221,4 +212,4 @@
 .brd_TapLastPageBtn>i {
     background: url(../Board/images/back_tab_btn_icon.png) no-repeat;
     background-size: contain;
-} */
+}

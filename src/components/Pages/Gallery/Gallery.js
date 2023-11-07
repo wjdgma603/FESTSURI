@@ -1,164 +1,109 @@
-import "./Gallery.css";
-import { useState } from "react";
+import './Gallery.css';
 
-import GallHeader from "./GallHeader";
-import GallDeps from "./GallDeps";
-import GallData from "./GallDeta.json";
+import React, { useState } from 'react';
+import GallHeader from './GallHeader';
+import GallDeps from './GallDeps';
+import GallData from './GallDeta.json';
 
-
+// 페이지네이션
 const Gallery = () => {
   const [selectedData, setSelectedData] = useState(null);
+  const [activeTab, setActiveTab] = useState(1);  
 
-  const openModal = (data) => {
-    setSelectedData(data);
-  };
 
-  const closeModal = () => {
-    setSelectedData(null);
-  };
+  //모달창
+  const openModal = (data) => {setSelectedData(data);};
+  const closeModal = () => {setSelectedData(null);};
 
-  const Galllist = GallData.map((data) => (
-    <div class="Gall_GridItem">
-      <img
-        src={require(`./images/data_${data.id}.jpg`)}
-        onClick={() => openModal(data)}
-      />
-      {selectedData && selectedData.id === data.id && (
-        <div className="GallModalTop" onClick={closeModal}>
-          <div className="GallModal-Content">
-            <img src={require(`./images/data_${data.id}.jpg`)} />
-            <h5>{data.usetitle}</h5>
-            <div
-              className="GallJsonText"
-              dangerouslySetInnerHTML={{
-                __html: data.useDeta.replace(/\n/g, "<br />"),
-              }}
-            />
+
+// 아이템 갯수 18개를 기준으로 18개가 넘어가면 다음 페이지로
+  const renderTabs = (tabNumber) => {
+    const startIndex = (tabNumber - 1) * 18;
+    const endIndex = tabNumber * 18;
+
+
+    return GallData.slice(startIndex, endIndex).map((data) => (
+      <div key={data.id} className="Gall_GridItem">
+        <img src={require(`./images/data_${data.id}.jpg`)} onClick={() => openModal(data)} />
+        {selectedData && selectedData.id === data.id && (
+          <div className="GallModalTop" onClick={closeModal}>
+            <div className="GallModal-Content">
+              <img src={require(`./images/data_${data.id}.jpg`)} />
+              <h5>{data.usetitle}</h5>
+              <div className="GallJsonText" dangerouslySetInnerHTML={{__html: data.useDeta.replace(/\n/g, '<br />'),}}/>
+            </div>
           </div>
-        </div>
-      )}
-    </div>
-  ));
+        )}
+      </div>
+    ));
+  };
 
-// // .............................
 
-//   const renderTabNumbers = () => {
-//     const buttons = [];
-//     let totalPagesToUse = filteredData
-//       ? Math.ceil(filteredData.length / 18)
-//       : totalPages;
-//     let currentPageToUse = filteredData ? 1 : currentPage;
-//     const maxTabNumbers = totalPagesToUse < 5 ? totalPagesToUse : 5;
-//     const halfMaxTabs = Math.floor(maxTabNumbers / 2);
+  // ------------페이지---------
 
-//     if (totalPagesToUse > maxTabNumbers) {
-//       if (currentPageToUse > halfMaxTabs + 1) {
-//         buttons.push(
-//           <div
-//             className="brd_TapFirstPageBtn"
-//             key="first"
-//             onClick={() => changePage(1)}
-//           >
-//             <i></i>
-//           </div>
-//         );
-//         buttons.push(
-//           <div
-//             className="brd_TapPrevPageBtn"
-//             key="prev"
-//             onClick={handlePrevPage}
-//           >
-//             <i></i>
-//           </div>
-//         );
-//       }
+  const tabItems = [];
+  for (let i = 1; i <= Math.ceil(GallData.length / 18); i++) {
+    tabItems.push(
+      <div
+        key={i}
+        onClick={() => setActiveTab(i)}
+        className={`tab ${activeTab === i ? 'selectedTab' : ''}`}
+      >
+        {i}
+      </div>
+    );
+  }
 
-//       let start = 1;
-//       let end = maxTabNumbers;
+  const goToFirstPage = () => {
+    setActiveTab(1);
+  };
 
-//       if (currentPage > halfMaxTabs) {
-//         if (currentPage + halfMaxTabs < totalPages) {
-//           start = currentPage - halfMaxTabs;
-//           end = currentPage + halfMaxTabs;
-//         } else {
-//           end = totalPages;
-//           start = totalPages - maxTabNumbers + 1;
-//         }
-//       }
+  const goToLastPage = () => {
+    setActiveTab(Math.ceil(GallData.length / 18));
+  };
 
-//       for (let i = start; i <= end; i++) {
-//         buttons.push(
-//           <div
-//             key={i}
-//             onClick={() => changePage(i)}
-//             className={i === selectedTab ? "selected" : ""}
-//           >
-//             {i}
-//           </div>
-//         );
-//       }
+  const goToPreviousPage = () => {
+    setActiveTab((prevTab) => (prevTab > 1 ? prevTab - 1 : prevTab));
+  };
 
-//       if (currentPage < totalPages - halfMaxTabs) {
-//         buttons.push(
-//           <div
-//             className="brd_TapNextPageBtn"
-//             key="next"
-//             onClick={handleNextPage}
-//           >
-//             <i></i>
-//           </div>
-//         );
-//         buttons.push(
-//           <div
-//             className="brd_TapLastPageBtn"
-//             key="last"
-//             onClick={() => changePage(totalPages)}
-//           >
-//             <i></i>
-//           </div>
-//         );
-//       }
-//     } else {
-//       for (let i = 1; i <= totalPages; i++) {
-//         buttons.push(
-//           <div
-//             key={i}
-//             onClick={() => changePage(i)}
-//             className={i === selectedTab ? "selected" : ""}
-//           >
-//             {i}
-//           </div>
-//         );
-//       }
-//     }
+  const goToNextPage = () => {
+    setActiveTab((prevTab) =>
+      prevTab < Math.ceil(GallData.length / 18) ? prevTab + 1 : prevTab
+    );
+  };
 
-//     return buttons;
-//   };
+  const displayFirstAndPrevious =
+    activeTab > 3 ? (
+      <>
+        <div onClick={goToFirstPage}>{'<<'}</div>
+        <div onClick={goToPreviousPage}>{'<'}</div>
+      </>
+    ) : null;
 
 
 
-
-// // ..........................
-
+// -------------------
 
 
   return (
     <section className="Gallery">
-      <article>
-        <GallHeader></GallHeader>
-      </article>
-      <article>
-        <GallDeps></GallDeps>
-      </article>
+
+      <article><GallHeader></GallHeader></article>
+      <article><GallDeps></GallDeps></article>
+ 
       <article className="Gall_GridSection">
-        <div className="Gall_GridContainer">{Galllist}</div>
+        <div className="Gall_GridContainer">{renderTabs(activeTab)}</div>
       </article>
-
-      {/* <article className="aaaaaaaaa">
-        <div>{renderTabNumbers()}</div>
-      </article> */}
-
-      <article></article>
+     
+      <article className='Gall_tab_container'>
+        <div className="Gall_tab">
+          {displayFirstAndPrevious}
+          {tabItems}
+          <div onClick={goToNextPage}>{'>'}</div>
+          <div onClick={goToLastPage}>{'>>'}</div>
+        </div>
+      </article>
+      
     </section>
   );
 };
