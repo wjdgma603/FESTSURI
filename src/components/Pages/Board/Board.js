@@ -1,5 +1,5 @@
 import './Board.css';
-import { useState, useRef } from 'react';
+import { useState, useEffect } from 'react';
 
 import NftjsonData from './NftData.json';
 import NftTap from './NftTap';
@@ -18,6 +18,10 @@ NftjsonData.sort((a, b) => b.NftId - a.NftId);
 
 const Board = () => {
     const [componentName, setComponentName] = useState('NftTap');
+
+    useEffect(() => {
+        setComponentName('NftTap');
+    }, []);
 
     const ComponentChange = (componentName) => {
         setComponentName(componentName);

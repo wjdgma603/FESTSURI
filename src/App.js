@@ -33,11 +33,6 @@ function App() {
         <Route path='/exhibition' element={<Exhibition />} />
         <Route path='/exbition/detail' element={<PtyExbDetail />} />
         <Route path='/board' element={<Board />} />
-        <Route path='/board/NftCrt' element={''} />
-        <Route path='NoticeDetail' element={''} />
-        <Route path='InquiryDetail' element={''} />
-        <Route path='InquiryCreate' element={''} />
-        <Route path='FAQ' element={''} />
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/introduce' element={<Introduce />} />
       </Routes>
