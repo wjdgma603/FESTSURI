@@ -17,7 +17,7 @@ function Party(){
             </ul>
             <section className="party_poster1">
               {Party_comp.map((ParComp)=>
-                 <Party_poster {...ParComp} />
+                 <Party_poster key={ParComp.id} {...ParComp} />
                  )}
             </section>
             </section>

@@ -10,7 +10,7 @@ import Board from './components/Pages/Board/Board';
 import Gallery from './components/Pages/Gallery/Gallery';
 import Party_sub from './components/Pages/PtyExbDetail/Party_sub.js';
 import Introduce from './components/Pages/Introduce/Introduce';
-import PtyExbDetail from './components/Pages/PtyExbDetail/PtyExbDetail';
+// import PtyExbDetail from './components/Pages/PtyExbDetail/PtyExbDetail';
 import Footer from './components/Footer/Footer';
 import Login from './components/Pages/Personal/Login';
 import { useState, useEffect } from 'react';
