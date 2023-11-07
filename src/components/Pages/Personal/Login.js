@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import './Login.css'
+
 
 const Login = ({IsFooterLoaded}) => {
     IsFooterLoaded()
@@ -7,7 +9,7 @@ const Login = ({IsFooterLoaded}) => {
             <article className="Login_LogoSection">
                 <svg version="1.1" id="Layer_1" x="0px" y="0px"viewBox="0 0 200 35.7" enableBackground="new 0 0 200 35.7">
                     <g>
-                    <linearGradient id="Login_LogoGradient"gradientUnits="userSpaceOnUse"x1="0.3345"y1="20.2"x2="199.7684"y2="20.2"gradientTransform="matrix(1 0 0 -1 0 38)">
+                    <linearGradient id="Login_LogoGradient" gradientUnits="userSpaceOnUse"x1="0.3345"y1="20.2"x2="199.7684"y2="20.2"gradientTransform="matrix(1 0 0 -1 0 38)">
                         <stop offset="0" stopColor="#43CEA2"/>
                         <stop offset="1" stopColor="#185A9D"/>
                     </linearGradient>
@@ -25,19 +27,34 @@ const Login = ({IsFooterLoaded}) => {
             <article className="Login_InputSection">
                 <form name="LoginData" acceptCharset="utf-8" method="post">
                     <div className="ID_Text">아이디</div>
-                    <input type="text"></input>
+                    <input type="text" placeholder="아이디를 입력하세요"></input>
                     <div className="Password_Text">비밀번호</div>
-                    <input type="password"></input>
-                    <input type="checkbox"></input>
-                    <Link to="">아이디 찾기</Link>
-                    <Link to="">비밀번호 찾기</Link>
+                    <input type="current-password" placeholder="비밀번호를 입력하세요"></input>
+                    <div className="Login_FindAndSave">
+                        <div className="SaveMyId">
+                            <label className="SaveMyIdLabel" htmlFor="SaveIdInput">
+                                <input id="SaveIdInput" type="checkbox"></input>
+                                <div className="SVG_AnimateWrap">
+                                    <svg viewBox="0 0 20 20">
+                                        <path d="M3,1 L17,1 L17,1 C18.1045695,1 19,1.8954305 19,3 L19,17 L19,17 C19,18.1045695 18.1045695,19 17,19 L3,19 L3,19 C1.8954305,19 1,18.1045695 1,17 L1,3 L1,3 C1,1.8954305 1.8954305,1 3,1 Z"></path>
+                                        <polyline points="4 11 8 15 16 6"></polyline>
+                                    </svg>
+                                </div>
+                            </label>
+                            <div>아이디 저장</div>
+                        </div>
+                        <div className="FindMyAccount">
+                            <Link to="">아이디 찾기</Link>
+                            <Link to="">비밀번호 찾기</Link>
+                        </div>
+                    </div>
                     <div className="JoinUs">
                         <div className="JoinUs_Text">페스츠리 회원이 되어보세요</div>
                         <div className="JoinUs_Button">
                             <Link to=''>회원가입</Link>
                         </div>
                     </div>
-                    <input type="submit" value={'로그인'}></input>
+                    <input className="SubmitBtn" type="submit" value={'로그인'}></input>
                 </form>
             </article>
             
