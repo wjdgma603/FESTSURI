@@ -1,10 +1,23 @@
 .Header{
-    border-bottom : 1px solid #ddd;
-    background: rgba(0, 0, 0, 0.50);
+    background: #fff;
+}
+.Header_NavUl>li>a{
+    color: #222;
+}
+.Header_Personal>a{
+    color: #222;
+}
+.darkmodebox{
+    background-color: #333;
+}
+/* 색상 변경 모아보기 전용, 이후 정리 */
+.Header{
     height: 80px;
     position: fixed;
     width: 100%;
     z-index: 10;
+    border-bottom : 1px solid #ddd;
+    transition: all .2s ease-in-out;
 }
 /* Header Fixed 적용 */
 .headerWrap{
@@ -17,10 +30,7 @@
 .Header_logo{
     width: 200px;
 }
-.Header_logo>a>svg{
-    fill: #ddd;
-    stroke: #ddd;
-}
+
 /* Header_logo svg 크기 지정 */
 .Header_Navigate{
     width: 800px;
@@ -38,7 +48,6 @@
     justify-content: space-between;
 }
 .Header_NavUl>li>a{
-    color: #fff;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -53,7 +62,6 @@
     margin-right: 30px;
     font-size: 16px;
     font-weight: 400;
-    color: #fff;
     position: relative;
 }
 .Header_Personal>a:last-of-type{
@@ -61,10 +69,10 @@
 }
 .Header_Personal>a:not(:last-of-type)::after{
     content: '';
+    border-right: 1px solid #fff;
     display: inline-block;
     width: 0px;
     height: 14px;
-    border-right: 1px solid #fff;
     position: absolute;
     right: -17px;
     transform: translate(-50%, 50%);
@@ -74,5 +82,4 @@
     width: 90px;
     height: 40px;
     border-radius: 20px;
-    background-color: #333;
 }

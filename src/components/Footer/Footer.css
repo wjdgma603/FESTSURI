@@ -1,0 +1,169 @@
+.Footer{
+    width: 100%;
+    height: 560px;
+    background: #333;
+}
+.Footer_Wrap{
+    width: 1400px;
+    margin: 0 auto;
+}
+.Footer_FirstWrap{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 70px;
+    padding: 20px 330px 20.5px 10px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.50);
+}
+/* 푸터 첫번째 랩 속성 */
+
+.Footer_Navigate>ul{
+    display: flex;
+}
+.Footer_Navigate>ul>li>a{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.Footer_Navigate>ul>li:not(:last-of-type){
+    margin-right: 30px;
+    position: relative;
+}
+.Footer_Navigate>ul>li:not(:last-of-type)::after{
+    content: '';
+    border-right: 1px solid #fff;
+    display: inline-block;
+    width: 0px;
+    height: 16px;
+    position: absolute;
+    right: -17px;
+    transform: translate(-50%, 40%);
+}
+/* 푸터 네비게이션 */
+
+.Footer_Logo{
+    height: 31.5px; 
+}
+.Footer_Logo>svg{
+    height: 100%;
+    fill: #fff;
+}
+/* 푸터 로고 */
+
+
+.Footer_SNSWrap{
+    display: flex;
+    position: absolute;
+    right: 64px;
+    top: 20px;
+}
+
+.Footer_SNSWrap>div:not(:last-of-type){
+    margin-right: 20px;
+}
+
+.Footer_SNSWrap>div>a{
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    width: 33px;
+    height: 33px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 17.5px;
+}
+/* 첫 섹션 완료 */
+.Footer_SecondWrap{
+    display: flex;
+    justify-content: space-between;
+}
+.Footer_InfoWrap{
+    height: 252px;
+}
+.Footer_Notice{
+    display: flex;
+    margin: 20px 0;
+}
+.Footer_Notice>li:not(:last-of-type){
+    margin-right: 30px;
+}
+.Footer_Notice>li>a{
+    color: #ddd;
+    font-size: 16px;
+    font-weight: 500;
+}
+.Footer_Notice .BoldNotice>a{
+    font-weight: 700;
+}
+/* 두번째 섹션 공지연결 텍스트  */
+
+.Footer_Info{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    width: 800px;
+}
+.Footer_Info>li{
+    color: #DDD;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+.Footer_Info>li:not(:last-of-type){
+    margin-right: 20px;
+}
+.Footer_Info>li:not(:nth-last-of-type(2n+1):nth-last-of-type(-n+3))::after{
+    content: '';
+    border-right: 1px solid #fff;
+    display: inline-block;
+    width: 0px;
+    height: 16px;
+    position: absolute;
+    right: -12px;
+    transform: translate(-50%, 35%);
+}
+/* 두번째 섹션 Footer Info 아이템 */
+
+.Footer_CSWrap{
+    width: 280px;
+    padding: 30px 0 50px 20px;
+}
+.Footer_CSWrap>.CSText{
+    color: #DDD;
+    font-size: 18px;
+    font-weight: 500;
+}
+.Footer_CSWrap>.CSNumber{
+    color: #DDD;
+    font-size: 32px;
+    font-weight: 500;
+}
+.Footer_CSWrap>div:nth-last-of-type(-n+3){
+    margin-top: 15px;
+    color: #DDD;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+.Footer_CSWrap>div:nth-last-of-type(-n+3)::after{
+    content: '';
+    width: 4px;
+    height: 4px;
+    background-color: #ddd;
+    border-radius: 2px;
+    position: absolute;
+    left: -10px;
+    top: 11.5px;
+}
+/* 고객센터 랩 완료 */
+
+
+.Footer_CopyrightSection{
+    border-top: 1px solid rgba(255, 255, 255, 0.50);
+    padding-top: 5px;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 400;
+}
