@@ -1,0 +1,602 @@
+[
+    {
+        "FAQId": 1,
+        "FAQTitle": "예약을 취소했을 때 반환되는 금액이 궁금합니다.",
+        "FAQContent": "예약 취소 시간에 따라 금액이 달라질 수 있습니다.",
+        "FAQWriter": "취소 마감 시간은 관람일 전일 오후 5시까지 가능하며, 당일 예매 건에 대해서는 취소가 불가합니다.\n예매 후 7일 이내인 경우 전액 환불,\n관람일 9일 전에서 7일 전 사이에는 티켓 금액의 10%를 수수료로 부과,\n관람일 6일 전에서 3일 전 사이에는 티켓 금액의 20%를 수수료로 부과,\n관람일 2일 전에서 1일 전 사이에는 티켓 금액의 30%를 수수료로 부과됩니다.\n\n배송 티켓의 경우에는 고객센터로 꼭 반송되어야 취소가 가능하니 이 점 꼭 숙지하시길 바랍니다."
+    },
+    {
+        "FAQId": 2,
+        "FAQTitle": "회원가입은 어떻게 하나요?",
+        "FAQContent": "회원가입은 우측상단 버튼",
+        "FAQWriter": "회원가입은 무료이며 홈페이지 메인화면의 우측 상단에서 [회원가입]을 통해서 가입하실 수 있습니다."
+    },
+    {
+        "FAQId": 3,
+        "FAQTitle": "개인회원으로 가입하면 어떤 혜택이 있나요?",
+        "FAQContent": "개인회원 가입하면 앱과 연동됩니다.",
+        "FAQWriter": "1. 자신만에 프로필을 설정할 수 있습니다. 2. 좋아하는 행사의 종류와 혜택등이 나오면 알람을 받아볼 수 있습니다."
+    },
+    {
+        "FAQId": 4,
+        "FAQTitle": "알람, 북마크 기능은 무엇인가요?",
+        "FAQContent": "알람과 북마크는 개인회원 기능이며",
+        "FAQWriter": "회원분이 체크하신 내용에 행사알람이 가며 주기적으로 진행하는 행사 또는 기억에 남는 행사를 북마크 해 두실 수 있습니다."
+    },
+    {
+        "FAQId": 5,
+        "FAQTitle": "마이페이지는 어디에 있나요?",
+        "FAQContent": "마이페이지 위치는 로그인 후",
+        "FAQWriter": "홈페이지에 접속하여 로그인하신 후 로그인 화면 하단에서 [마이페이지]를 확인하실 수 있습니다."
+    },
+    {
+        "FAQId": 6,
+        "FAQTitle": "삭제된 글/댓글을 복구할 수 있나요?",
+        "FAQContent": "삭제된 글/댓글은 복구가 불가능합니다.",
+        "FAQWriter": "삭제된 글/댓글은 내가만든 서버에서도 삭제되므로 복구가 어렵습니다. ㅋ"
+    },
+    {
+        "FAQId": 7,
+        "FAQTitle": "회원이 아닌 사람도 이벤트에 참여할 수 있나요?",
+        "FAQContent": "네 가능합니다.",
+        "FAQWriter": "회원같은경우 사이트 내에서 파일첨부가 가능하지만 회원이 아니면 메일로 보내주셈 ㅋ"
+    },
+    {
+        "FAQId": 8,
+        "FAQTitle": "8질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 9,
+        "FAQTitle": "9질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 10,
+        "FAQTitle": "10질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 11,
+        "FAQTitle": "11질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 12,
+        "FAQTitle": "12질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 13,
+        "FAQTitle": "13질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 14,
+        "FAQTitle": "14질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 15,
+        "FAQTitle": "15질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 16,
+        "FAQTitle": "16질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 17,
+        "FAQTitle": "17질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 18,
+        "FAQTitle": "18질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 19,
+        "FAQTitle": "19질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 20,
+        "FAQTitle": "20질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 21,
+        "FAQTitle": "21질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 22,
+        "FAQTitle": "22질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 23,
+        "FAQTitle": "23질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 24,
+        "FAQTitle": "24질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 25,
+        "FAQTitle": "25질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 26,
+        "FAQTitle": "26질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 27,
+        "FAQTitle": "27질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 28,
+        "FAQTitle": "28질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 29,
+        "FAQTitle": "29질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 30,
+        "FAQTitle": "30질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 31,
+        "FAQTitle": "31질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 32,
+        "FAQTitle": "32질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 33,
+        "FAQTitle": "33질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 34,
+        "FAQTitle": "34질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 35,
+        "FAQTitle": "35질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 36,
+        "FAQTitle": "36질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 37,
+        "FAQTitle": "37질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 38,
+        "FAQTitle": "38질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 39,
+        "FAQTitle": "39질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 40,
+        "FAQTitle": "40질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 41,
+        "FAQTitle": "41질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 42,
+        "FAQTitle": "42질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 43,
+        "FAQTitle": "43질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 44,
+        "FAQTitle": "44질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 45,
+        "FAQTitle": "45질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 46,
+        "FAQTitle": "46질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 47,
+        "FAQTitle": "47질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 48,
+        "FAQTitle": "48질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 49,
+        "FAQTitle": "49질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 50,
+        "FAQTitle": "50질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 51,
+        "FAQTitle": "51질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 52,
+        "FAQTitle": "52질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 53,
+        "FAQTitle": "53질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 54,
+        "FAQTitle": "54질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 55,
+        "FAQTitle": "55질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 56,
+        "FAQTitle": "56질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 57,
+        "FAQTitle": "57질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 58,
+        "FAQTitle": "58질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 59,
+        "FAQTitle": "59질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 60,
+        "FAQTitle": "60질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 61,
+        "FAQTitle": "61질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 62,
+        "FAQTitle": "62질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 63,
+        "FAQTitle": "63질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 64,
+        "FAQTitle": "64질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 65,
+        "FAQTitle": "65질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 66,
+        "FAQTitle": "66질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 67,
+        "FAQTitle": "67질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 68,
+        "FAQTitle": "68질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 69,
+        "FAQTitle": "69질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 70,
+        "FAQTitle": "70질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 71,
+        "FAQTitle": "71질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 72,
+        "FAQTitle": "72질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 73,
+        "FAQTitle": "73질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 74,
+        "FAQTitle": "74질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 75,
+        "FAQTitle": "75질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 76,
+        "FAQTitle": "76질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 77,
+        "FAQTitle": "77질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 78,
+        "FAQTitle": "78질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 79,
+        "FAQTitle": "79질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 80,
+        "FAQTitle": "80질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 81,
+        "FAQTitle": "81질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 82,
+        "FAQTitle": "82질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 83,
+        "FAQTitle": "83질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 84,
+        "FAQTitle": "84질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 85,
+        "FAQTitle": "85질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 86,
+        "FAQTitle": "86질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 87,
+        "FAQTitle": "87질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 88,
+        "FAQTitle": "88질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 89,
+        "FAQTitle": "89질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 90,
+        "FAQTitle": "90질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 91,
+        "FAQTitle": "91질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 92,
+        "FAQTitle": "92질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 93,
+        "FAQTitle": "93질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 94,
+        "FAQTitle": "94질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 95,
+        "FAQTitle": "95질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 96,
+        "FAQTitle": "96질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 97,
+        "FAQTitle": "97질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 98,
+        "FAQTitle": "98질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 99,
+        "FAQTitle": "99질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    },
+    {
+        "FAQId": 100,
+        "FAQTitle": "100질문",
+        "FAQContent": "답변제목",
+        "FAQWriter": "내용"
+    }
+]
