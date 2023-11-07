@@ -504,3 +504,23 @@
     transform-origin: center center;
 }
 /* Span 호버 */
+
+
+.Footer_SNSWrap>div>a{
+    display: inline-block;
+    overflow: hidden;
+}
+.Footer_SNSWrap>.Kakaotalk_Icon:hover .st0{
+    fill: #F8DF00;
+}
+.Footer_SNSWrap>.Kakaotalk_Icon:hover .st1{
+    fill: #3B1C1C;
+}
+.Footer_SNSWrap>.Kakaotalk_Icon .st0{
+    fill: rgba(255,255,255,0.2);
+    transition: fill .5s ease-in-out;
+}
+.Footer_SNSWrap>.Kakaotalk_Icon .st1{
+    fill: rgba(255, 255, 255, 0.5);
+    transition: fill .5s ease-in-out;
+}
