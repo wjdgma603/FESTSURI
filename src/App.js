@@ -26,6 +26,7 @@ function App() {
     }, []);
     return isLoaded;
   }
+  // 컴포넌트 마운트 시 True, 언마운트시 False 반환.
   return (
     <div className="App">
       <Header Loaded={isLoaded}/>
