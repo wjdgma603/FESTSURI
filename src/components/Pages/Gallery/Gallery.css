@@ -1,0 +1,146 @@
+.Gallery {
+    padding-top: 80px;
+}
+
+
+.Gall_GridSection {
+    margin: 0 auto;
+    width: 1280px;
+    height: 1545px;
+
+   
+}
+
+.Gall_GridContainer {
+    grid-template-columns: 225px 225px 225px 225px 225px;
+    grid-template-rows: 225px 225px 225px 225px 225px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    gap: 39px;
+   
+   
+
+}
+.Gall_GridItem:nth-child(1) {
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    
+
+}
+.Gall_GridItem:nth-child(2) {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.Gall_GridItem:nth-child(3) {
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.Gall_GridItem:nth-child(4) {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 4;
+	grid-column-end: 6;   
+}
+.Gall_GridItem:nth-child(5) {
+    grid-row-start: 2;
+    grid-row-end: 3;    
+}
+.Gall_GridItem:nth-child(6) {
+    grid-row-start: 2;
+    grid-row-end: 3;    
+}
+.Gall_GridItem:nth-child(7) {
+    grid-column-start: 1;
+	grid-column-end: 3;     
+}
+.Gall_GridItem:nth-child(8) {
+    grid-column-start: 3;
+    grid-column-end: 4;  
+}
+.Gall_GridItem:nth-child(9) {
+    grid-column-start: 4;
+    grid-column-end: 4;  
+}
+.Gall_GridItem:nth-child(10) {
+    grid-column-start: 5;
+    grid-column-end: 5;  
+}
+.Gall_GridItem:nth-child(11) {
+    grid-row-start: 4;
+    grid-row-end: 6;  
+}
+.Gall_GridItem:nth-child(12) {
+    grid-row-start: 4;
+    grid-row-end: 6; 
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.Gall_GridItem:nth-child(13) {
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+.Gall_GridItem:nth-child(14) {
+    grid-column-start: 4;
+    grid-column-end: 4; 
+}
+.Gall_GridItem:nth-child(15) {
+    grid-column-start: 5;
+    grid-column-end: 5; 
+}
+.Gall_GridItem:nth-child(15) {
+    grid-column-start: 5;
+    grid-column-end: 5; 
+}
+.Gall_GridItem:nth-child(16) { 
+    grid-column-start: 1;
+    grid-column-end: 2; 
+}
+.Gall_GridItem:nth-child(17) {
+    grid-column-start: 2;
+    grid-column-end: 4; 
+}
+.Gall_GridItem:nth-child(18) {
+    grid-column-start: 4;
+    grid-column-end: 6; 
+}
+
+
+
+/* -------------------Modal------------- */
+
+
+.GallModal-Content h5{
+    font-size: 18px;
+    position: relative;
+    padding-bottom: 20px;
+    bottom: 200px;
+    color: #fff;
+    text-align: center;
+}
+
+.GallJsonText{
+    font-size: 13px;
+    position: relative;
+    bottom: 200px;
+    color: #fff;
+    text-align: center;
+}
+
+.GallModalTop{
+    position: fixed;
+    width: 100%; height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999999;
+}
+
+.GallModal-Content img {
+   height: 500px;
+   border: 1px solid #fff;
+}
