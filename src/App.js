@@ -16,31 +16,41 @@ import { useState, useEffect } from 'react';
 
 function App() {
 
-  const [isLoaded, setIsLoaded] = useState(false);
-  function IsComponentLoaded() {
+  const [isHeaderLoaded, setIsHeaderLoaded] = useState(false);
+  function IsHeaderLoaded() {
     useEffect(() => {
-      setIsLoaded(true);
+      setIsHeaderLoaded(true);
       return () => {
-        setIsLoaded(false);
+        setIsHeaderLoaded(false);
       };
     }, []);
-    return isLoaded;
+    return isHeaderLoaded;
+  }
+  const [isFooterLoaded, setIsFooterLoaded] = useState(false);
+  function IsFooterLoaded() {
+    useEffect(() => {
+      setIsFooterLoaded(true);
+      return () => {
+        setIsHeaderLoaded(false);
+      };
+    }, []);
+    return isHeaderLoaded;
   }
   // 컴포넌트 마운트 시 True, 언마운트시 False 반환.
   return (
     <div className="App">
-      <Header Loaded={isLoaded}/>
+      <Header Loaded={isHeaderLoaded}/>
         <Routes>
-          <Route path='/' element={<Main itIsLoaded={IsComponentLoaded}/>}/>
+          <Route path='/' element={<Main IsHeaderLoaded={IsHeaderLoaded}/>}/>
           <Route path='/login' element={<Login/>}/>
           <Route path='/party' element={<Party/>}/>
           <Route path='/exhibition' element={<Exhibition/>}/>
           <Route path='/exbition/detail' element={<PtyExbDetail/>}/>
-          <Route path='/board' element={<Board/>}/>
+          <Route path='/board' element={<Board IsFooterLoaded={IsFooterLoaded}/>}/>
           <Route path='/gallery' element={<Gallery/>}/>
           <Route path='/introduce' element={<Introduce/>}/>
         </Routes>
-      <Footer/>
+      <Footer Loaded={isFooterLoaded}/>
     </div>
   );
 }
