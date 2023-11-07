@@ -3,6 +3,10 @@
     /* padding-top: 80px; */
 }
 
+.GallHeader{
+    padding-top: 80px;
+}
+
 
 .Gall_GridSection {
     margin: 0 auto;
@@ -108,31 +112,24 @@
 }
 
 
-
 /* -------------------Modal------------- */
 
 
 .GallModal-Content h5{
     font-size: 18px;
+     padding-bottom: 10px;
     position: relative;
-    padding-bottom: 10px;
-    left: 0;
     bottom: 120px;
     color: #fff;
     text-align: center;
 }
-
 .GallJsonText{
     font-size: 13px;
     position: relative;
-    left: 0;
     bottom: 120px;
     color: #fff;
-    text-align: center;
-
-  
+    text-align: center; 
 }
-
 .GallModalTop{
     position: fixed;
     width: 100%; height: 100vh;
@@ -145,7 +142,83 @@
     z-index: 999;
 }
 
+
 .GallModal-Content img {
    height: 500px;
    border: 1px solid #fff;
 }
+
+
+
+
+
+
+/* -----------페이지--------------------
+.brd_bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 150px 0;
+    
+}
+
+.brd_bottom>div:nth-child(1) {
+    width: 119.2px;
+}
+
+.brd_bottom>div:nth-child(2) {
+    display: flex;
+    gap: 5px;
+}
+
+.brd_bottom>div:nth-child(2)>div {
+    width: 30px;
+    height: 30px;
+    background: #EEE;
+    color: #888;
+    font-size: 13px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brd_bottom>div:nth-child(3) {
+    padding: 7px 32px;
+    background: #185A9D;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+.brd_bottom>div:nth-child(2)>.selected {
+    background-color: #295bde;
+    color: #fff;
+}
+
+.brd_bottom>div>div>i {
+    width: 10px;
+    height: 10px;
+}
+
+.brd_TapFirstPageBtn>i {
+    background: url(../Board/images/first_pge_tab_btn_icon.png) no-repeat;
+    background-size: contain;
+}
+
+.brd_TapPrevPageBtn>i {
+    background: url(../Board/images/before_tab_btn_icon.png) no-repeat;
+    background-size: contain;
+}
+
+.brd_TapNextPageBtn>i {
+    background: url(../Board/images/next_tab_btn_icon.png) no-repeat;
+    background-size: contain;
+}
+
+.brd_TapLastPageBtn>i {
+    background: url(../Board/images/back_tab_btn_icon.png) no-repeat;
+    background-size: contain;
+} */

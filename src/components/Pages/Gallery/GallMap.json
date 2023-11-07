@@ -1,0 +1,13 @@
+[
+{
+"name": "Marker 1",
+"latitude": 123.456,
+"longitude": 789.123
+}
+,
+{
+"name": "Marker 2",
+"latitude": 456.789,
+"longitude": 321.654
+}
+]

@@ -2,18 +2,94 @@
     margin: 0 auto;
 
 }
-.GallHeader .GallHeadBack{
-    width: 100%; height: 300px;
-    /* background-image: url(./images/image&text_001.jpg); */
-    background-position: center;
-    background: cover;
-    
 
-}
 .GallHeadBack h1{
     width: 100%;
     color: #FFF;
     font-size: 52px;
     font-weight: 700;
     padding: 175px 0px 50px 330px;
+    position: absolute;
+   
 }
+
+.GallHeader .GallHeadBack{
+    width: 100%; height: 300px;
+    background-position: center;
+    background: cover;
+    
+
+}
+
+
+
+
+/* ------페이지네이션----- */
+/* 
+.brd_bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 150px 0;
+}
+
+.brd_bottom>div:nth-child(1) {
+    width: 119.2px;
+}
+
+.brd_bottom>div:nth-child(2) {
+    display: flex;
+    gap: 5px;
+}
+
+.brd_bottom>div:nth-child(2)>div {
+    width: 30px;
+    height: 30px;
+    background: #EEE;
+    color: #888;
+    font-size: 13px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brd_bottom>div:nth-child(3) {
+    padding: 7px 32px;
+    background: #185A9D;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+.brd_bottom>div:nth-child(2)>.selected {
+    background-color: #295bde;
+    color: #fff;
+}
+
+.brd_bottom>div>div>i {
+    width: 10px;
+    height: 10px;
+}
+
+.brd_TapFirstPageBtn>i {
+    background: url(./images/icon/first_pge_tab_btn_icon.png) no-repeat;
+    background-size: contain;
+}
+
+.brd_TapPrevPageBtn>i {
+    background: url(./images/icon/before_tab_btn_icon.png) no-repeat;
+    background-size: contain;
+}
+
+.brd_TapNextPageBtn>i {
+    background: url(./images/icon/next_tab_btn_icon.png) no-repeat;
+    background-size: contain;
+}
+
+.brd_TapLastPageBtn>i {
+    background: url(./images/icon/back_tab_btn_icon.png) no-repeat;
+    background-size: contain;
+} */
