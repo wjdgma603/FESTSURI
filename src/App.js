@@ -116,7 +116,8 @@ function App() {
           <Route path='/Join/*' element={<Join IsFooterLoaded={IsFooterLoaded}/>}/>
           <Route path='/party/*' element={<Party/>}/>
           <Route path='/exhibition/*' element={<Exhibition/>}/>
-          <Route path='/exbition/detail/*' element={<Party_sub/>}/>
+          <Route path='/Party_sub/*' element={<Party_sub/>}/>
+          <Route path='/Exhibition_sub/*' element={<Exhibition_sub/>}/>
           <Route path='/board/*' element={<Board IsFooterLoaded={IsFooterLoaded}/>}/>
           <Route path='/gallery/*' element={<Gallery/>}/>
           <Route path='/introduce/*' element={<Introduce/>}/>

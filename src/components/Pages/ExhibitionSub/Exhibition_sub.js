@@ -31,7 +31,7 @@ function Exhibition_sub() {
                 </ul>
             </section>
             {Exhibition_list.map((list) => (
-                <div>
+                <div key={list.id}>
                     <section className='Exhibition_sub_hitop'>
                         <div className='Exhibition_sub_top'>
                             <img src={require('./images/ex' + list.id + '.png')}  />
