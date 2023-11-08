@@ -1,6 +1,6 @@
 .Gallery {
     margin: 0 auto;
-    /* padding-top: 80px; */
+
 }
 
 .GallHeader{
@@ -24,16 +24,21 @@
     display: grid;
     gap: 39px;
    
-   
-
 }
+
+.Gall_GridItem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
 .Gall_GridItem:nth-child(1) {
     grid-row-start: 1;
     grid-row-end: 2;
-
-    
-
 }
+
 .Gall_GridItem:nth-child(2) {
     grid-row-start: 1;
     grid-row-end: 3;
@@ -105,11 +110,15 @@
 .Gall_GridItem:nth-child(17) {
     grid-column-start: 2;
     grid-column-end: 4; 
+  
+  
 }
 .Gall_GridItem:nth-child(18) {
     grid-column-start: 4;
     grid-column-end: 6; 
+
 }
+
 
 
 /* -------------------Modal------------- */
@@ -147,10 +156,6 @@
    height: 500px;
    border: 1px solid #fff;
 }
-
-
-
-
 
 
 /* -----------페이지-------------------- */

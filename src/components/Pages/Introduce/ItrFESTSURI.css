@@ -1,28 +1,30 @@
 .Itr_FESTSURI{
     margin: 0 auto;
-    width: 1280px; height: 1182px;
-    padding: 200px 0 300px 0;
-
-
-
+    width: 1280px; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
-.Itr_FESTSURI{
+
+.Itr_FESTSURI>article{
+    width: 100%;
+}
+.Itr_FESTSURILogoWrap{
     position: relative;
+    z-index: 1;
 }
-
 .Itr_FestsuriLogo{
     width: 340.38px;
     height: 57.44px;
     position: absolute;
-    left: -30px;
-    top: 160px;
- 
+    left: 0px;
+    top: -30px;
+    z-index: -1;
 }
-
-.Itr_FestsuriLogo img{
-    width: 100%;
+.Itr_FestsuriLogo>svg{
+    fill: #222;
+    fill-opacity: .1;
 }
-
 
 .Itr_FESTSURI img{
     height: 75px;
@@ -37,27 +39,15 @@
     flex-wrap: wrap;
     padding: 80px 0 50px 0; 
 }
-.Itr_Fixe1>div{
-    width: 50%;
- 
+.Itr_Fixe1>div, .Itr_Fixe2>div{
+    flex: 1;
 }
-.Itr_Fixe2>div{
-    width: 50%;
-}
-.Itr_FESTSURI> .Itr_FestText{
+.Itr_FESTSURI> .Itr_FestText, .Itr_FESTSURI h2{
 color: #222;
 font-size: 32px;
 font-weight: 700;
 line-height: 150%;
 }
-
-.Itr_FESTSURI h2{
-color: #222;
-font-size: 32px;
-font-weight: 700;
-line-height: 150%; /* 48px */
-}
-
 .Itr_FESTSURI h3{
 color: #222;
 font-weight: 700;
