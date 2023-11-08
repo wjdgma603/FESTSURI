@@ -4,45 +4,45 @@ import { useEffect } from 'react'
 
 
 
-function Header({Loaded}) {
+function Header({Loaded, KakaoLogout, Data}) {
     useEffect(()=>{
       let SVGs = document.querySelectorAll('.Header_logoPath')
       let HeaderBG = document.querySelector('.Header')
       let NavigationFont = document.querySelectorAll('.Header_NavUl a')
       let PersonalMenu = document.querySelectorAll('.Header_Personal a')
-      let DarkModeBox = document.querySelector('.darkmodebox')
+      let ProfileBox = document.querySelector('.ProfileBox')
       if(Loaded){
         SVGs.forEach(Svg => {Svg.style.fill = "#ddd"})
         NavigationFont.forEach(NavFont =>{NavFont.style.color = "#fff"})
         PersonalMenu.forEach(PerMenuFont =>{PerMenuFont.style.color = "#fff"})
         HeaderBG.style.backgroundColor = "rgba(0,0,0,.5)"
-        DarkModeBox.style.backgroundColor = "#fff"
+        ProfileBox.style.backgroundColor = "#fff"
         window.addEventListener('scroll', function(){
           if(window.innerHeight - HeaderBG.clientHeight <= window.scrollY ){ //메인 1섹션 이후
           SVGs.forEach(Svg => {Svg.style.fill = "url(#Logo_Gradient)"})
           NavigationFont.forEach(NavFont =>{NavFont.style.color = "#222"})
           PersonalMenu.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
           HeaderBG.style.backgroundColor = "#fff"
-          DarkModeBox.style.backgroundColor = "#333"
+          ProfileBox.style.backgroundColor = "#333"
           }else if(window.innerHeight - HeaderBG.clientHeight >= window.scrollY){ // 메인 1섹션 이전
           SVGs.forEach(Svg => {Svg.style.fill = "#ddd"})
           NavigationFont.forEach(NavFont =>{NavFont.style.color = "#fff"})
           PersonalMenu.forEach(PerMenuFont =>{PerMenuFont.style.color = "#fff"})
           HeaderBG.style.backgroundColor = "rgba(0,0,0,.5)"
-          DarkModeBox.style.backgroundColor = "#fff"
+          ProfileBox.style.backgroundColor = "#fff"
           }}) //window 이벤트 함수 종료
       }else{
         SVGs.forEach(Svg => {Svg.style.fill = "url(#Logo_Gradient)"})
         NavigationFont.forEach(NavFont =>{NavFont.style.color = "#222"})
         PersonalMenu.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
         HeaderBG.style.backgroundColor = "#fff"
-        DarkModeBox.style.backgroundColor = "#333"
+        ProfileBox.style.backgroundColor = "#333"
         window.addEventListener('scroll', function(){
           SVGs.forEach(Svg => {Svg.style.fill = "url(#Logo_Gradient)"})
           NavigationFont.forEach(NavFont =>{NavFont.style.color = "#222"})
           PersonalMenu.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
           HeaderBG.style.backgroundColor = "#fff"
-          DarkModeBox.style.backgroundColor = "#333"
+          ProfileBox.style.backgroundColor = "#333"
           })
       }
     },[Loaded])
@@ -83,9 +83,11 @@ function Header({Loaded}) {
             </div>
             <div className='Header_Personal'>
               <Link to='/login'>로그인</Link>
-              <Link to=''>회원가입</Link>
+              <Link to='/Join'>회원가입</Link>
               <Link to=''>ENGLISH</Link>
-              <div className='darkmodebox'></div>
+              <div className='ProfileBox'>
+                <img src={Data.profileImg}></img>
+              </div>
             </div>
           </div>
       </header>

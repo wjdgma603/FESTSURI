@@ -1,0 +1,88 @@
+.JoinSection{
+    padding-top: 80px;
+    height: calc(100vh - 145px);
+}
+
+.Join_LogoSection{
+    margin: 70px auto;
+    width: 360px;
+}
+.Join_LogoSection>a>svg{
+    fill: #888888;
+    cursor: pointer;
+    transition: fill .5s ease-in-out;
+}
+.Join_LogoSection>a:hover>svg{
+    fill: #295BDE;
+}
+
+.JoinLinkWrap{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+}
+
+.JoinLinkWrap>div{
+    width: 400px;
+    height: 175px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.JoinLinkWrap>.Kakaotalk_Join{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8DF00;
+    position: relative;
+}
+
+.JoinLinkWrap>.Kakaotalk_Join>.Kakaotalk_LogoWrap{
+    width: 120px;
+}
+.JoinLinkWrap>.Kakaotalk_Join>.kakaotalk_TextWrap>div{
+    color: #3B1C1C;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -1.28px;
+    position: relative;
+    top: -4px;
+}
+.KakaoYellow{fill:#F8DF00;}
+.KakaoBrown{fill:#3B1C1C;}
+
+.JoinLinkWrap>.FESTSURI_Join{
+    background-color: #888;
+    transition: background-color .5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.JoinLinkWrap>.FESTSURI_Join>.FESTSURI_LogoWrap{
+    width: 230px;
+}
+.JoinLinkWrap>.FESTSURI_Join>.FESTSURI_LogoWrap>svg{
+    fill: #ddd;
+    transition: fill .5s ease-in-out;
+}
+.JoinLinkWrap>.FESTSURI_Join>.FESTSURI_TextWrap{
+    color: #DDD;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -1.28px;
+    transition: color .5s ease-in-out;
+}
+
+.JoinLinkWrap>.FESTSURI_Join:hover{
+    background-color: #295BDE;
+}
+.JoinLinkWrap>.FESTSURI_Join:hover>.FESTSURI_LogoWrap>svg{
+    fill: #FFF;
+}
+.JoinLinkWrap>.FESTSURI_Join:hover>.FESTSURI_TextWrap{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -1.28px;
+}
