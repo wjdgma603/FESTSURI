@@ -1,14 +1,15 @@
 .Gallery {
-    padding-top: 80px;
+    margin: 0 auto;
 }
 
+.GallHeader{
+    padding-top: 80px;
+}
 
 .Gall_GridSection {
     margin: 0 auto;
     width: 1280px;
     height: 1545px;
-
-   
 }
 
 .Gall_GridContainer {
@@ -19,16 +20,21 @@
     display: grid;
     gap: 39px;
    
-   
-
 }
+
+.Gall_GridItem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
 .Gall_GridItem:nth-child(1) {
     grid-row-start: 1;
     grid-row-end: 2;
-
-    
-
 }
+
 .Gall_GridItem:nth-child(2) {
     grid-row-start: 1;
     grid-row-end: 3;
@@ -89,58 +95,115 @@
     grid-column-start: 5;
     grid-column-end: 5; 
 }
-.Gall_GridItem:nth-child(15) {
-    grid-column-start: 5;
-    grid-column-end: 5; 
-}
+
 .Gall_GridItem:nth-child(16) { 
     grid-column-start: 1;
     grid-column-end: 2; 
 }
 .Gall_GridItem:nth-child(17) {
     grid-column-start: 2;
-    grid-column-end: 4; 
+    grid-column-end: 4;
+
 }
 .Gall_GridItem:nth-child(18) {
     grid-column-start: 4;
     grid-column-end: 6; 
+
 }
-
-
 
 /* -------------------Modal------------- */
 
-
 .GallModal-Content h5{
     font-size: 18px;
+    padding-bottom: 10px;
     position: relative;
-    padding-bottom: 20px;
-    bottom: 200px;
+    bottom: 120px;
     color: #fff;
     text-align: center;
 }
-
 .GallJsonText{
     font-size: 13px;
     position: relative;
-    bottom: 200px;
+    bottom: 120px;
     color: #fff;
-    text-align: center;
+    text-align: center; 
 }
-
 .GallModalTop{
     position: fixed;
     width: 100%; height: 100vh;
     background-color: rgba(0, 0, 0, 0.5);
     left: 0;
-    top: 0;
+    top: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 99999999;
+    z-index: 999;
+    
 }
 
 .GallModal-Content img {
    height: 500px;
    border: 1px solid #fff;
+   
+}
+
+
+
+/* -----------페이지-------------------- */
+
+.Gall_tab_container {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 150px 0;
+}
+
+.Gall_tab {
+    display: flex;
+    gap: 5px;
+}
+
+.Gall_tab>div {
+    width: 30px;
+    height: 30px;
+    background: #EEE;
+    color: #888;
+    font-size: 13px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.Gallery .Gall_tab .selectedTab {
+    background-color: #295bde;
+    color: #fff;
+}
+
+.brd_bottom>div>div>i {
+    width: 10px;
+    height: 10px;
+}
+
+.brd_TapFirstPageBtn>i {
+    background: url(../Board/images/first_pge_tab_btn_icon.png) no-repeat;
+    background-size: contain;
+}
+
+.brd_TapPrevPageBtn>i {
+    background: url(../Board/images/before_tab_btn_icon.png) no-repeat;
+    background-size: contain;
+}
+
+.brd_TapNextPageBtn>i {
+    background: url(../Board/images/next_tab_btn_icon.png) no-repeat;
+    background-size: contain;
+}
+
+.brd_TapLastPageBtn>i {
+    background: url(../Board/images/back_tab_btn_icon.png) no-repeat;
+    background-size: contain;
 }
