@@ -15,13 +15,13 @@
         "FAQId": 3,
         "FAQTitle": "개인회원으로 가입하면 어떤 혜택이 있나요?",
         "FAQContent": "개인회원 가입하면 앱과 연동됩니다.",
-        "FAQWriter": "1. 자신만에 프로필을 설정할 수 있습니다. 2. 좋아하는 행사의 종류와 혜택등이 나오면 알람을 받아볼 수 있습니다."
+        "FAQWriter": "1. 자신만에 프로필을 설정할 수 있습니다. \n2. 좋아하는 행사의 종류와 혜택등이 나오면 알람을 받아볼 수 있습니다."
     },
     {
         "FAQId": 4,
         "FAQTitle": "알람, 북마크 기능은 무엇인가요?",
         "FAQContent": "알람과 북마크는 개인회원 기능이며",
-        "FAQWriter": "회원분이 체크하신 내용에 행사알람이 가며 주기적으로 진행하는 행사 또는 기억에 남는 행사를 북마크 해 두실 수 있습니다."
+        "FAQWriter": "회원분이 체크하신 내용에 행사알람이 가며\n주기적으로 진행하는 행사 또는 기억에 남는 행사를 북마크 해 두실 수 있습니다."
     },
     {
         "FAQId": 5,
@@ -33,570 +33,102 @@
         "FAQId": 6,
         "FAQTitle": "삭제된 글/댓글을 복구할 수 있나요?",
         "FAQContent": "삭제된 글/댓글은 복구가 불가능합니다.",
-        "FAQWriter": "삭제된 글/댓글은 내가만든 서버에서도 삭제되므로 복구가 어렵습니다. ㅋ"
+        "FAQWriter": "삭제된 글/댓글은 내가만든 서버에서도 삭제되므로 복구가 어렵습니다."
     },
     {
         "FAQId": 7,
         "FAQTitle": "회원이 아닌 사람도 이벤트에 참여할 수 있나요?",
         "FAQContent": "네 가능합니다.",
-        "FAQWriter": "회원같은경우 사이트 내에서 파일첨부가 가능하지만 회원이 아니면 메일로 보내주셈 ㅋ"
+        "FAQWriter": "회원같은경우 사이트 내에서 파일첨부가 가능하지만 회원이 아니면 메일로 보내주세요."
     },
     {
         "FAQId": 8,
-        "FAQTitle": "8질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
+        "FAQTitle": "주차장은 어디에 있나요?",
+        "FAQContent": "주차장이 있는 행사 장소가 있기도합니다.",
+        "FAQWriter": "하지만 대부분 주차장이 따로 마련되어 있지\n않으니 가급적 대중교통을 이용하시기 바랍니다."
     },
     {
         "FAQId": 9,
-        "FAQTitle": "9질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
+        "FAQTitle": "궁금한 점은 어디로 문의하면 되나요?",
+        "FAQContent": "대표번호 및 문의하기 탭",
+        "FAQWriter": "하단메뉴에 대표번호로 연락을 주시거나\n사이트 문의하기 또는 페스츠리 앱에서 문의하기 에서 문의 가능합니다."
     },
     {
         "FAQId": 10,
-        "FAQTitle": "10질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
+        "FAQTitle": "행사/전시 행사 중 음식물 반입이 가능한가요?",
+        "FAQContent": "반입은 어려우십니다.",
+        "FAQWriter": "타 관람객과 행사자에게 큰 방해가 되오니 가급적 삼가 주시면 감사하겠습니다.\n행사장 입장 전에 행사장 관계자들이 음식물 반입을 사전에 점검하여 반입을 불가토록 하고 있으니 이 점을 사전에\n고려해 주시기 부탁드립니다."
     },
     {
         "FAQId": 11,
-        "FAQTitle": "11질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
+        "FAQTitle": "짐을 맡길 수 있나요?",
+        "FAQContent": "행사장에 대부분 짐보관소가 있진 않습니다.",
+        "FAQWriter": "하지만 역근처 행사장같은경우 역내에 물품보관소가 있으니 참고 부탁드립니다."
     },
     {
         "FAQId": 12,
-        "FAQTitle": "12질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
+        "FAQTitle": "행사 도중에 밖에 나가거나 재입장할 수 있나요?",
+        "FAQContent": "가능하십니다.",
+        "FAQWriter": "하지만 행사 중 자리 이탈은 최대한 자제해 주시기 바랍니다.\n꼭 필요한 경우에는 좌우의 출입구를 통해, 다른 분을 배려하면서 출입해 주시기를 당부드립니다."
     },
     {
         "FAQId": 13,
-        "FAQTitle": "13질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
+        "FAQTitle": "감상할 때의 복장 규정이 있나요?",
+        "FAQContent": "편하게 오시면 됩니다.",
+        "FAQWriter": "특별한 규정은 없습니다. 캐주얼한 복장으로 부담 없이 오시기 바랍니다."
     },
     {
         "FAQId": 14,
-        "FAQTitle": "14질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
+        "FAQTitle": "유아 및 어린이 놀이방이 준비되어 있나요?",
+        "FAQContent": "별도의 놀이 공간이 준비되어 있지 않습니다.",
+        "FAQWriter": "유아 및 어린이를 위한 별도의 놀이 공간이 준비되어 있지 않습니다.\n다만 특정행사 같은경우 영유아와 보호자가 이용할 수 있는 수유실은 마련되어 있는 경우가 있습니다."
     },
     {
         "FAQId": 15,
-        "FAQTitle": "15질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
+        "FAQTitle": "탈퇴 후 재가입시 제한이 있나요?",
+        "FAQContent": "같은 아이디 같은경우 1주일",
+        "FAQWriter": "같은 아이디로 반복해서 탈퇴와 가입을 하시는건 제한이 있습니다.\n1주일간 아이디만 저장되어 중복으로 가입이 불가능하게 처리되니 참고 부탁드립니다."
     },
     {
         "FAQId": 16,
-        "FAQTitle": "16질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
+        "FAQTitle": "분실물 보관은 어떻게 이뤄지나요",
+        "FAQContent": "기간별로 위치가 변동됩니다.",
+        "FAQWriter": "해당 행사가 진행중이라면 행사장안에서 관리하지만\n행사 기간 종료후 1~10일 이내로 페스츠리본사로 물건이 보관되며 크기에 따라 일주일에서 2달간 보관후 패기처리 하고있습니다."
     },
     {
         "FAQId": 17,
-        "FAQTitle": "17질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
+        "FAQTitle": "무통장 입금은 언제까지 입금해야 하나요?",
+        "FAQContent": "예약후 4일이내입니다.",
+        "FAQWriter": "무통장 입금은 신청후 4일이내에만 가능하며, \n입금마감시간(3일 23시 59분까지)이 지나면 자동으로 취소됩니다."
     },
     {
         "FAQId": 18,
-        "FAQTitle": "18질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
+        "FAQTitle": "행사 당일 예매 가능한가요?",
+        "FAQContent": "당일 예매가 가능한 곳들이 있습니다.",
+        "FAQWriter": "행사 시작 2시간 전까지 인터넷과 고객센터를 통해 예매가능한 행사들이 존재하며 당일 현장 예매를 하는 행사들도 있습니다.\n단, 행사일 기준 1일 전 오후 5시 이후에는 티켓 취소 및 변경이 불가하오니 예매 시 참고 바랍니다. "
     },
     {
         "FAQId": 19,
-        "FAQTitle": "19질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
+        "FAQTitle": "결제 방법에는 어떠한 것들이 있나요?",
+        "FAQContent": "카드, 무통장, 가상계좌 등..",
+        "FAQWriter": "결제는 신용카드, 가상계좌 무통장 입금 등의 방법으로 결제 가능합니다."
     },
     {
         "FAQId": 20,
-        "FAQTitle": "20질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
+        "FAQTitle": "장애인 및 국가유공자 예매방법과 혜택을 알려 주세요",
+        "FAQContent": "넵 알려드리겠습니다.",
+        "FAQWriter": "장애인(복지카드소지자) 및 국가유공자(유공자증 소지자) 할인은 온라인, 매표소, 콜센터를 통해 할인 구매 가능하며, 동반 1인 포함 30% 할인 적용됩니다.\n예매 시 꼭 복지카드/유공자증 소지자 성함으로 진행해주시고, 관람 당일 매표소에 증빙자료를 지참하고 오셔서 본인이 수령해주시면 됩니다.\n※ 휠체어석 예매는 각 행사별 환경이 상이할 수 있습니다. 사전에 대표번호로 문의 주시기 바랍니다."
     },
     {
         "FAQId": 21,
-        "FAQTitle": "21질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
+        "FAQTitle": "행사 관람 연령이 따로 정해져 있나요?",
+        "FAQContent": "대부분 전체관람이나 특정 행사들에 있습니다.",
+        "FAQWriter": "행사별로 행사관람 연령제한이 상이합니다. 행사을 관람 전 반드시 확인하시기 바랍니다."
     },
     {
         "FAQId": 22,
-        "FAQTitle": "22질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 23,
-        "FAQTitle": "23질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 24,
-        "FAQTitle": "24질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 25,
-        "FAQTitle": "25질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 26,
-        "FAQTitle": "26질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 27,
-        "FAQTitle": "27질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 28,
-        "FAQTitle": "28질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 29,
-        "FAQTitle": "29질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 30,
-        "FAQTitle": "30질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 31,
-        "FAQTitle": "31질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 32,
-        "FAQTitle": "32질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 33,
-        "FAQTitle": "33질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 34,
-        "FAQTitle": "34질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 35,
-        "FAQTitle": "35질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 36,
-        "FAQTitle": "36질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 37,
-        "FAQTitle": "37질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 38,
-        "FAQTitle": "38질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 39,
-        "FAQTitle": "39질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 40,
-        "FAQTitle": "40질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 41,
-        "FAQTitle": "41질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 42,
-        "FAQTitle": "42질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 43,
-        "FAQTitle": "43질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 44,
-        "FAQTitle": "44질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 45,
-        "FAQTitle": "45질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 46,
-        "FAQTitle": "46질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 47,
-        "FAQTitle": "47질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 48,
-        "FAQTitle": "48질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 49,
-        "FAQTitle": "49질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 50,
-        "FAQTitle": "50질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 51,
-        "FAQTitle": "51질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 52,
-        "FAQTitle": "52질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 53,
-        "FAQTitle": "53질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 54,
-        "FAQTitle": "54질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 55,
-        "FAQTitle": "55질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 56,
-        "FAQTitle": "56질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 57,
-        "FAQTitle": "57질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 58,
-        "FAQTitle": "58질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 59,
-        "FAQTitle": "59질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 60,
-        "FAQTitle": "60질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 61,
-        "FAQTitle": "61질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 62,
-        "FAQTitle": "62질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 63,
-        "FAQTitle": "63질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 64,
-        "FAQTitle": "64질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 65,
-        "FAQTitle": "65질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 66,
-        "FAQTitle": "66질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 67,
-        "FAQTitle": "67질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 68,
-        "FAQTitle": "68질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 69,
-        "FAQTitle": "69질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 70,
-        "FAQTitle": "70질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 71,
-        "FAQTitle": "71질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 72,
-        "FAQTitle": "72질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 73,
-        "FAQTitle": "73질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 74,
-        "FAQTitle": "74질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 75,
-        "FAQTitle": "75질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 76,
-        "FAQTitle": "76질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 77,
-        "FAQTitle": "77질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 78,
-        "FAQTitle": "78질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 79,
-        "FAQTitle": "79질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 80,
-        "FAQTitle": "80질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 81,
-        "FAQTitle": "81질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 82,
-        "FAQTitle": "82질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 83,
-        "FAQTitle": "83질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 84,
-        "FAQTitle": "84질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 85,
-        "FAQTitle": "85질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 86,
-        "FAQTitle": "86질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 87,
-        "FAQTitle": "87질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 88,
-        "FAQTitle": "88질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 89,
-        "FAQTitle": "89질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 90,
-        "FAQTitle": "90질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 91,
-        "FAQTitle": "91질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 92,
-        "FAQTitle": "92질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 93,
-        "FAQTitle": "93질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 94,
-        "FAQTitle": "94질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 95,
-        "FAQTitle": "95질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 96,
-        "FAQTitle": "96질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 97,
-        "FAQTitle": "97질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 98,
-        "FAQTitle": "98질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 99,
-        "FAQTitle": "99질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
-    },
-    {
-        "FAQId": 100,
-        "FAQTitle": "100질문",
-        "FAQContent": "답변제목",
-        "FAQWriter": "내용"
+        "FAQTitle": "티켓을 분실했을 경우, 어떻게 해야 하나요?",
+        "FAQContent": "앱 가입되어 있다면 마이페이지",
+        "FAQWriter": "공연입장권은 소지자에게 우선권이 있으며, 예약정보 만으로는 입장하실 수는 없습니다. 분실하지 않도록 유의해주시기 바랍니다."
     }
 ]
