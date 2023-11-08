@@ -41,14 +41,14 @@ function App() {
     <div className="App">
       <Header Loaded={isHeaderLoaded}/>
         <Routes>
-          <Route path='/' element={<Main IsHeaderLoaded={IsHeaderLoaded}/>}/>
-          <Route path='/login' element={<Login IsFooterLoaded={IsFooterLoaded}/>}/>
-          <Route path='/party' element={<Party/>}/>
-          <Route path='/exhibition' element={<Exhibition/>}/>
-          <Route path='/exbition/detail' element={<PtyExbDetail/>}/>
-          <Route path='/board' element={<Board IsFooterLoaded={IsFooterLoaded}/>}/>
-          <Route path='/gallery' element={<Gallery/>}/>
-          <Route path='/introduce' element={<Introduce/>}/>
+          <Route path='/*' element={<Main IsHeaderLoaded={IsHeaderLoaded}/>}/>
+          <Route path='/login/*' element={<Login IsFooterLoaded={IsFooterLoaded}/>}/>
+          <Route path='/party/*' element={<Party/>}/>
+          <Route path='/exhibition/*' element={<Exhibition/>}/>
+          <Route path='/exbition/detail/*' element={<PtyExbDetail/>}/>
+          <Route path='/board/*' element={<Board IsFooterLoaded={IsFooterLoaded}/>}/>
+          <Route path='/gallery/*' element={<Gallery/>}/>
+          <Route path='/introduce/*' element={<Introduce/>}/>
         </Routes>
       <Footer FtLoaded={isFooterLoaded}/>
     </div>
