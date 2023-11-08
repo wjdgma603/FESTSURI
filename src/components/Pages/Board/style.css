@@ -318,6 +318,7 @@
     align-items: flex-start;
     gap: 30px;
     border-bottom: 1px solid #999;
+    white-space: pre-line;
 }
 
 .brd_IqryAnswer>h5 {

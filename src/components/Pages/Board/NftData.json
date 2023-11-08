@@ -1,795 +1,795 @@
 [
     {
         "NftId": 1,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "1번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 2,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "2번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 3,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "3번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 4,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "4번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 5,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "5번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 6,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "6번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 7,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "7번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 8,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "8번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 9,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "9번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 10,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "10번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 11,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "11번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 12,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "12번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 13,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "13번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 14,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "14번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 15,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "15번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 16,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "16번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 17,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "17번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 18,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "18번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 19,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "19번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 20,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "20번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 21,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "21번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 22,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "22번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 23,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "23번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 24,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "24번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 25,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "25번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 26,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "26번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 27,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "27번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 28,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "28번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 29,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "29번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 30,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "30번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 31,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "31번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 32,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "32번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 33,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "33번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 34,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "34번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 35,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "35번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 36,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "36번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 37,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "37번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 38,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "38번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 39,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "39번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 40,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "40번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 41,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "41번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 42,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "42번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 43,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "43번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 44,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "44번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 45,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "45번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 46,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "46번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 47,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "47번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 48,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "48번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 49,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "49번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 50,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "50번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 51,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "51번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 52,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "52번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 53,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "53번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 54,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "54번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 55,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "55번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 56,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "56번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 57,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "57번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 58,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "58번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 59,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "59번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 60,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "60번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 61,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "61번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 62,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "62번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 63,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "63번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 64,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "64번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 65,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "65번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 66,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "66번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 67,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "67번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 68,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "68번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 69,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "69번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 70,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "70번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 71,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "71번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 72,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "72번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 73,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "73번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 74,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "74번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 75,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "75번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 76,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "76번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 77,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "77번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 78,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "78번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 79,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "79번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 80,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "80번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 81,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "81번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 82,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "82번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 83,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "83번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 84,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "84번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 85,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "85번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-11-07"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 86,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "86번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-10-17"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 87,
-        "NftTitle": "타이틀_내용",
+        "NftTitle": "87번째 공지사항",
         "NftTopimg": "",
-        "NftContent": "내용들어가는곳",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-10-17"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 88,
-        "NftTitle": "타이틀_내용",
-        "NftTopimg": "Board/images/Nft/GOLD_Market.png",
-        "NftContent": "내용들어가는곳",
+        "NftTitle": "88번째 공지사항",
+        "NftTopimg": "",
+        "NftContent": "대 제목은 h6태그 안에 넣어주시고 내용은 p태그 안에 넣어주시면 알아서 줄바꿈 됩니다.",
         "Nftbottomimg": "",
         "NftWriter": "관리자",
-        "NftDay": "2023-10-18"
+        "NftDay": "2023-10-10"
     },
     {
         "NftId": 89,

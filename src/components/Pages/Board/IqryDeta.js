@@ -119,6 +119,7 @@ const IqryDeta = ({ IqryData, deleteIqry, UpdateIqryInfor, ComponentChange }) =>
                     <textarea
                         value={editedContent}
                         onChange={(e) => setEditedContent(e.target.value)}
+                        rows={editedContent.split('\n').length}
                     ></textarea>
                 ) : (
                     <p>{IqryData.IqryContent}</p>
@@ -129,7 +130,8 @@ const IqryDeta = ({ IqryData, deleteIqry, UpdateIqryInfor, ComponentChange }) =>
                 {isAEditing ? (
                     <textarea
                         value={editedAnswer} // 수정: editedAnswer로 변경
-                        onChange={(e) => setEditedAnswer(e.target.value)} // 수정: setEditedAnswer로 변경
+                        onChange={(e) => setEditedAnswer(e.target.value)}
+                        rows={editedContent.split('\n').length} // 수정: setEditedAnswer로 변경
                     ></textarea>
                 ) : (
                     <h5>{IqryData.Iqryanswer}</h5>
