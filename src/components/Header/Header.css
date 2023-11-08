@@ -58,12 +58,6 @@
     display: flex;
     align-items: center;
 }
-.Header_Personal>a{
-    margin-right: 30px;
-    font-size: 16px;
-    font-weight: 400;
-    position: relative;
-}
 .Header_Personal>a:last-of-type{
     margin-right: 15px;
 }
@@ -78,8 +72,30 @@
     transform: translate(-50%, 50%);
 }
 /* Header Personal 개인화메뉴  */
-.darkmodebox{
-    width: 90px;
+.ProfileBox{
+    width: 40px;
     height: 40px;
     border-radius: 20px;
+    overflow: hidden;
+}
+.ProfileBox>img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+.Header_Personal>div{
+    display: flex;
+    gap: 30px;
+    margin-right: 30px;
+}
+.Header_Personal>div>*{
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+.Header_Personal>.LogoutWrap>.LogoutBtn{
+    cursor: pointer;
+}
+.LogoutWrap>div{
+    font-size: 14px;
 }
