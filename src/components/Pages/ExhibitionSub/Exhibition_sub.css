@@ -1,21 +1,24 @@
-.Exhibition_sub{
+.Exhibition_sub {
     padding-top: 210px;
 }
 
-.Exhibition_sub_title{
+.Exhibition_sub_title {
     width: 1280px;
     margin: 0 auto;
 }
+
 .Exhibition_sub_hitop {
     width: 1280px;
     margin: 0 auto;
 }
+
 .Exhibition_go {
     display: flex;
     width: 150px;
     padding: 50px 0;
     justify-content: space-around;
 }
+
 .Exhibition_go>li>a {
     color: #666;
     font-size: 13px;
@@ -25,6 +28,7 @@
     border-radius: 50px;
     display: block;
 }
+
 .Exhibition_arrow::after {
     position: absolute;
     left: -8px;
@@ -36,6 +40,7 @@
     border-right: 2px solid #dddd;
     transform: rotate(45deg);
 }
+
 .Exhibition_arrow {
     position: relative;
 }
@@ -181,7 +186,7 @@
     bottom: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.8);
-    z-index:11;
+    z-index: 11;
 }
 
 .Exhibition_sub_map {
@@ -199,11 +204,9 @@
 }
 
 
-.Exhibition_sub_map_close{
+.Exhibition_sub_map_close {
     position: relative;
     top: -600px;
     width: 1920px;
-    height:1320px ;
+    height: 1320px;
 }
-
-

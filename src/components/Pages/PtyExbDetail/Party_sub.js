@@ -6,7 +6,7 @@ import { MapMarker, Map } from 'react-kakao-maps-sdk'
 function Party_sub() {
     const location = useLocation();
     const type = location.state;
-    const party_list = Party_sub_comp.filter((partyComp) => (partyComp.id === type.type))
+    const party_list = Party_sub_comp.filter((partyComp) => (partyComp.id === type.type));
 
 
     const [modal, setmodal] = useState(false);
@@ -55,7 +55,7 @@ function Party_sub() {
                                                             <MapMarker className='Party_sub_map_point' position={{ lat: list.lat, lng: list.lng }}>{list.marker}<div style={{ color: "#999" }}></div>
                                                             </MapMarker>
                                                         </Map>
-                                                        <div  className="Party_sub_map_close" onClick={Party_sub_modal2}></div>
+                                                        <div className="Party_sub_map_close" onClick={Party_sub_modal2}></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -74,7 +74,7 @@ function Party_sub() {
                         <div className='Parry_sub_main_start'>
                             <p className='Party_sub_center'>행사소개&안내</p>
                             <div className='Party_sub_party_line'></div>
-                            </div>
+                        </div>
                         <h2 className='Party_sub_partyInfo'>행사안내</h2>
                         <h4 className='Party_sub_partyInfo1'>프로그램안내</h4>
                         <pre className='Party_sub_json_list'>{list.party_info1}</pre>
