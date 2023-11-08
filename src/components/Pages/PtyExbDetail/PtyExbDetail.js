@@ -1,7 +1,7 @@
 const PtyExbDetail = () => {
-    return ( 
+    return (
         <div></div>
-     );
+    );
 }
- 
+
 export default PtyExbDetail;

@@ -1,8 +1,8 @@
 
-import './Exhibition_sub_poster.css'
+import './Exhibition_poster.css'
 
 const Exhibition_sub_poster = ({ id, title, sub_title1, sub_title2, sub_title3, sub_title4, sub_title5, sub_title6, sub_title7, sub_title8,
-    Exhibition_info1, Exhibition_info2}) => {
+    Exhibition_info1, Exhibition_info2 }) => {
     return (
         <div className='Exhibition_sub_poster'>
 
