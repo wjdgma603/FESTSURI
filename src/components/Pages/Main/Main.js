@@ -10,8 +10,8 @@ import mainTitleItem from './SubComponents/mainTitleItem.json'
 import MainTitleWrap from './SubComponents/mainTitleWrap';
 import MainEventSection from './SubComponents/MainEventSection';
 
-const Main = ({itIsLoaded}) => {
-    itIsLoaded();
+const Main = ({IsHeaderLoaded}) => {
+    IsHeaderLoaded();
     useEffect(() => {
         //GLTF Loader
         const gltfLoader = new GLTFLoader();
@@ -196,7 +196,7 @@ const Main = ({itIsLoaded}) => {
             <MainTitleWrap {...mainTitleItem[2]}/>
             <MainEventSection/>
             <section className='Main_ItrSection'>
-
+                
             </section>
         </main>
      );

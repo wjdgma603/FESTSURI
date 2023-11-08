@@ -1,83 +1,69 @@
-* {
-    font-family: 'Noto Sans KR', sans-serif;
-}
-
+*{font-family: 'Noto Sans KR',sans-serif;}
 /* Noto Sans KR 폰트 별 굵기, 리소스 요청 */
 @font-face {
     font-family: Noto Sans KR;
-    src: url(../public/font/Noto_Sans_KR/NotoSansKR-Thin.woff2) format('woff2');
+    src : url(../public/font/Noto_Sans_KR/NotoSansKR-Thin.woff2) format('woff2');
     font-weight: 100;
 }
-
 @font-face {
     font-family: Noto Sans KR;
-    src: url(../public/font/Noto_Sans_KR/NotoSansKR-Light.woff2) format('woff2');
+    src : url(../public/font/Noto_Sans_KR/NotoSansKR-Light.woff2) format('woff2');
     font-weight: 300;
 }
-
 @font-face {
     font-family: Noto Sans KR;
-    src: url(../public/font/Noto_Sans_KR/NotoSansKR-Regular.woff2) format('woff2');
+    src : url(../public/font/Noto_Sans_KR/NotoSansKR-Regular.woff2) format('woff2');
     font-weight: 400;
 }
-
 @font-face {
     font-family: Noto Sans KR;
-    src: url(../public/font/Noto_Sans_KR/NotoSansKR-Medium.woff2) format('woff2');
+    src : url(../public/font/Noto_Sans_KR/NotoSansKR-Medium.woff2) format('woff2');
     font-weight: 500;
 }
-
 @font-face {
     font-family: Noto Sans KR;
-    src: url(../public/font/Noto_Sans_KR/NotoSansKR-Bold.woff2) format('woff2');
+    src : url(../public/font/Noto_Sans_KR/NotoSansKR-Bold.woff2) format('woff2');
     font-weight: 700;
 }
-
 @font-face {
     font-family: Noto Sans KR;
-    src: url(../public/font/Noto_Sans_KR/NotoSansKR-Black.woff2) format('woff2');
+    src : url(../public/font/Noto_Sans_KR/NotoSansKR-Black.woff2) format('woff2');
     font-weight: 900;
 }
-
 /* Roboto 폰트 별 굵기, 리소스 요청, 영문 대소문자, 숫자만 적용 */
-@font-face {
+@font-face { 
     font-family: Noto Sans KR;
-    src: url(../public/font/Roboto/Roboto-Thin.woff2) format('woff2');
+    src : url(../public/font/Roboto/Roboto-Thin.woff2) format('woff2');
     unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
     font-weight: 100;
 }
-
-@font-face {
+@font-face { 
     font-family: Noto Sans KR;
-    src: url(../public/font/Roboto/Roboto-Light.woff2) format('woff2');
+    src : url(../public/font/Roboto/Roboto-Light.woff2) format('woff2');
     unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
     font-weight: 300;
 }
-
-@font-face {
+@font-face { 
     font-family: Noto Sans KR;
-    src: url(../public/font/Roboto/Roboto-Regular.woff2) format('woff2');
+    src : url(../public/font/Roboto/Roboto-Regular.woff2) format('woff2');
     unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
     font-weight: 400;
 }
-
-@font-face {
+@font-face { 
     font-family: Noto Sans KR;
-    src: url(../public/font/Roboto/Roboto-Medium.woff2) format('woff2');
+    src : url(../public/font/Roboto/Roboto-Medium.woff2) format('woff2');
     unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
     font-weight: 500;
 }
-
-@font-face {
+@font-face { 
     font-family: Noto Sans KR;
-    src: url(../public/font/Roboto/Roboto-Bold.woff2) format('woff2');
+    src : url(../public/font/Roboto/Roboto-Bold.woff2) format('woff2');
     unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
     font-weight: 700;
 }
-
-@font-face {
+@font-face { 
     font-family: Noto Sans KR;
-    src: url(../public/font/Roboto/Roboto-Black.woff2) format('woff2');
+    src : url(../public/font/Roboto/Roboto-Black.woff2) format('woff2');
     unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
     font-weight: 900;
 }
@@ -85,36 +71,14 @@
 /* 텍스트 기준 */
 
 /* 대제목 */
-h1 {
-    font-size: 40px;
-    font-weight: 700;
-    color: #111;
-    letter-spacing: -4%;
-}
-
+h1{font-size: 40px; font-weight: 700; color: #111; letter-spacing: -4%;}
 /* 중제목 */
-h2 {
-    font-size: 32px;
-    letter-spacing: -4%;
-}
-
+h2{font-size: 32px; letter-spacing: -4%;}
 /* 소제목 */
-h3 {
-    font-size: 24px;
-}
-
+h3{font-size: 24px;}
 /* 강조폰트 */
-h4 {
-    font-size: 20px;
-}
-
+h4{font-size: 20px;}
 /* 포인트폰트 */
-h5 {
-    font-size: 18px;
-    color: #222;
-}
-
+h5{font-size: 18px; color: #222;}
 /* 기본폰트 */
-p {
-    font-size: 16px;
-}
+p{font-size: 16px;} 
