@@ -87,7 +87,7 @@ const NftDeta = ({ NftData, deleteNft, UpdateNftInfor, ComponentChange }) => {
                         rows={editedContent.split('\n').length} // 현재 줄 수에 따라 동적으로 높이 설정
                     ></textarea>
                 ) : (
-                    <p dangerouslySetInnerHTML={{ __html: NftData.NftContent }}></p>
+                    <div dangerouslySetInnerHTML={{ __html: NftData.NftContent }}></div>
                 )}
                 <div className="brd_NftIqrybottomImage">
                     {NftData.Nftbottomimg && <img src={require(`../${NftData.Nftbottomimg}`)} alt="하단 이미지" />}

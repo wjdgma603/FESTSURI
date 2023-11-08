@@ -11,6 +11,10 @@
     padding-top: 180px;
 }
 
+.FAQTap {
+    padding-bottom: 150px;
+}
+
 .NftTap .brd_tap,
 .IqryTap .brd_tap,
 .FAQTap .brd_tap {
@@ -318,10 +322,10 @@
     align-items: flex-start;
     gap: 30px;
     border-bottom: 1px solid #999;
+    white-space: pre-line;
 }
 
-.brd_IqryAnswer>h5 {
-    min-height: 100px;
+.brd_IqryAnswer>p {
     color: #000;
     font-weight: 400;
     line-height: 150%;
@@ -335,8 +339,7 @@
 
 .brd_IqryAnswer>textarea {
     width: 100%;
-    min-height: 100px;
-    font-size: 18px;
+    font-size: 16px;
     border: none;
     outline: none;
     resize: none;
@@ -409,6 +412,10 @@
     align-items: center;
 }
 
+.FAQItem>.brd_FAQItemTitle>div>h2 {
+    padding-right: 20px;
+}
+
 .FAQItem>.brd_FAQItemTitle>i {
     width: 15px;
     height: 15px;
@@ -440,6 +447,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 30px;
+    white-space: pre-line;
 }
 
 .FAQItem .brd_FAQWriter {

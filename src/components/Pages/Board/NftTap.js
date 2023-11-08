@@ -39,19 +39,22 @@ const NftTap = ({ NftData, ClickNftInfor, ComponentChange }) => {
 
     const renderFilteredItems = () => {
         let itemsToRender = filteredData || NftData;
+        let startingIndex = (currentPage - 1) * itemsPerPage;
 
-        if (savedSearchTerm && itemsToRender.length > 12) {
-            itemsToRender = itemsToRender.slice(0, 12);
+        if (savedSearchTerm && itemsToRender.length > itemsPerPage) {
+            itemsToRender = itemsToRender.slice(startingIndex, startingIndex + itemsPerPage);
         }
 
-        return itemsToRender.map((NftItemIt) => (
-            <div
-                key={NftItemIt.NftId}
-                onClick={() => NftItemSelection(NftItemIt.NftId)}
-            >
+        return itemsToRender.map((NftItemIt, index) => (
+            <div key={NftItemIt.NftId}>
                 <NftItem
-                    {...NftItemIt}
+                    NftId={NftItemIt.NftId}
+                    NftTitle={NftItemIt.NftTitle}
+                    NftContent={NftItemIt.NftContent}
+                    NftDay={NftItemIt.NftDay}
+                    NftWriter={NftItemIt.NftWriter}
                     ClickNftInfor={NftItemSelection}
+                    itemNumber={startingIndex + index + 1} // 현재 페이지와 페이지 당 표시되는 아이템 수를 기반으로 itemNumber를 동적으로 계산
                 />
             </div>
         ));
@@ -60,20 +63,27 @@ const NftTap = ({ NftData, ClickNftInfor, ComponentChange }) => {
     const renderItems = () => {
         const indexOfLastItem = currentPage * itemsPerPage;
         const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-        const currentItems = NftData.slice(indexOfFirstItem, indexOfLastItem);
+        const currentItems = NftData.slice(indexOfFirstItem, indexOfLastItem).reverse(); // 내림차순으로 변경
 
-        return currentItems.map((NftItemIt) => (
-            <div
-                key={NftItemIt.NftId}
-                onClick={() => NftItemSelection(NftItemIt.NftId)}
-            >
-                <NftItem
-                    {...NftItemIt}
-                    ClickNftInfor={NftItemSelection}
-                />
-            </div>
-        ));
+        return currentItems.map((NftItemIt, index) => {
+            const startingIndex = (currentPage - 1) * itemsPerPage;
+            const descendingIndex = NftData.length - (startingIndex + index); // 내림차순으로 순번 변경
+            return (
+                <div key={NftItemIt.NftId}>
+                    <NftItem
+                        NftId={NftItemIt.NftId}
+                        NftTitle={NftItemIt.NftTitle}
+                        NftContent={NftItemIt.NftContent}
+                        NftDay={NftItemIt.NftDay}
+                        NftWriter={NftItemIt.NftWriter}
+                        ClickNftInfor={NftItemSelection}
+                        itemNumber={descendingIndex}
+                    />
+                </div>
+            );
+        });
     };
+
 
     const itemsPerPage = 12;
 
@@ -189,7 +199,7 @@ const NftTap = ({ NftData, ClickNftInfor, ComponentChange }) => {
             </div>
             <ul className="brd_NftIqryTitle">
                 <li>번호</li>
-                <li>제목</li>
+                <li>제목:브렌치관련 수정</li>
                 <li>등록일</li>
             </ul>
             <div className='brd_NftIqryMiddle'>

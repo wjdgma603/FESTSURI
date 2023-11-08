@@ -6,8 +6,10 @@ import Header from './components/Header/Header'
 import Main from "./components/Pages/Main/Main.js";
 import Party from './components/Pages/Party/Party';
 import Exhibition from './components/Pages/Exhibition/Exhibition';
+import Exhibition_sub from './components/Pages/ExhibitionSub/Exhibition_sub';
 import Board from './components/Pages/Board/Board';
 import Gallery from './components/Pages/Gallery/Gallery';
+import Party_sub from './components/Pages/PtyExbDetail/Party_sub.js';
 import Introduce from './components/Pages/Introduce/Introduce';
 import Party_sub from './components/Pages/PtyExbDetail/party_sub.js';
 import Footer from './components/Footer/Footer';
@@ -32,10 +34,13 @@ function App() {
   function IsFooterLoaded() {
     useEffect(() => {
       setIsFooterLoaded(true);
+      setIsFooterLoaded(true);
       return () => {
+        setIsFooterLoaded(false);
         setIsFooterLoaded(false);
       };
     }, []);
+    return isFooterLoaded;
     return isFooterLoaded;
   }
   // 컴포넌트 마운트 시 True, 언마운트시 False 반환.

@@ -29,33 +29,40 @@ const IqryTap = ({ IqryData, ClickIqryInfor, ComponentChange }) => {
                 );
             });
             setFilteredData(filteredItems);
+            // setCurrentPage(1); // 검색 시 currentPage를 1로 설정하는 부분 제거
+            setSelectedTab(1); // 선택된 탭을 1로 설정
         } else {
             setSavedSearchTerm('');
             setFilteredData(null);
         }
-        setCurrentPage(1);
-        setSelectedTab(1);
     };
 
     const renderFilteredItems = () => {
         let itemsToRender = filteredData || IqryData;
 
-        if (savedSearchTerm && itemsToRender.length > 12) {
-            itemsToRender = itemsToRender.slice(0, 12);
+        if (savedSearchTerm && itemsToRender.length > itemsPerPage) {
+            itemsToRender = itemsToRender.slice(0, itemsPerPage); // 12개까지 자른 후
         }
 
-        return itemsToRender.map((IqryItemIt) => (
-            <div
-                key={IqryItemIt.IqryId}
-                onClick={() => IqryItemSelection(IqryItemIt.IqryId)}
-            >
-                <IqryItem
-                    {...IqryItemIt}
-                    ClickIqryInfor={IqryItemSelection}
-                />
-            </div>
-        ));
+        return itemsToRender.map((IqryItemIt, index) => {
+            const ascendingIndex = index + 1; // 오름차순으로 순번 변경
+            return (
+                <div key={IqryItemIt.IqryId}>
+                    <IqryItem
+                        IqryId={IqryItemIt.IqryId}
+                        IqryTitle={IqryItemIt.IqryTitle}
+                        IqryContent={IqryItemIt.IqryContent}
+                        IqryWriter={IqryItemIt.IqryWriter}
+                        IqryDay={IqryItemIt.IqryDay}
+                        Iqryanswer={IqryItemIt.Iqryanswer}
+                        ClickIqryInfor={IqryItemSelection}
+                        itemNumber={ascendingIndex}
+                    />
+                </div>
+            );
+        });
     };
+
 
     const renderItems = () => {
         let currentItems = IqryData;
@@ -64,17 +71,23 @@ const IqryTap = ({ IqryData, ClickIqryInfor, ComponentChange }) => {
         const indexOfFirstItem = indexOfLastItem - itemsPerPage;
         currentItems = currentItems.slice(indexOfFirstItem, indexOfLastItem);
 
-        return currentItems.map((IqryItemIt) => (
-            <div
-                key={IqryItemIt.IqryId}
-                onClick={() => IqryItemSelection(IqryItemIt.IqryId)}
-            >
-                <IqryItem
-                    {...IqryItemIt}
-                    ClickIqryInfor={IqryItemSelection}
-                />
-            </div>
-        ));
+        return currentItems.map((IqryItemIt, index) => {
+            const descendingIndex = IqryData.length - (indexOfFirstItem + index); // 내림차순으로 순번 변경
+            return (
+                <div key={IqryItemIt.IqryId}>
+                    <IqryItem
+                        IqryId={IqryItemIt.IqryId}
+                        IqryTitle={IqryItemIt.IqryTitle}
+                        IqryContent={IqryItemIt.IqryContent}
+                        IqryWriter={IqryItemIt.IqryWriter}
+                        IqryDay={IqryItemIt.IqryDay}
+                        Iqryanswer={IqryItemIt.Iqryanswer}
+                        ClickIqryInfor={IqryItemSelection}
+                        itemNumber={descendingIndex}
+                    />
+                </div>
+            );
+        });
     };
 
     const itemsPerPage = 12;

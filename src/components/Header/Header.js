@@ -22,6 +22,7 @@ function Header({Loaded, KakaoLogout, isLogin, Nickname, ProfileImage}) {
         window.addEventListener('scroll', function(){
           if(window.innerHeight - HeaderBG.clientHeight <= window.scrollY ){ //메인 1섹션 이후
           SVGs.forEach(Svg => {Svg.style.fill = "url(#Logo_Gradient)"})
+          SVGs.forEach(Svg => {Svg.style.fill = "url(#Logo_Gradient)"})
           NavigationFont.forEach(NavFont =>{NavFont.style.color = "#222"})
           i18n.style.color = "#222"
           LogoutFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
@@ -39,6 +40,7 @@ function Header({Loaded, KakaoLogout, isLogin, Nickname, ProfileImage}) {
           }}) //window 이벤트 함수 종료
       }else{
         SVGs.forEach(Svg => {Svg.style.fill = "url(#Logo_Gradient)"})
+        SVGs.forEach(Svg => {Svg.style.fill = "url(#Logo_Gradient)"})
         NavigationFont.forEach(NavFont =>{NavFont.style.color = "#222"})
         i18n.style.color = "#222"
         LogoutFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
@@ -46,6 +48,7 @@ function Header({Loaded, KakaoLogout, isLogin, Nickname, ProfileImage}) {
         HeaderBG.style.backgroundColor = "#fff"
         ProfileBox.style.backgroundColor = "#333"
         window.addEventListener('scroll', function(){
+          SVGs.forEach(Svg => {Svg.style.fill = "url(#Logo_Gradient)"})
           SVGs.forEach(Svg => {Svg.style.fill = "url(#Logo_Gradient)"})
           NavigationFont.forEach(NavFont =>{NavFont.style.color = "#222"})
           i18n.style.color = "#222"
