@@ -74,12 +74,21 @@ function App() {
   } // 카카오 로그인 함수 
   
   const KakaoLogout = ()=>{
-    Kakao.Auth.logout((res)=>{
+    Kakao.API.request({
+      url : '/v1/user/unlink',
+      success : function(response) {
+        console.log(response);
         setUser({
           ProfileImage : '',
           Nickname : ''
         });
-        setIsLogin(false)
+        setIsLogin(false); 
+      },
+      fail: function(error) {
+        alert('정상적으로 로그아웃 되지 않았습니다. 다시 시도해주세요.')
+        console.log(error)
+        Navigate('/login')
+      }
     })
   }
   //카카오 로그아웃 함수
@@ -88,18 +97,12 @@ function App() {
       const initKakao = async()=>{
         const jsKey = "12ba0647517f7c2ec68bec6dd945c6df";
         if(Kakao && !Kakao.isInitialized()){
-            await Kakao.init(jsKey) // SDK 초기화 구문 
-            console.log('카카오 초기화'+ Kakao.isInitialized())
-            // 초기화가 잘되었는지 확인하는 구문, True
+            await Kakao.init(jsKey) 
         }
-      } //JavaScript SDK 앱 키로 초기화 하는 구문 
+      }
       initKakao();
       Kakao.Auth.getAccessToken() ? setIsLogin(true) : setIsLogin(false)
     },[]) 
-  // 정상적인 로그인시 Kakao.Auth.getAccessToken()로 값을 얻을 수 있음
-  // 성공시 IsLogin === true, 실패시 IsLogin === false
-
-  console.log(isLogin)
   return (
     <div className="App">
       <Header Loaded={isHeaderLoaded} KakaoLogout={KakaoLogout} isLogin={isLogin} Nickname={user.Nickname} ProfileImage={user.ProfileImage} />

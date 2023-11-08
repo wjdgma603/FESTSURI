@@ -2,8 +2,6 @@ import { Link } from 'react-router-dom'
 import './Header.css'
 import { useEffect } from 'react'
 
-
-
 function Header({Loaded, KakaoLogout, isLogin, Nickname, ProfileImage}) {
     useEffect(()=>{
       let SVGs = document.querySelectorAll('.Header_logoPath')
@@ -11,8 +9,8 @@ function Header({Loaded, KakaoLogout, isLogin, Nickname, ProfileImage}) {
       let NavigationFont = document.querySelectorAll('.Header_NavUl a')
       let ProfileBox = document.querySelector('.ProfileBox')
       let i18n = document.querySelector('.i18n')
-      let LogoutFont = document.querySelectorAll('.LogoutWrap>div')
-      let LoginFont = document.querySelectorAll('.LoginWrap>a')
+      let LogoutFont = document.querySelectorAll('.Logout')
+      let LoginFont = document.querySelectorAll('.LoginLink')
       if(Loaded){
         SVGs.forEach(Svg => {Svg.style.fill = "#ddd"})
         NavigationFont.forEach(NavFont =>{NavFont.style.color = "#fff"})
@@ -57,32 +55,7 @@ function Header({Loaded, KakaoLogout, isLogin, Nickname, ProfileImage}) {
           ProfileBox.style.backgroundColor = "#333"
           })
       }
-    },[Loaded])
-    useEffect(()=>{
-      let HeaderBG = document.querySelector('.Header')
-      let LogoutFont = document.querySelectorAll('.LogoutWrap>div')
-      let LoginFont = document.querySelectorAll('.LoginWrap>a')
-      if(Loaded){
-        LogoutFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#fff"})
-        LoginFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#fff"})
-        window.addEventListener('scroll', function(){
-          if(window.innerHeight - HeaderBG.clientHeight <= window.scrollY ){ //메인 1섹션 이후
-          LogoutFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
-          LoginFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
-          }else if(window.innerHeight - HeaderBG.clientHeight >= window.scrollY){ // 메인 1섹션 이전
-          LogoutFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#fff"})
-          LoginFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#fff"})
-          }}) //window 이벤트 함수 종료
-      }else{
-        LogoutFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
-        LoginFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
-        window.addEventListener('scroll', function(){
-          LogoutFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
-          LoginFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
-          })
-      }
-    },[Loaded])
-    
+    },[Loaded, isLogin])
     return (
       <header className="Header">
           <div className="headerWrap">
@@ -92,8 +65,8 @@ function Header({Loaded, KakaoLogout, isLogin, Nickname, ProfileImage}) {
                   viewBox="0 0 200 35.7" enableBackground="new 0 0 200 35.7">
                   <g>
                     <linearGradient id="Logo_Gradient"gradientUnits="userSpaceOnUse"x1="0.3345"y1="20.2"x2="199.7684"y2="20.2"gradientTransform="matrix(1 0 0 -1 0 38)">
-                      <stop  offset="0" stopColor="#297AAD"/>
-                      <stop  offset="1" stopColor="#2A3D4E"/>
+                      <stop offset="0" stopColor="#297AAD"/>
+                      <stop offset="1" stopColor="#2A3D4E"/>
                     </linearGradient>
                     <path className='Header_logoPath' d="M20.2,21.7H12v11.1H2.4v-30h19.7l-1.2,7.7H12v4h8.2V21.7z"/>
                     <path className='Header_logoPath' d="M44.2,21.5h-9.6v3.6h11.8v7.7H25v-30h21.1l-1.2,7.7H34.6v4h9.6C44.2,14.5,44.2,21.5,44.2,21.5z"/>
@@ -121,13 +94,13 @@ function Header({Loaded, KakaoLogout, isLogin, Nickname, ProfileImage}) {
             <div className='Header_Personal'>
               {isLogin ? 
               <div className='LogoutWrap'>
-                <div>{Nickname || "이름없음"}님</div>
-                <div className='LogoutBtn' onClick={()=>{KakaoLogout()}}>로그아웃</div>
+                <div className='LogoutText Logout'>{Nickname || "이름없음"}님</div>
+                <div className='LogoutBtn Logout' onClick={()=>{KakaoLogout()}}>로그아웃</div>
               </div>
               :
               <div className='LoginWrap'>
-                <Link to='/login'>로그인</Link>
-                <Link to='/Join'>회원가입</Link>
+                <Link className='LoginLink' to='/login'>로그인</Link>
+                <Link className='LoginLink' to='/Join'>회원가입</Link>
               </div>
               }
               <div className='i18n'>ENGLISH</div>
