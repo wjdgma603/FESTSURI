@@ -199,7 +199,7 @@ const NftTap = ({ NftData, ClickNftInfor, ComponentChange }) => {
             </div>
             <ul className="brd_NftIqryTitle">
                 <li>번호</li>
-                <li>제목</li>
+                <li>제목:브렌치관련 수정</li>
                 <li>등록일</li>
             </ul>
             <div className='brd_NftIqryMiddle'>
