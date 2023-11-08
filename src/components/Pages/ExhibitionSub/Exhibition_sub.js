@@ -34,7 +34,7 @@ function Exhibition_sub() {
                 <div key={list.id}>
                     <section className='Exhibition_sub_hitop'>
                         <div className='Exhibition_sub_top'>
-                            <img src={require('./images/ex' + list.id + '.png')}  />
+                            <img src={require('./images/ex' + list.id + '.png')} alt='Exhibition_sub_top'/>
                             <ul className='Exhibition_sub_po'>
                                 <li className='Exhibition_sub_title_name'>{list.title}</li>
                                 <li className='Exhibition_sub_line'></li>

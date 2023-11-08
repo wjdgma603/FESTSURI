@@ -98,7 +98,6 @@ const Board = () => {
     }; // 지우는 함수
 
     //자주하는질문 함수 모음
-    const [FAQData, setFAQData] = useState(FAQjsonData);
 
 
     return (
@@ -136,7 +135,7 @@ const Board = () => {
             />}
 
             {componentName === 'FAQTap' && <FAQTap
-                FAQData={FAQData}
+                FAQData={FAQjsonData}
                 ComponentChange={ComponentChange}
             />}
         </div>

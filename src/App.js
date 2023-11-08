@@ -6,11 +6,11 @@ import Header from './components/Header/Header'
 import Main from "./components/Pages/Main/Main.js";
 import Party from './components/Pages/Party/Party';
 import Exhibition from './components/Pages/Exhibition/Exhibition';
-import Exhibition_sub from './components/Pages/ExhibitionSub/Exhibition_sub';
+import ExhibitionSub from './components/Pages/ExhibitionSub/Exhibition_sub';
 import Board from './components/Pages/Board/Board';
 import Gallery from './components/Pages/Gallery/Gallery';
 import Introduce from './components/Pages/Introduce/Introduce';
-import Party_sub from './components/Pages/PtyExbDetail/Party_sub.js';
+import PartySub from './components/Pages/PtyExbDetail/Party_sub.js';
 import Footer from './components/Footer/Footer';
 import Login from './components/Pages/Personal/Login';
 import { useState, useEffect } from 'react';
@@ -39,7 +39,6 @@ function App() {
         setIsFooterLoaded(false);
       };
     }, []);
-    return isFooterLoaded;
     return isFooterLoaded;
   }
   // 컴포넌트 마운트 시 True, 언마운트시 False 반환.
@@ -116,8 +115,8 @@ function App() {
           <Route path='/Join/*' element={<Join IsFooterLoaded={IsFooterLoaded}/>}/>
           <Route path='/party/*' element={<Party/>}/>
           <Route path='/exhibition/*' element={<Exhibition/>}/>
-          <Route path='/Party_sub/*' element={<Party_sub/>}/>
-          <Route path='/Exhibition_sub/*' element={<Exhibition_sub/>}/>
+          <Route path='/PartySub/*' element={<PartySub/>}/>
+          <Route path='/ExhibitionSub/*' element={<ExhibitionSub/>}/>
           <Route path='/board/*' element={<Board IsFooterLoaded={IsFooterLoaded}/>}/>
           <Route path='/gallery/*' element={<Gallery/>}/>
           <Route path='/introduce/*' element={<Introduce/>}/>
