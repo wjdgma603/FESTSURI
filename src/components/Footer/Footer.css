@@ -1,6 +1,6 @@
 .Footer{
     width: 100%;
-    height: 560px;
+    padding: 70px 0;
     background: #333;
 }
 .Footer_Wrap{
@@ -10,7 +10,6 @@
 .Footer_FirstWrap{
     width: 100%;
     display: inline-flex;
-    margin-top: 70px;
     padding: 20px 330px 20.5px 10px;
     align-items: center;
     justify-content: space-between;
@@ -167,3 +166,37 @@
     font-size: 13px;
     font-weight: 400;
 }
+
+
+/* 푸터 카피라이트 완료 */
+
+
+.SimpleFooter{
+    width: 100%;
+    padding: 50px 0;
+}
+.SimpleFooter_NoticeWrap{
+    display: flex;
+    justify-content: center;
+}
+.SimpleFooter_NoticeWrap>li:not(:last-of-type){
+    margin-right: 30px;
+}
+.SimpleFooter_NoticeWrap>li>a{
+    color: #6C6C6C;
+    font-size: 18px;
+    font-weight: 500;
+}
+.SimpleFooter_NoticeWrap>li.BoldNotice>a{
+    font-weight: 700;
+}
+.SimpleFooter_CopyrightSection{
+    text-align: center;
+}
+.SimpleFooter_CopyrightSection>p{
+    text-align: center;
+    color: #353535;
+    font-size: 13px;
+    font-weight: 400;
+}
+

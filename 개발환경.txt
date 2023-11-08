@@ -6,7 +6,8 @@
 
 React router dom - 세부 페이지 컴포넌트 연결
 gh-pages - build로 github-pages 연결 용이
-
+three - 메인 웹 3d 구현 
+react-kakao-maps-sdk - 행사, 공연 · 전시 페이지 지도 모달
 
 주요 주의사항 
 

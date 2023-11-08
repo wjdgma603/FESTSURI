@@ -17,11 +17,11 @@ const Exhibition = () => {
                     <li className='sub_arrow'></li>
                     <li><a>전시·공연</a></li>
                 </ul>
-                <ul class="sub_menu">
-                    <li><button class="sub_tab_menu_1" data-text="전시" data-id="exhi" href="javascript:void(0)">전시</button></li>
-                    <li><button class="sub_tab_menu_2" data-text="공연" data-id="show" href="javascript:void(0)">공연</button></li>
+                <ul className="sub_menu">
+                    <li><button className="sub_tab_menu_1" data-text="전시" data-id="exhi" href="javascript:void(0)">전시</button></li>
+                    <li><button className="sub_tab_menu_2" data-text="공연" data-id="show" href="javascript:void(0)">공연</button></li>
                 </ul>
-                <div id="exhi" class="dis_none active">
+                <div id="exhi" className="dis_none active">
                     <section className='sub_exhibition1'>
                         <article className="sub_exhibitionFirst">
                             <Poster Poster_img='Poster_img1 poster' title='한국-파키스탄 수교 40주년 문화유산 사진전' subtitle1={'기간 : 2023-10-27 ~ 2023-11-26'} />
@@ -57,7 +57,7 @@ const Exhibition = () => {
 
                 </div>
             </section>
-            <div id="show" class="dis_none active">
+            <div id="show" className="dis_none active">
                     <section className='sub_exhibition1'>
                         <article className="sub_exhibitionFirst">
                             <Poster Poster_img='Poster_img14' title='한국-파키스탄 수교 40주년 문화유산 사진전' subtitle1={'기간 : 2023-10-27 ~ 2023-11-26'} />

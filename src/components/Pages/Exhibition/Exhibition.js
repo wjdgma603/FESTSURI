@@ -14,9 +14,9 @@ function Exhibition (){
                 <li className='exh_arrow'></li>
                 <li><a>전시·공연</a></li>
             </ul>
-            <ul class="exh_menu">
-                    <li><button class="exh_tab_menu_1" data-text="전시" data-id="exhi" href="javascript:void(0)">전시</button></li>
-                    <li><button class="exh_tab_menu_2" data-text="공연" data-id="show" href="javascript:void(0)">공연</button></li>
+            <ul className="exh_menu">
+                    <li><button className="exh_tab_menu_1" data-text="전시" data-id="exhi" href="javascript:void(0)">전시</button></li>
+                    <li><button className="exh_tab_menu_2" data-text="공연" data-id="show" href="javascript:void(0)">공연</button></li>
                 </ul>
             </section>
             <section id='exhi' className='exh_posters1 none'>

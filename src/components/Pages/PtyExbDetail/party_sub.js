@@ -18,7 +18,8 @@ function Party_sub() {
         setmodal(false)
 
     }
-    console.log(Party_sub_comp[0].lat)
+
+
     return (
 
         <div className="Party_sub">
@@ -42,21 +43,21 @@ function Party_sub() {
                                 <li className='Party_sub_pa'>기간 <span className='Party_sub_pa_span'>{list.sub_title1}</span></li>
                                 <li className='Party_sub_pa'>시간 <span className='Party_sub_pa_span'>{list.sub_title2}</span></li>
                                 <li className='Party_sub_pa'>장소 <span className='Party_sub_pa_span'>{list.sub_title3}</span>
-                                    <button onClick={() => Party_sub_modal1()} className='Party_sub_modal'>지도보기 </button>
+                                    <button onClick={() => Party_sub_modal1()} className='Party_sub_modal'>위치보기 </button>
                                     {modal && (
                                         <div id='modal'>
-                                            <div class="modal-overlay">
-                                                <div class="modal-window">
-                                                    <div class="content">
-                                                        <Map
+                                            <div className="modal-overlay" >
+                                                <div className="modal-window">
+                                                    <div className="content">
+                                                        <Map className='Party_sub_map'
                                                             center={{ lat: list.lat, lng: list.lng }}
-                                                            style={{ width: "400px", height: "400px" }}
+                                                            style={{ width: "600px", height: "600px" }}
                                                             level={5}
                                                         >
-                                                            <MapMarker position={{ lat: list.lat, lng: list.lng }}>{list.marker}<div style={{ color: "#999" }}></div>
+                                                            <MapMarker className='Party_sub_map_point' position={{ lat: list.lat, lng: list.lng }}>{list.marker}<div style={{ color: "#999" }}></div>
                                                             </MapMarker>
                                                         </Map>
-                                                        <button onClick={() => Party_sub_modal2()} className='Party_sub_button'>X</button>
+                                                        <div  className="papapa" onClick={Party_sub_modal2}>123</div>
                                                     </div>
                                                 </div>
                                             </div>
