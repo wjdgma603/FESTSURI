@@ -20,8 +20,8 @@ const Board = () => {
     const [componentName, setComponentName] = useState('NftTap');
 
     useEffect(() => {
-        setComponentName('NftTap');
-    }, []);
+            setComponentName('NftTap');
+        }, []);
 
     const ComponentChange = (componentName) => {
         setComponentName(componentName);
