@@ -1,5 +1,6 @@
 import "./GallDeps.css";
 
+
 const GallDeps = () => {
   return (
     <section className="GallDeps">
