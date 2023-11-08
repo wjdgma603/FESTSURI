@@ -39,66 +39,70 @@ function App() {
     return isFooterLoaded;
   }
   // 컴포넌트 마운트 시 True, 언마운트시 False 반환.
-    const [user, setUser] = useState();
-    const [isLogin, setIsLogin] = useState(false); //useState선언
-    const {Kakao} = window;
-    const KakaoLogin = async()=>{
-        await Kakao.Auth.login({
-            success(res){
-                Kakao.Auth.setAccessToken(res.access_token)
-                console.log('카카오 로그인 완료')
-                Kakao.API.request({
-                    url : '/v2/user/me',
-                    success(res){
-                        console.log('카카오 데이터 인가 요청 성공')
-                        setIsLogin(true);
-                        const KakaoAccount = res.kakao_account;
-                        localStorage.setItem('nickname', KakaoAccount.profile.nickname) // 닉네임 로컬에 저장
-                        localStorage.setItem('profileimage', KakaoAccount.profile.profile_image_url) //프로필 이미지 경로 로컬에 저장
-                        Navigate('/')
-                    },fail(error){
-                      console.log(error)
-                    },
-                });
-            },
-            fail(err){
-                console.log(err)
-            }
-        })
-    }
-    const KakaoLogout = ()=>{
-        Kakao.Auth.Logout((res)=>{
-            localStorage.removeItem('nickname');
-            localStorage.removeItem('profileimage');
-            setUser(null);
-            setIsLogin(false)
-            console.log('로그아웃 실행')
-        })
-    }
+
+  // 로그인 기능 구현
+
+  const [user, setUser] = useState({
+    ProfileImage : '',
+    Nickname : ''
+  });
+  const [isLogin, setIsLogin] = useState(false); //useState선언
+  const {Kakao} = window;
+
+  const KakaoLogin = async()=>{
+      await Kakao.Auth.login({
+          success(res){
+              Kakao.Auth.setAccessToken(res.access_token) 
+              Kakao.API.request({
+                  url : '/v2/user/me',
+                  success(res){
+                      console.log('카카오 데이터 인가 요청 성공')
+                      const KakaoAccount = res.kakao_account;
+                      setUser({
+                        ProfileImage: KakaoAccount.profile.profile_image_url,
+                        Nickname: KakaoAccount.profile.nickname,
+                      });
+                      setIsLogin(true);
+                      Navigate('/')
+                  }
+              })
+          },
+          fail(err){
+              console.log(err)
+          }
+      })
+  } // 카카오 로그인 함수 
+  
+  const KakaoLogout = ()=>{
+    Kakao.Auth.logout((res)=>{
+        setUser({
+          ProfileImage : '',
+          Nickname : ''
+        });
+        setIsLogin(false)
+    })
+  }
+  //카카오 로그아웃 함수
     useEffect(()=>{
       const {Kakao} = window;
-        const initKakao = async()=>{
-          const jsKey = "12ba0647517f7c2ec68bec6dd945c6df";
-          if(Kakao && !Kakao.isInitialized()){
-              await Kakao.init(jsKey) // 카카오 연결 구문
-              console.log('카카오 초기화'+ Kakao.isInitialized())
-            }
-        } 
-        initKakao()
-        Kakao.Auth.getAccessToken() ? setIsLogin(true) : setIsLogin(false)
-    },[])
-    useEffect(()=>{
-        if(isLogin){
-            setUser({
-                nickName : localStorage.getItem('nickname'),
-                profileImg : localStorage.getItem('profileimage')
-            })
+      const initKakao = async()=>{
+        const jsKey = "12ba0647517f7c2ec68bec6dd945c6df";
+        if(Kakao && !Kakao.isInitialized()){
+            await Kakao.init(jsKey) // SDK 초기화 구문 
+            console.log('카카오 초기화'+ Kakao.isInitialized())
+            // 초기화가 잘되었는지 확인하는 구문, True
         }
-    },[isLogin])
+      } //JavaScript SDK 앱 키로 초기화 하는 구문 
+      initKakao();
+      Kakao.Auth.getAccessToken() ? setIsLogin(true) : setIsLogin(false)
+    },[]) 
+  // 정상적인 로그인시 Kakao.Auth.getAccessToken()로 값을 얻을 수 있음
+  // 성공시 IsLogin === true, 실패시 IsLogin === false
 
+  console.log(isLogin)
   return (
     <div className="App">
-      <Header Loaded={isHeaderLoaded} KakaoLogout={KakaoLogout} Data={user} />
+      <Header Loaded={isHeaderLoaded} KakaoLogout={KakaoLogout} isLogin={isLogin} Nickname={user.Nickname} ProfileImage={user.ProfileImage} />
         <Routes>
           <Route path='/*' element={<Main IsHeaderLoaded={IsHeaderLoaded}/>}/>
           <Route path='/login/*' element={<Login IsFooterLoaded={IsFooterLoaded} KakaoLogin={KakaoLogin}/>}/>

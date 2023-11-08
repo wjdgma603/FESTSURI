@@ -4,48 +4,85 @@ import { useEffect } from 'react'
 
 
 
-function Header({Loaded, KakaoLogout, Data}) {
+function Header({Loaded, KakaoLogout, isLogin, Nickname, ProfileImage}) {
     useEffect(()=>{
       let SVGs = document.querySelectorAll('.Header_logoPath')
       let HeaderBG = document.querySelector('.Header')
       let NavigationFont = document.querySelectorAll('.Header_NavUl a')
-      let PersonalMenu = document.querySelectorAll('.Header_Personal a')
       let ProfileBox = document.querySelector('.ProfileBox')
+      let i18n = document.querySelector('.i18n')
+      let LogoutFont = document.querySelectorAll('.LogoutWrap>div')
+      let LoginFont = document.querySelectorAll('.LoginWrap>a')
       if(Loaded){
         SVGs.forEach(Svg => {Svg.style.fill = "#ddd"})
         NavigationFont.forEach(NavFont =>{NavFont.style.color = "#fff"})
-        PersonalMenu.forEach(PerMenuFont =>{PerMenuFont.style.color = "#fff"})
+        i18n.style.color = "#fff"
         HeaderBG.style.backgroundColor = "rgba(0,0,0,.5)"
         ProfileBox.style.backgroundColor = "#fff"
+        LogoutFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#fff"})
+        LoginFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#fff"})
         window.addEventListener('scroll', function(){
           if(window.innerHeight - HeaderBG.clientHeight <= window.scrollY ){ //메인 1섹션 이후
           SVGs.forEach(Svg => {Svg.style.fill = "url(#Logo_Gradient)"})
           NavigationFont.forEach(NavFont =>{NavFont.style.color = "#222"})
-          PersonalMenu.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
+          i18n.style.color = "#222"
+          LogoutFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
+          LoginFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
           HeaderBG.style.backgroundColor = "#fff"
           ProfileBox.style.backgroundColor = "#333"
           }else if(window.innerHeight - HeaderBG.clientHeight >= window.scrollY){ // 메인 1섹션 이전
           SVGs.forEach(Svg => {Svg.style.fill = "#ddd"})
           NavigationFont.forEach(NavFont =>{NavFont.style.color = "#fff"})
-          PersonalMenu.forEach(PerMenuFont =>{PerMenuFont.style.color = "#fff"})
+          i18n.style.color = "#fff"
+          LogoutFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#fff"})
+          LoginFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#fff"})
           HeaderBG.style.backgroundColor = "rgba(0,0,0,.5)"
           ProfileBox.style.backgroundColor = "#fff"
           }}) //window 이벤트 함수 종료
       }else{
         SVGs.forEach(Svg => {Svg.style.fill = "url(#Logo_Gradient)"})
         NavigationFont.forEach(NavFont =>{NavFont.style.color = "#222"})
-        PersonalMenu.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
+        i18n.style.color = "#222"
+        LogoutFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
+        LoginFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
         HeaderBG.style.backgroundColor = "#fff"
         ProfileBox.style.backgroundColor = "#333"
         window.addEventListener('scroll', function(){
           SVGs.forEach(Svg => {Svg.style.fill = "url(#Logo_Gradient)"})
           NavigationFont.forEach(NavFont =>{NavFont.style.color = "#222"})
-          PersonalMenu.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
+          i18n.style.color = "#222"
+          LogoutFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
+          LoginFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
           HeaderBG.style.backgroundColor = "#fff"
           ProfileBox.style.backgroundColor = "#333"
           })
       }
     },[Loaded])
+    useEffect(()=>{
+      let HeaderBG = document.querySelector('.Header')
+      let LogoutFont = document.querySelectorAll('.LogoutWrap>div')
+      let LoginFont = document.querySelectorAll('.LoginWrap>a')
+      if(Loaded){
+        LogoutFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#fff"})
+        LoginFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#fff"})
+        window.addEventListener('scroll', function(){
+          if(window.innerHeight - HeaderBG.clientHeight <= window.scrollY ){ //메인 1섹션 이후
+          LogoutFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
+          LoginFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
+          }else if(window.innerHeight - HeaderBG.clientHeight >= window.scrollY){ // 메인 1섹션 이전
+          LogoutFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#fff"})
+          LoginFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#fff"})
+          }}) //window 이벤트 함수 종료
+      }else{
+        LogoutFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
+        LoginFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
+        window.addEventListener('scroll', function(){
+          LogoutFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
+          LoginFont.forEach(PerMenuFont =>{PerMenuFont.style.color = "#222"})
+          })
+      }
+    },[Loaded])
+    
     return (
       <header className="Header">
           <div className="headerWrap">
@@ -82,11 +119,20 @@ function Header({Loaded, KakaoLogout, Data}) {
               </nav>
             </div>
             <div className='Header_Personal'>
-              <Link to='/login'>로그인</Link>
-              <Link to='/Join'>회원가입</Link>
-              <Link to=''>ENGLISH</Link>
+              {isLogin ? 
+              <div className='LogoutWrap'>
+                <div>{Nickname || "이름없음"}님</div>
+                <div className='LogoutBtn' onClick={()=>{KakaoLogout()}}>로그아웃</div>
+              </div>
+              :
+              <div className='LoginWrap'>
+                <Link to='/login'>로그인</Link>
+                <Link to='/Join'>회원가입</Link>
+              </div>
+              }
+              <div className='i18n'>ENGLISH</div>
               <div className='ProfileBox'>
-                <img src={Data.profileImg}></img>
+                <img src={ProfileImage || require('./images/DefaultProfile.jpg')} alt='ProfileImages'/>
               </div>
             </div>
           </div>

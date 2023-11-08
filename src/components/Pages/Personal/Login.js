@@ -27,13 +27,13 @@ const Login = ({IsFooterLoaded, KakaoLogin}) => {
             <article className="Login_InputSection">
                 <form name="LoginData" acceptCharset="utf-8" method="post">
                     <div className="ID_Text">아이디</div>
-                    <input type="text" placeholder="아이디를 입력하세요"></input>
+                    <input type="text" placeholder="아이디를 입력하세요"/>
                     <div className="Password_Text">비밀번호</div>
-                    <input type="current-password" placeholder="비밀번호를 입력하세요"></input>
+                    <input type="current-password" placeholder="비밀번호를 입력하세요"/>
                     <div className="Login_FindAndSave">
                         <div className="SaveMyId">
                             <label className="SaveMyIdLabel" htmlFor="SaveIdInput">
-                                <input id="SaveIdInput" type="checkbox"></input>
+                                <input id="SaveIdInput" type="checkbox"/>
                                 <div className="SVG_AnimateWrap">
                                     <svg viewBox="0 0 20 20">
                                         <path d="M3,1 L17,1 L17,1 C18.1045695,1 19,1.8954305 19,3 L19,17 L19,17 C19,18.1045695 18.1045695,19 17,19 L3,19 L3,19 C1.8954305,19 1,18.1045695 1,17 L1,3 L1,3 C1,1.8954305 1.8954305,1 3,1 Z"></path>
@@ -54,7 +54,7 @@ const Login = ({IsFooterLoaded, KakaoLogin}) => {
                             <Link to='/Join'>회원가입</Link>
                         </div>
                     </div>
-                    <input className="SubmitBtn" type="submit" value={'로그인'}></input>
+                    <input className="SubmitBtn" type="submit" value={'로그인'}/>
                 </form>
                 <div className="Kakaotalk_LoginBtn">
                     <div className="Kakaotalk_Logo">
