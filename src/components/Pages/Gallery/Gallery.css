@@ -1,19 +1,15 @@
 .Gallery {
     margin: 0 auto;
-
 }
 
 .GallHeader{
     padding-top: 80px;
 }
 
-
 .Gall_GridSection {
     margin: 0 auto;
     width: 1280px;
     height: 1545px;
-
-   
 }
 
 .Gall_GridContainer {
@@ -99,19 +95,15 @@
     grid-column-start: 5;
     grid-column-end: 5; 
 }
-.Gall_GridItem:nth-child(15) {
-    grid-column-start: 5;
-    grid-column-end: 5; 
-}
+
 .Gall_GridItem:nth-child(16) { 
     grid-column-start: 1;
     grid-column-end: 2; 
 }
 .Gall_GridItem:nth-child(17) {
     grid-column-start: 2;
-    grid-column-end: 4; 
-  
-  
+    grid-column-end: 4;
+
 }
 .Gall_GridItem:nth-child(18) {
     grid-column-start: 4;
@@ -119,14 +111,11 @@
 
 }
 
-
-
 /* -------------------Modal------------- */
-
 
 .GallModal-Content h5{
     font-size: 18px;
-     padding-bottom: 10px;
+    padding-bottom: 10px;
     position: relative;
     bottom: 120px;
     color: #fff;
@@ -149,17 +138,18 @@
     align-items: center;
     justify-content: center;
     z-index: 999;
+    
 }
-
 
 .GallModal-Content img {
    height: 500px;
    border: 1px solid #fff;
+   
 }
 
 
-/* -----------페이지-------------------- */
 
+/* -----------페이지-------------------- */
 
 .Gall_tab_container {
     display: flex;
@@ -186,7 +176,6 @@
     cursor: pointer;
     user-select: none;
 }
-
 
 
 .Gallery .Gall_tab .selectedTab {

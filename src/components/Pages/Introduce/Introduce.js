@@ -1,7 +1,5 @@
 import "./Introduce.css";
-
-import ItrFESTSURI from "./ItrFESTSURI";
-
+import ItrFESTSURI from "../Introduce/SubComponents/ItrFESTSURI";
 
 
 const Introduce = () => {
@@ -96,9 +94,7 @@ const Introduce = () => {
       <article>
         <ItrFESTSURI></ItrFESTSURI>
       </article>
-      <article>
-      
-      </article>
+      <article></article>
     </section>
   );
 };

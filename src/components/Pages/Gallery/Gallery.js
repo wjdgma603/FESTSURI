@@ -53,24 +53,24 @@ const Gallery = () => {
 
   const goToFirstPage = () => {
         setActiveTab(1);
-        window.scrollTo(0, 0);
+        // window.scrollTo(0, 0);
   };
 
   const goToLastPage = () => {
         setActiveTab(Math.ceil(GallData.length / 18));
-        window.scrollTo(0, 0);
+        // window.scrollTo(0, 0);
   };
 
   const goToPreviousPage = () => {
         setActiveTab((prevTab) => (prevTab > 1 ? prevTab - 1 : prevTab));
   };
-  window.scrollTo(0, 0);
+  // window.scrollTo(0, 0);
 
   const goToNextPage = () => {
     setActiveTab((prevTab) =>
       prevTab < Math.ceil(GallData.length / 18) ? prevTab + 1 : prevTab
     );
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
   };
 
   const displayFirstAndPrevious =
