@@ -4,17 +4,22 @@ import { Routes, Route, useNavigate } from 'react-router-dom'
 
 import Header from './components/Header/Header'
 import Main from "./components/Pages/Main/Main.js";
-import Party from './components/Pages/Party/Party';
-import Exhibition from './components/Pages/Exhibition/Exhibition';
-import ExhibitionSub from './components/Pages/ExhibitionSub/Exhibition_sub';
-import Board from './components/Pages/Board/Board';
-import Gallery from './components/Pages/Gallery/Gallery';
-import Introduce from './components/Pages/Introduce/Introduce';
 import Footer from './components/Footer/Footer';
 import Login from './components/Pages/Personal/Login';
-import { useState, useEffect } from 'react';
 import Join from './components/Pages/Personal/Join';
+
+import Party from './components/Pages/Party/Party';
 import PartySub from './components/Pages/PtyExbDetail/Party_sub';
+import Exhibition from './components/Pages/Exhibition/Exhibition';
+import ExhibitionSub from './components/Pages/ExhibitionSub/Exhibition_sub';
+
+import Board from './components/Pages/Board/Board';
+
+import Gallery from './components/Pages/Gallery/Gallery';
+import Introduce from './components/Pages/Introduce/Introduce';
+import { useState, useEffect } from 'react';
+
+
 
 
 function App() {
