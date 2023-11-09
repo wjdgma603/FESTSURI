@@ -33,7 +33,6 @@ function Exhibition_sub() {
                             <img src={require('./images/ex' + list.id + '.png')} alt='Exhibition_sub_top'/>
                             <ul className='Exhibition_sub_po'>
                                 <li className='Exhibition_sub_title_name'>{list.title}</li>
-                                <li className='Exhibition_sub_line'></li>
                                 <li className='Exhibition_sub_pa'>기간 <span className='Exhibition_sub_pa_span'>{list.sub_title1}</span></li>
                                 <li className='Exhibition_sub_pa'>시간 <span className='Exhibition_sub_pa_span'>{list.sub_title2}</span></li>
                                 <li className='Exhibition_sub_pa'>장소 <span className='Exhibition_sub_pa_span'>{list.sub_title3}</span>
@@ -60,7 +59,7 @@ function Exhibition_sub() {
                                 </li>
                                 <li className='Exhibition_sub_pa'>예매기간<span className='Exhibition_sub_pa_span'>{list.sub_title4}</span></li>
                                 <li className='Exhibition_sub_pa'>예매시간<span className='Exhibition_sub_pa_span'>{list.sub_title5}</span></li>
-                                <li className='Exhibition_sub_pa_two'>가격<span className='Exhibition_sub_pa_span'>{list.sub_title6}</span></li>
+                                <li className='Exhibition_sub_pa'>가격<span className='Exhibition_sub_pa_span'>{list.sub_title6}</span></li>
                                 <li className='Exhibition_sub_pa'>신청<span className='Exhibition_sub_pa_span'>{list.sub_title7}</span></li>
                                 <li className='Exhibition_sub_pa'>문의<span className='Exhibition_sub_pa_span'>{list.sub_title8}</span></li>
                             </ul>

@@ -1,5 +1,5 @@
 .Party_sub{
-    padding-top: 210px;
+    padding-top: 80px;
 }
 
 .Party_sub_title{
@@ -29,6 +29,7 @@
 
 .Party_sub_po {
     padding-left: 40px;
+    flex: 1;
 }
 
 .Party_sub_top {
@@ -41,28 +42,17 @@
     font-weight: 700;
     margin: 0 auto;
     display: block;
-
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
 }
-
-.Party_sub_line {
-    width: 740px;
-    height: 1px;
-    background: #222;
-    margin: 20px 0;
-}
-
 .Party_sub_pa {
     color: #222;
     font-size: 20px;
     font-weight: 500;
-    padding-bottom: 30px;
-}
-
-.Party_sub_pa_two {
-    color: #222;
-    font-size: 20px;
-    font-weight: 500;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .Party_sub_pa_span {
@@ -141,10 +131,6 @@
     color: #fff;
     border-radius: 5px;
     background: #666;
-}
-
-.Party_sub_button {
-    z-index: 9999;
 }
 
 .Party_sub_modal {

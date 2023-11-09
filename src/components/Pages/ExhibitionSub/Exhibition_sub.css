@@ -1,5 +1,5 @@
 .Exhibition_sub {
-    padding-top: 210px;
+    padding-top: 80px;
 }
 
 .Exhibition_sub_title {
@@ -45,44 +45,34 @@
     position: relative;
 }
 
-
-
 .Exhibition_sub_po {
+    flex: 1;
     padding-left: 40px;
 }
 
 .Exhibition_sub_top {
     display: flex;
+    justify-content: space-between;
+}
+.Exhibition_sub_top>img{
+    height: 600px;
 }
 
 .Exhibition_sub_title_name {
     color: #111;
     font-size: 32px;
     font-weight: 700;
-    margin: 0 auto;
-    display: block;
-
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+    margin-bottom: 20px;
 }
-
-.Exhibition_sub_line {
-    width: 740px;
-    height: 1px;
-    background: #222;
-    margin: 20px 0;
-}
-
 .Exhibition_sub_pa {
     color: #222;
     font-size: 20px;
     font-weight: 500;
-    padding-bottom: 30px;
-}
-
-.Exhibition_sub_pa_two {
-    color: #222;
-    font-size: 20px;
-    font-weight: 500;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .Exhibition_sub_pa_span {

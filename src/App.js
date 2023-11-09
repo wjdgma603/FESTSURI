@@ -38,9 +38,7 @@ function App() {
   function IsFooterLoaded() {
     useEffect(() => {
       setIsFooterLoaded(true);
-      setIsFooterLoaded(true);
       return () => {
-        setIsFooterLoaded(false);
         setIsFooterLoaded(false);
       };
     }, []);
@@ -117,7 +115,7 @@ function App() {
           <Route path='/*' element={<Main IsHeaderLoaded={IsHeaderLoaded}/>}/>
           <Route path='/login/*' element={<Login IsFooterLoaded={IsFooterLoaded} KakaoLogin={KakaoLogin}/>}/>
           <Route path='/Join/*' element={<Join IsFooterLoaded={IsFooterLoaded}/>}/>
-          <Route path='/party/*' element={<Party/>}/>
+          <Route path='/party/*' element={<Party />}/>
           <Route path='/exhibition/*' element={<Exhibition/>}/>
           <Route path='/PartySub/*' element={<PartySub/>}/>
           <Route path='/ExhibitionSub/*' element={<ExhibitionSub/>}/>

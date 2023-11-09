@@ -3,7 +3,7 @@ import Party_sub_comp from './Comp/Party_sub_poster.json'
 import { Link, useLocation } from 'react-router-dom';
 import { useState } from 'react';
 import { MapMarker, Map } from 'react-kakao-maps-sdk'
-function PartySub() {
+function PartySub({}) {
     const location = useLocation();
     const type = location.state;
     const party_list = Party_sub_comp.filter((partyComp) => (partyComp.id === type.type));
@@ -15,10 +15,10 @@ function PartySub() {
 
     }
     const Party_sub_modal2 = () => {
-        setmodal(false)
-
+        setmodal(false) 
     }
 
+  
     return (
 
         <div className="Party_sub">
@@ -36,7 +36,6 @@ function PartySub() {
                             <img src={require('./images/psp' + list.id + '.png')} alt='Party_sub_top_img' />
                             <ul className='Party_sub_po'>
                                 <li className='Party_sub_title_name'>{list.title}</li>
-                                <li className='Party_sub_line'></li>
                                 <li className='Party_sub_pa'>기간 <span className='Party_sub_pa_span'>{list.sub_title1}</span></li>
                                 <li className='Party_sub_pa'>시간 <span className='Party_sub_pa_span'>{list.sub_title2}</span></li>
                                 <li className='Party_sub_pa'>장소 <span className='Party_sub_pa_span'>{list.sub_title3}</span>
@@ -63,7 +62,7 @@ function PartySub() {
                                 </li>
                                 <li className='Party_sub_pa'>예매기간<span className='Party_sub_pa_span'>{list.sub_title4}</span></li>
                                 <li className='Party_sub_pa'>예매시간<span className='Party_sub_pa_span'>{list.sub_title5}</span></li>
-                                <li className='Party_sub_pa_two'>가격<span className='Party_sub_pa_span'>{list.sub_title6}</span></li>
+                                <li className='Party_sub_pa'>가격<span className='Party_sub_pa_span'>{list.sub_title6}</span></li>
                                 <li className='Party_sub_pa'>신청<span className='Party_sub_pa_span'>{list.sub_title7}</span></li>
                                 <li className='Party_sub_pa'>문의<span className='Party_sub_pa_span'>{list.sub_title8}</span></li>
                             </ul>

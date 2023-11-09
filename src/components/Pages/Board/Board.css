@@ -1,6 +1,7 @@
 .Board {
     width: 1280px;
     margin: 0 auto;
+    scroll-behavior: smooth;
 }
 
 .Board .brd_P {
@@ -218,9 +219,7 @@
 }
 
 /* 이용약관 */
-html {
-    scroll-behavior: smooth;
-}
+
 
 .brd_NftIqryDetaText {
     width: 1280px;

@@ -58,7 +58,9 @@ function Header({Loaded, KakaoLogout, isLogin, Nickname, ProfileImage}) {
           ProfileBox.style.backgroundColor = "#333"
           })
       }
+      
     },[Loaded, isLogin])
+    window.scrollTo(0, 0);
     return (
       <header className="Header">
           <div className="headerWrap">
