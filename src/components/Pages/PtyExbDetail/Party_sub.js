@@ -1,6 +1,6 @@
 import './Party_sub.css'
 import Party_sub_comp from './Comp/Party_sub_poster.json'
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { useState } from 'react';
 import { MapMarker, Map } from 'react-kakao-maps-sdk'
 function Party_sub() {
@@ -19,22 +19,21 @@ function Party_sub() {
 
     }
 
-
     return (
 
         <div className="Party_sub">
             <section className='Party_sub_title'>
                 <ul className='party_go'>
-                    <li><a>홈</a></li>
+                    <li><Link to='/'>홈</Link></li>
                     <li className='party_arrow'></li>
-                    <li><a>행사</a></li>
+                    <li><Link to='/party'>행사</Link></li>
                 </ul>
             </section>
             {party_list.map((list) => (
                 <div key={Party_sub}>
                     <section className='Party_sub_hitop'>
                         <div className='Party_sub_top'>
-                            <img src={require('./images/psp' + list.id + '.png')} />
+                            <img src={require('./images/psp' + list.id + '.png')} alt='Party_sub_top_img' />
                             <ul className='Party_sub_po'>
                                 <li className='Party_sub_title_name'>{list.title}</li>
                                 <li className='Party_sub_line'></li>
