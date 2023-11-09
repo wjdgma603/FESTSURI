@@ -200,3 +200,13 @@
     width: 1920px;
     height: 1320px;
 }
+
+.Exhibition_sub_map>div>div>div:last-of-type>div:first-of-type{
+    color: #111 ;
+    border-radius: 10px;
+}
+.Exhibition_sub_map>div>div>div:last-of-type>div:first-of-type>div:last-of-type{
+    /* left: 50% !important;
+    top: 50% !important; */
+    transform: translateX(10%);
+}
