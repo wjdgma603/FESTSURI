@@ -1,0 +1,212 @@
+.Exhibition_sub {
+    padding-top: 210px;
+}
+
+.Exhibition_sub_title {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.Exhibition_sub_hitop {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.Exhibition_go {
+    display: flex;
+    width: 150px;
+    padding: 50px 0;
+    justify-content: space-around;
+}
+
+.Exhibition_go>li>a {
+    color: #666;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 5px 10px;
+    border: 1px solid #666;
+    border-radius: 50px;
+    display: block;
+}
+
+.Exhibition_arrow::after {
+    position: absolute;
+    left: -8px;
+    top: 9px;
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid #dddd;
+    border-right: 2px solid #dddd;
+    transform: rotate(45deg);
+}
+
+.Exhibition_arrow {
+    position: relative;
+}
+
+
+
+.Exhibition_sub_po {
+    padding-left: 40px;
+}
+
+.Exhibition_sub_top {
+    display: flex;
+}
+
+.Exhibition_sub_title_name {
+    color: #111;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.Exhibition_sub_line {
+    width: 740px;
+    height: 1px;
+    background: #222;
+    margin: 20px 0;
+}
+
+.Exhibition_sub_pa {
+    color: #222;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.Exhibition_sub_pa_two {
+    color: #222;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 60px;
+}
+
+.Exhibition_sub_pa_span {
+    padding-left: 40px;
+    color: #444;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Exhibition_sub_main {
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+.Exhibition_sub_center {
+    color: #222;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.Exhibition_sub_line {
+    margin: 0 auto;
+}
+
+.Exhibition_sub_Exhibition_line {
+    margin: 0 auto;
+    width: 150px;
+    height: 10px;
+    background: #76A6ED;
+}
+
+.Exhibition_sub_ExhibitionInfo {
+    padding-top: 100px;
+
+}
+
+.Exhibition_sub_ExhibitionInfo1 {
+    padding-top: 30px;
+}
+
+.Exhibition_sub_ExhibitionInfo2 {
+    padding-top: 75px;
+
+}
+
+.Exhibition_sub_ExhibitionInfo3 {
+    padding-top: 15px;
+
+}
+
+.Exhibition_sub_ExhibitionInfo_0 {
+    padding-top: 80px;
+}
+
+.Exhibition_sub_json_list {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Exhibition_sub_back {
+    padding-top: 323px;
+    padding-bottom: 173px;
+}
+
+.Exhibition_sub_backList {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    padding: 8px 15px;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    border-radius: 5px;
+    background: #666;
+}
+
+.Exhibition_sub_button {
+    z-index: 9999;
+}
+
+.Exhibition_sub_modal {
+    color: #FFF;
+    border-radius: 50px;
+    background: #222;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 10px;
+    width: 71px;
+    height: 29px;
+}
+
+/* 지도 모달창 */
+.modal-window {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 11;
+}
+
+.Exhibition_sub_map {
+    position: relative;
+    top: 200px;
+    left: 33%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    z-index: 999;
+}
+
+
+.Exhibition_sub_map_close {
+    position: relative;
+    top: -600px;
+    width: 1920px;
+    height: 1320px;
+}

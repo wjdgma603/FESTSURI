@@ -13,22 +13,7 @@
     padding-left: 330px;
 }
 
-.party_go {
-    display: flex;
-    width: 95px;
-    padding: 50px 0;
-    justify-content: space-around;
-}
 
-.party_go>li>a {
-    color: #666;
-    font-size: 13px;
-    font-weight: 400;
-    padding: 5px 10px;
-    border: 1px solid #666;
-    border-radius: 50px;
-    display: block;
-}
 
 .party {
     width: 1920px;
@@ -59,15 +44,41 @@
     transform: rotate(45deg);
 }
 
-.party_poster1{
+.party_poster1 {
     padding-top: 50px;
     margin: 0 auto;
-    width:1280px;
+    width: 1280px;
     display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    'box1  box2 box3 box4'
-    'box5  box6 box7 box8'
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        'box1 box2 box3 box4'
+        'box5 box6 box7 box8'
     ;
     row-gap: 30px;
+}
+
+.party_tapNum {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 150px 0px;
+    gap: 5px;
+}
+
+.party_tapNum>li>button {
+    width: 30px;
+    height: 30px;
+    background: #EEE;
+    color: #888;
+    font-size: 13px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.party_tapNum>li>.active {
+    background-color: #295bde;
+    color: #fff;
 }

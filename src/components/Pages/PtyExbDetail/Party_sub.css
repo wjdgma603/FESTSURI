@@ -1,3 +1,27 @@
+.Party_sub{
+    padding-top: 210px;
+}
+
+.Party_sub_title{
+    width: 1280px;
+    margin: 0 auto;
+}
+.party_go {
+    display: flex;
+    width: 115px;
+    padding: 50px 0;
+    justify-content: space-around;
+}
+
+.party_go>li>a {
+    color: #666;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 5px 10px;
+    border: 1px solid #666;
+    border-radius: 50px;
+    display: block;
+}
 .Party_sub_hitop {
     width: 1280px;
     margin: 0 auto;
@@ -160,37 +184,10 @@
 }
 
 
-.papapa{
+.Party_sub_map_close{
     position: relative;
-    top: 0;
+    top: -600px;
     width: 1920px;
     height:1320px ;
 }
-/* #modal .modal-window {
-    backdrop-filter: blur( 13.5px );
-    -webkit-backdrop-filter: blur( 20px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    width: 1440px;
-    height: 2000px;
-    position: relative;
-    top: 180px;
-    padding: 10px;
-} */
 
-
-/* .close-area {
-    display: inline;
-    float: right;
-    padding-right: 10px;
-    cursor: pointer;
-    text-shadow: 1px 1px 2px gray;
-    color: #000;
-} */
-
-/* #modal .content {
-    margin-top: 20px;
-    padding: 0px 10px;
-    text-shadow: 1px 1px 2px gray;
-    color: white;
-} */

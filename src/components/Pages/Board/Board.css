@@ -1,0 +1,343 @@
+.Board {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.Board .brd_P {
+    cursor: pointer;
+    user-select: none;
+}
+
+.brd_topTitle {
+    font-weight: 700;
+    color: #111;
+    padding: 0 0 20px 10px;
+}
+
+/*  */
+
+.brd_NftIqryTitle,
+.NftItem {
+    height: 40px;
+    padding: 5px 0px;
+
+    display: flex;
+    align-items: center;
+}
+
+.brd_NftIqryTitle {
+    justify-content: space-between;
+    border-bottom: 2px solid #222;
+}
+
+.NftItem {
+    border-bottom: 1px solid #DDD;
+}
+
+.NftItem:hover {
+    font-weight: bold;
+    color: #555;
+}
+
+.NftItem>div:nth-child(2) {
+    margin: 0 auto 0 0;
+}
+
+.brd_NftIqryTitle>li {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.brd_NftIqryTitle>li:nth-child(1),
+.brd_NftIqryItemNum {
+    width: 70px;
+    text-align: center;
+}
+
+.brd_NftIqryTitle>li:nth-child(1) {
+    margin-right: 39px;
+}
+
+.brd_NftIqryTitle>li:nth-child(3),
+.brd_NftIqryItemDay {
+    padding: 0 30px;
+}
+
+.brd_NftIqryMiddle {
+    height: 480px;
+}
+
+.brd_bottom>div:nth-child(2)>.selected {
+    background-color: #295bde;
+    color: #fff;
+}
+
+.brd_bottom>div>div>i {
+    width: 10px;
+    height: 10px;
+}
+
+.brd_TapFirstPageBtn>i {
+    background: url(./images/icon/first_pge_tab_btn_icon.png) no-repeat;
+    background-size: contain;
+}
+
+.brd_TapPrevPageBtn>i {
+    background: url(./images/icon/before_tab_btn_icon.png) no-repeat;
+    background-size: contain;
+}
+
+.brd_TapNextPageBtn>i {
+    background: url(./images/icon/next_tab_btn_icon.png) no-repeat;
+    background-size: contain;
+}
+
+.brd_TapLastPageBtn>i {
+    background: url(./images/icon/back_tab_btn_icon.png) no-repeat;
+    background-size: contain;
+}
+
+.brd_DetaRight {
+    display: flex;
+    gap: 20px;
+}
+
+.brd_DetaRight .brd_correction {
+    padding: 0;
+}
+
+.brd_DetaRight>ul {
+    padding: 8px 22.5px;
+    color: #fff;
+    background: #B82647;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.brd_DetaRight>ul>i {
+    width: 16.12px;
+    height: 18.35px;
+    background: url(./images/icon/trash_can_icon.png) no-repeat;
+    background-size: cover;
+}
+
+.brd_NftIqryDetaText {
+    width: 1280px;
+    padding: 30px 20px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    white-space: pre-line
+}
+
+.brd_NftIqryDetaText>textarea {
+    width: 100%;
+    height: auto;
+    min-height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+
+.brd_NftIqrytopImage,
+.brd_NftIqrybottomImage {
+    width: 100%;
+    padding: 10px;
+}
+
+.brd_NftIqryDetaText img {
+    width: 100%;
+}
+
+.brd_correction,
+.brd_correctionList {
+    padding: 30px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.brd_correctionList {
+    justify-content: center;
+}
+
+.brd_correction>ul,
+.brd_correctionList>ul {
+    display: flex;
+    height: 40px;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.brd_correction>ul {
+    background: #0B6DB7;
+}
+
+.brd_correctionList>ul {
+    background: #616264;
+}
+
+.brd_correction>ul>i {
+    width: 18px;
+    height: 18px;
+    background: url(./images/icon/pencil_icon.png) no-repeat;
+    background-size: contain;
+}
+
+.brd_correctionList>ul>i {
+    width: 18px;
+    height: 18px;
+    background: url(./images/icon/list_icon.png) no-repeat;
+    background-size: contain;
+}
+
+.askdjfljsdkljklasdjfklsdjf {
+    background: url(../Board/images/Nft/Personal_information_processing.png);
+}
+
+
+
+/* 공지사항 기타 별도 디자인 */
+.brd_NftIqryDetaText .brd_TermsOfUse {
+    width: 100%;
+}
+
+.brd_NftIqryDetaText i {
+    font-style: normal;
+    font-size: 13px;
+    color: #B82647;
+    font-weight: bold;
+}
+
+/* 이용약관 */
+html {
+    scroll-behavior: smooth;
+}
+
+.brd_NftIqryDetaText {
+    width: 1280px;
+    padding: 30px 20px;
+    margin: 0 auto;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    white-space: pre-line;
+}
+
+.brd_NftIqryDetaText .brd_TermsOfUse {
+    width: 1240px;
+}
+
+.brd_TermsOfUse>ul {
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brd_TermsOfUse>ul>li {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .5px solid #999;
+}
+
+.brd_TermsOfUse>ul>li:nth-child(1) {
+    border-top: 3px solid #b13a3e;
+}
+
+.brd_TermsOfUse>ul>li>a {
+    font-size: 16px;
+    color: #000;
+}
+
+.brd_TermsOfUseinOne {
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 16px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #333;
+}
+
+.brd_TermsOfUseinOneto {
+    height: 350px;
+    margin-bottom: 50px;
+    padding: 10px 30px;
+    overflow-y: auto;
+    color: #444;
+    font-weight: 300;
+    border: 1px solid #ccc;
+    line-height: 1.5;
+}
+
+.brd_TermsOfUseinOneto h6 {
+    font-size: 16px;
+    padding: 15px 0;
+}
+
+/* 영상정보처리기 */
+.brd_Image_information_processing h6 {
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+.brd_Image_information_processing h6:first-child {
+    padding: 0 0 15px 0;
+}
+
+.brd_NftIqryDetaText {
+    width: 1280px;
+    padding: 30px 20px;
+    margin: 0 auto;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    white-space: pre-line;
+}
+
+.brd_Image_information_processing h6 {
+    font-size: 20px;
+    padding: 50px 0 15px 0;
+}
+
+.brd_Image_information_processing>.brd_IiFMP_title>p {
+    padding-left: 0px;
+}
+
+.brd_Image_information_processing p {
+    padding-left: 30px;
+}
+
+.brd_IiFMP_Flex {
+    display: flex;
+    padding-left: 30px;
+}
+
+.brd_IiFMP_Flex>ul {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.brd_IiFMP_Flex>ol {
+    display: flex;
+    flex-direction: column;
+    width: 160%;
+}
+
+.brd_IiFMP_Flex li {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #999;
+}
