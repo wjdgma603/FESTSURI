@@ -22,11 +22,11 @@ const Gallery = () => {
 
     return GallData.slice(startIndex, endIndex).map((data) => (
       <div key={data.id} className="Gall_GridItem">
-        <img src={require(`./images/data_${data.id}.jpg`)} onClick={() => openModal(data)}/>
+        <img src={require(`./images/data_${data.id}.jpg`)} onClick={() => openModal(data)} alt="Gall_GridItem"/>
         {selectedData && selectedData.id === data.id && (
           <div className="GallModalTop" onClick={closeModal}>
             <div className="GallModal-Content">
-              <img src={require(`./images/data_${data.id}.jpg`)} />
+              <img src={require(`./images/data_${data.id}.jpg`)} alt="GallModal" />
               <h5>{data.usetitle}</h5>
               <div className="GallJsonText" dangerouslySetInnerHTML={{ __html: data.useDeta.replace(/\n/g, "<br />"),}} />
             </div>
