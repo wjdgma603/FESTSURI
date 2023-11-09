@@ -10,11 +10,11 @@ import ExhibitionSub from './components/Pages/ExhibitionSub/Exhibition_sub';
 import Board from './components/Pages/Board/Board';
 import Gallery from './components/Pages/Gallery/Gallery';
 import Introduce from './components/Pages/Introduce/Introduce';
-import PartySub from './components/Pages/PtyExbDetail/Party_sub';
 import Footer from './components/Footer/Footer';
 import Login from './components/Pages/Personal/Login';
 import { useState, useEffect } from 'react';
 import Join from './components/Pages/Personal/Join';
+import PartySub from './components/Pages/PtyExbDetail/party_sub';
 
 
 function App() {

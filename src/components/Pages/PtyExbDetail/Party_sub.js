@@ -3,7 +3,7 @@ import Party_sub_comp from './Comp/Party_sub_poster.json'
 import { Link, useLocation } from 'react-router-dom';
 import { useState } from 'react';
 import { MapMarker, Map } from 'react-kakao-maps-sdk'
-function Party_sub() {
+function PartySub() {
     const location = useLocation();
     const type = location.state;
     const party_list = Party_sub_comp.filter((partyComp) => (partyComp.id === type.type));
@@ -97,4 +97,4 @@ function Party_sub() {
     );
 }
 
-export default Party_sub;
+export default PartySub;
