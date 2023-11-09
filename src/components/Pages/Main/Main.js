@@ -208,7 +208,6 @@ const Main = ({IsHeaderLoaded}) => {
             <MainTitleWrap {...mainTitleItem[2]}/>
             <MainEventSection/>
             <ItrFESTSURI/>
-            
         </main>
      );
 }

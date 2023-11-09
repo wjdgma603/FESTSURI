@@ -206,7 +206,7 @@
 /* 제목 컴포넌트 속성 끝 */
 
 .Main_EventSection{
-    margin: 0 auto;
+    margin: 0 auto 150px auto;
     width: 1280px;
     display: flex;
 }
@@ -505,81 +505,37 @@
 }
 /* Span 호버 */
 
+.Main_PtySection,.Main_ExbSection{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+.Main_ExbSection{
+    padding-bottom: 50px;
+}
+.Main_PtySection>div.party_poster{
+    width: 220px;
+}
+.Main_PtySection>div.party_poster>a>img.party_poster_img{
+    width: 100%;
+    height: 275px;
+}
+.Main_ExbSection>div.poster{
+    width: 220px;
+}
+.Main_ExbSection>div.poster>a>img.poster_img{
+    width: 100%;
+    height: 275px;
+}
+.Main_TitleWrap:nth-of-type(2){
+    margin: 50px auto 30px auto;
+}
+/* 컴포넌트 메인 불러오기 완료  */
 
-.Footer_SNSWrap>div>a{
-    display: inline-block;
-    overflow: hidden;
-}
-.Footer_SNSWrap>.Kakaotalk_Icon:hover .st0{
-    fill: #F8DF00;
-}
-.Footer_SNSWrap>.Kakaotalk_Icon:hover .st1{
-    fill: #3B1C1C;
-}
-.Footer_SNSWrap>.Kakaotalk_Icon .st0{
-    fill: rgba(255,255,255,0.2);
-    transition: fill .5s ease-in-out;
-}
-.Footer_SNSWrap>.Kakaotalk_Icon .st1{
-    fill: rgba(255, 255, 255, 0.5);
-    transition: fill .5s ease-in-out;
-}
-/* 카카오톡 아이콘 */
-
-.Footer_SNSWrap>.Instagram_Icon .GradientPath{
-    fill: rgba(255,255,255,0.2);
-    transition: fill .5s ease-in-out;
-}
-.Footer_SNSWrap>.Instagram_Icon .WhitePath{
-    fill: rgba(255, 255, 255, 0.5);
-    transition: fill .5s ease-in-out;
-}
-.Footer_SNSWrap>.Instagram_Icon:hover .GradientPath{
-    fill: url(#Instagram_Gradient);
-    stroke: #fff;
-}
-.Footer_SNSWrap>.Instagram_Icon:hover .WhitePath{
-    fill: #fff;
-    stroke: #fff;
-}
-
-/* 인스타그램 아이콘, fill url과 fill 속성 값 crossfade 효과 미구현(JS, 이미지 필요) */
-
-
-.Footer_SNSWrap>.Youtube_Icon a {
-    background-color: rgba(255,255,255,0.2);
-    transition: background-color .5s ease-in-out;
-}
-.Footer_SNSWrap>.Youtube_Icon:hover a {
-    background-color: rgba(255,255,255,1);
-}
-
-.Footer_SNSWrap>.Youtube_Icon svg{
-    fill: rgba(255, 255, 255, 0.5);
-    transition: fill .5s ease-in-out;
-    transform: scale(.7);
-}
-.Footer_SNSWrap>.Youtube_Icon:hover svg{
-    fill: #ff0000;
-    transform: scale(.7);
-}
-/* 유튜브 아이콘 구현 */
-
-
-.Footer_SNSWrap>.Facebook_Icon a{
-    background-color: rgba(255,255,255,0.2);
-    transition: background-color .5s ease-in-out;
-}
-.Footer_SNSWrap>.Facebook_Icon:hover a {
-    background-color: rgba(58,85,159,1);
-}
-
-.Footer_SNSWrap>.Facebook_Icon svg{
-    fill: rgba(255, 255, 255, 0.5);
-    transition: fill .5s ease-in-out;
-    transform: scale(.4);
-}
-.Footer_SNSWrap>.Facebook_Icon:hover svg{
-    fill: #fff;
-    transform: scale(.4);
+.Main>section.Itr_FESTSURI{
+    height:auto;
+    margin: 0 auto 150px auto;
 }

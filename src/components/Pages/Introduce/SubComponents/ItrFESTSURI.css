@@ -29,18 +29,19 @@
 .Itr_FESTSURI img{
     height: 75px;
 }
-.Itr_Fixe1{
+.Itr_Fixe1, .Itr_Fixe2{
     display: flex;
     flex-wrap: wrap;
-    padding-top: 50px;     
+    justify-content: space-between;
+}
+.Itr_Fixe1{
+    padding-top: 50px;    
 }
 .Itr_Fixe2{
-    display: flex;
-    flex-wrap: wrap;
     padding: 80px 0 50px 0; 
 }
 .Itr_Fixe1>div, .Itr_Fixe2>div{
-    flex: 1;
+    width: 600px;
 }
 .Itr_FESTSURI> .Itr_FestText, .Itr_FESTSURI h2{
 color: #222;
