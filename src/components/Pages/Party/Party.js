@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './Party.css';
-import Party_poster from './Comp/Party_poster';
+import PartyPoster from './Comp/Party_poster';
 import Party_comp from './Comp/Party_poster.json';
+import { Link } from 'react-router-dom';
 
 function Party() {
     const itemsPerPage = 16;
@@ -24,14 +25,14 @@ function Party() {
             </section>
             <section className='party_middle'>
                 <ul className='party_go'>
-                    <li><a>홈</a></li>
+                    <li><Link to='/'>홈</Link></li>
                     <li className='party_arrow'></li>
-                    <li><a>행사</a></li>
+                    <li><Link to='/party'>행사</Link></li>
                 </ul>
                 <section className='party_middle'>
                     <div className="party_poster1">
                         {filteredItems.map((ParComp) => (
-                            <Party_poster key={ParComp.id} {...ParComp} />
+                            <PartyPoster key={ParComp.id} {...ParComp} />
                         ))}
                     </div>
                     <ul className='party_tapNum'>

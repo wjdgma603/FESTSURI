@@ -1,6 +1,6 @@
 import './Exhibition_sub.css'
 import Exhibition_sub_comp from './Comp/Exhibition_sub_poster.json'
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { useState } from 'react';
 import { MapMarker, Map } from 'react-kakao-maps-sdk'
 function Exhibition_sub() {
@@ -12,28 +12,24 @@ function Exhibition_sub() {
     const [modal, setmodal] = useState(false);
     const Exhibition_sub_modal1 = () => {
         setmodal(true)
-
     }
     const Exhibition_sub_modal2 = () => {
         setmodal(false)
-
     }
-
-
     return (
 
         <div className="Exhibition_sub">
             <section className='Exhibition_sub_title'>
                 <ul className='Exhibition_go'>
-                    <li><a href='/'>홈</a></li>
+                    <li><Link to='/'>홈</Link></li>
                     <li className='Exhibition_arrow'></li>
-                    <li><a href='/'>전시·공연</a></li>
+                    <li><Link to='/exhibition'>전시·공연</Link></li>
                 </ul>
             </section>
             {Exhibition_list.map((list) => (
                 <div key={list.id}>
                     <section className='Exhibition_sub_hitop'>
-                        <div className='Exhibition_sub_top'>
+                        <div className='Exhibition_sub_top'>    
                             <img src={require('./images/ex' + list.id + '.png')} alt='Exhibition_sub_top'/>
                             <ul className='Exhibition_sub_po'>
                                 <li className='Exhibition_sub_title_name'>{list.title}</li>
@@ -90,7 +86,7 @@ function Exhibition_sub() {
                         <div className='Exhibition_sub_json_list'>{list.sub_title7}</div>
                         <h2 className='Exhibition_sub_ExhibitionInfo_0'>유의사항안내</h2>
                         <pre className='Exhibition_sub_json_list'>{list.Exhibition_info2}</pre>
-                        <div className='Exhibition_sub_back'><a href='./Exhibition/Exhibition.js' className='Exhibition_sub_backList'>목록</a></div>
+                        <div className='Exhibition_sub_back'><Link to='/exhibition' className='Exhibition_sub_backList'>목록</Link></div>
                     </section>
                 </div>)
             )}

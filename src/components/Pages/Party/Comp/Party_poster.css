@@ -7,6 +7,7 @@
     text-overflow: ellipsis;
     white-space: pre;
     text-align: center;
+    padding: 5px 15px 0px 15px;
 }
 
 .party_poster_sub_title {

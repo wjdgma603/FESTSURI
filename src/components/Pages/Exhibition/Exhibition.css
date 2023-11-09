@@ -46,31 +46,18 @@
     width: 268px;
 }
 
-.exh_tab_menu_1 {
+.exh_tab_menu_1, .exh_tab_menu_2 {
     display: block;
     width: 134px;
     height: 36px;
     text-align: center;
-    justify-content: center;
     background-color: #C1C1C1;
     color: #fff;
-    margin: 0 auto;
     font-size: 18px;
     font-weight: 700;
     border: none;
 }
 
-
-.exh_tab_menu_2 {
-    display: block;
-    background-color: #C1C1C1;
-    width: 134px;
-    height: 36px;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 700;
-    border: none;
-}
 .exh_tab_menu_1.active,
 .exh_tab_menu_2.active {
     background-color: #868686;

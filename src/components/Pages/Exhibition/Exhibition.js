@@ -3,6 +3,7 @@ import './Exhibition.css';
 import Poster from './Comp/Poster.js';
 import Poster_comp1 from './Comp/Poster1.json';
 import Poster_comp2 from './Comp/Poster2.json';
+import { Link } from 'react-router-dom';
 
 function Exhibition() {
     const itemsPerPage = 16;
@@ -20,7 +21,6 @@ function Exhibition() {
         return chunkedArray;
     };
     const paginatedPosters = chunkArray(Poster_comp2, itemsPerPage);
-
     return (
         <div className="Exhibition">
             <section className='exh_top'>
@@ -28,9 +28,9 @@ function Exhibition() {
             </section>
             <section className='exh_middle'>
                 <ul className='exh_go'>
-                    <li><a href='/'>홈</a></li>
+                    <li><Link to='/'>홈</Link></li>
                     <li className='exh_arrow'></li>
-                    <li><a href='/'>전시·공연</a></li>
+                    <li><Link to='/exhibition'>전시·공연</Link></li>
                 </ul>
                 <ul className="exh_menu">
                     <li>
