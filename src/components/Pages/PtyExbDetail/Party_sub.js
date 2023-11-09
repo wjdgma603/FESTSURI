@@ -30,7 +30,7 @@ function PartySub() {
                 </ul>
             </section>
             {party_list.map((list) => (
-                <div key={Party_sub}>
+                <div key={list.id}>
                     <section className='Party_sub_hitop'>
                         <div className='Party_sub_top'>
                             <img src={require('./images/psp' + list.id + '.png')} alt='Party_sub_top_img' />

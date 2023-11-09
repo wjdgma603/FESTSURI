@@ -14,7 +14,7 @@ import Footer from './components/Footer/Footer';
 import Login from './components/Pages/Personal/Login';
 import { useState, useEffect } from 'react';
 import Join from './components/Pages/Personal/Join';
-import PartySub from './components/Pages/PtyExbDetail/party_sub';
+import PartySub from './components/Pages/PtyExbDetail/Party_sub';
 
 
 function App() {

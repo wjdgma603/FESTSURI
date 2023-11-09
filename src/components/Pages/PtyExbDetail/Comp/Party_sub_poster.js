@@ -6,7 +6,7 @@ const Party_sub_poster = ({ id, title, sub_title1, sub_title2, sub_title3, sub_t
     return (
         <div className='Party_sub_poster'>
 
-            <img className='Party_sub_poster_img' src={require("../images/psp" + id + ".png")} />
+            <img className='Party_sub_poster_img' src={require("../images/psp"+ id +".png")} alt='Party_sub_poster_img' />
             <div>
                 <p className='Party_sub_poster_title'>{title}</p>
                 <p className='Party_sub_poster_sub_title'>{sub_title1}</p>
