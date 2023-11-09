@@ -12,29 +12,25 @@ function Party_sub() {
     const [modal, setmodal] = useState(false);
     const Party_sub_modal1 = () => {
         setmodal(true)
-    }
     const Party_sub_modal2 = () => {
         setmodal(false)
     }
-
     return (
-        <div className="Party_sub">
             <section className='Party_sub_title'>
                 <ul className='party_go'>
-                    <li><Link to='/'>홈</Link></li>
                     <li className='party_arrow'></li>
                     <li><Link to='/party'>행사</Link></li>
                 </ul>   
-            </section>
+                    <li><Link to='/'>홈</Link></li>
             {party_list.map((list) => (
-                <div key={Party_sub}>
+                    <li><Link to='/party'>행사</Link></li>
                     <section className='Party_sub_hitop'>
                         <div className='Party_sub_top'>
                             <img src={require('./images/psp' + list.id + '.png')} alt='PartySubImages' />
                             <ul className='Party_sub_po'>
                                 <li className='Party_sub_title_name'>{list.title}</li>
                                 <li className='Party_sub_line'></li>
-                                <li className='Party_sub_pa'>기간 <span className='Party_sub_pa_span'>{list.sub_title1}</span></li>
+                            <img src={require('./images/psp' + list.id + '.png')} alt='PartySubImages' />
                                 <li className='Party_sub_pa'>시간 <span className='Party_sub_pa_span'>{list.sub_title2}</span></li>
                                 <li className='Party_sub_pa'>장소 <span className='Party_sub_pa_span'>{list.sub_title3}</span>
                                     <button onClick={() => Party_sub_modal1()} className='Party_sub_modal'>위치보기 </button>
