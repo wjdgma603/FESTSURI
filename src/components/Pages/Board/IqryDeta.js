@@ -68,7 +68,7 @@ const IqryDeta = ({ IqryData, deleteIqry, UpdateIqryInfor, ComponentChange }) =>
 
     return (
         <div className="IqryDeta">
-            <h2 className='brd_topTitle'>공지사항</h2>
+            <h2 className='brd_topTitle'>문의사항</h2>
             <div className="brd_NftIqryDetatop">
                 <div className="brd_DetaLeft">
                     <div>
