@@ -7,7 +7,7 @@ const Introduce = () => {
     <section className="Introduce">
       <article className="Itr_Section">
         <div className="Itr_Image">
-          <img src={require("./images/Introduce_001.jpg")}></img>
+          <img src={require("./images/Introduce_001.jpg")} alt="IntroduceImages"></img>
         </div>
         <div className="Itr_Text">
           <div>
@@ -87,7 +87,7 @@ const Introduce = () => {
           </div>
         </div>
         <div className="Itr_Image">
-        <img src={require("./images/Introduce_002.jpg")}></img>
+        <img src={require("./images/Introduce_002.jpg")} alt="IntroduceTwo"></img>
         </div>
       </article>
       <article>

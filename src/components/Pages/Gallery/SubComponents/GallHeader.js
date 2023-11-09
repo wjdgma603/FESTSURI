@@ -5,7 +5,7 @@ const GallHeader = () => {
         <section className="GallHeader">
             <article className="GallHeadBack">
                 <h1>참여 갤러리</h1>
-                <img src={require("../images/image&text_001.jpg")}></img>
+                <img src={require("../images/image&text_001.jpg")} alt="GallHeader"></img>
             </article>
         </section>
      );

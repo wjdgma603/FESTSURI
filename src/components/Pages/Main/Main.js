@@ -9,7 +9,12 @@ import SlideEvent from './sliderObj.json'
 import mainTitleItem from './SubComponents/mainTitleItem.json'
 import MainTitleWrap from './SubComponents/mainTitleWrap';
 import MainEventSection from './SubComponents/MainEventSection';
-
+// 메인 작성
+import ItrFESTSURI from '../Introduce/SubComponents/ItrFESTSURI';
+// 소개페이지 컴포넌트
+import PartyPoster from '../Party/Comp/Party_poster';
+import PartyComp from '../Party/Comp/Party_poster.json';
+// 행사페이지 컴포넌트
 const Main = ({IsHeaderLoaded}) => {
     IsHeaderLoaded();
     useEffect(() => {
@@ -187,7 +192,7 @@ const Main = ({IsHeaderLoaded}) => {
             </section>
             <MainTitleWrap {...mainTitleItem[0]}/>
             <section className='Main_PtySection'>
-
+                
             </section>
             <MainTitleWrap {...mainTitleItem[1]}/>
             <section className='Main_ExbSection'>
@@ -195,9 +200,8 @@ const Main = ({IsHeaderLoaded}) => {
             </section>
             <MainTitleWrap {...mainTitleItem[2]}/>
             <MainEventSection/>
-            <section className='Main_ItrSection'>
-                
-            </section>
+            <ItrFESTSURI/>
+            
         </main>
      );
 }
