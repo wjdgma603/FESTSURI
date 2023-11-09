@@ -8,9 +8,11 @@
 }
 .party_go {
     display: flex;
-    width: 115px;
     padding: 50px 0;
-    justify-content: space-around;
+    justify-content: flex-start;
+}
+.party_go>li:not(:last-of-type)>a{
+    margin-right: 20px;
 }
 
 .party_go>li>a {
@@ -21,7 +23,14 @@
     border: 1px solid #666;
     border-radius: 50px;
     display: block;
+    transition: all 0.3s ease-in-out;
 }
+.party_go>li>a:hover{
+    color: #ddd;
+    background-color: #666;
+    border: 1px solid #666;
+}
+
 .Party_sub_hitop {
     width: 1280px;
     margin: 0 auto;

@@ -7,7 +7,12 @@
     background-size: cover;
     width: 256px;
     height: 320px;
+    transition: transform 0.3s ease-in-out;
 }
+.poster_img:hover{
+    transform: translateY(-5%);
+}
+
 
 .poster_title {
     padding: 5px 15px 0px 15px;

@@ -15,11 +15,13 @@
 
 .exh_go {
     display: flex;
-    width: 150px;
     padding: 50px 0;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
+.exh_go>li:not(:last-of-type)>a{
+    margin-right: 20px;
+}
 .exh_go>li>a {
     color: #666;
     font-size: 13px;
@@ -28,6 +30,12 @@
     border: 1px solid #666;
     border-radius: 50px;
     display: block;
+    transition: all 0.3s ease-in-out;
+}
+.exh_go>li>a:hover{
+    color: #ddd;
+    background-color: #666;
+    border: 1px solid #666;
 }
 
 .Exhibition {
@@ -51,16 +59,21 @@
     width: 134px;
     height: 36px;
     text-align: center;
-    background-color: #C1C1C1;
+    background-color: #999;
     color: #fff;
     font-size: 18px;
     font-weight: 700;
     border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
 }
+.exh_tab_menu_1:hover, .exh_tab_menu_2:hover{
+    background-color: #555;
+} 
 
 .exh_tab_menu_1.active,
 .exh_tab_menu_2.active {
-    background-color: #868686;
+    background-color: #333;
 }
 
 
@@ -71,8 +84,8 @@
 
 .exh_arrow::after {
     position: absolute;
-    left: -8px;
-    top: 9px;
+    left: -16px;
+    top: 10px;
     content: '';
     width: 8px;
     height: 8px;

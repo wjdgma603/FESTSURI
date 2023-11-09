@@ -1,23 +1,43 @@
-.GallDeps{
-    margin: 0 auto;
+
+
+.Gall_Center{
+    position: relative;
+}
+.Gall_Center::after {
+    position: absolute;
+    left: -2px;
+    top: 10px;
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid #dddd;
+    border-right: 2px solid #dddd;
+    transform: rotate(45deg);
 }
 
 .Gall_BtnFlex{
+    margin: 0 auto;
+    width: 1280px;
     display: flex;
+    padding: 50px 0;
+    justify-content: flex-start;
 }
-.Gall_DepsPadding{
-    padding: 50px 0 50px 320px;
-}
-.Gall_DepsBtn{
+.Gall_DepsBtn a{
+    color: #666;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 5px 10px;
     border: 1px solid #666;
     border-radius: 50px;
-    font-size: 13px;
-    color: #666;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+.Gall_DepsBtn a:hover{
+    color: #ddd;
+    background-color: #666;
+    border: 1px solid #666;
 }
 
-.Gall_DepsBtn a{
-padding: 5px 10px;
-}
 
 .Gall_BtnFlex div{
     padding: 0 5px 0 5px;

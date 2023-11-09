@@ -25,17 +25,14 @@
     width: 1280px;
     margin: 0 auto;
 }
-
-
-
 .party_arrow {
     position: relative;
 }
 
 .party_arrow::after {
     position: absolute;
-    left: -8px;
-    top: 9px;
+    left: -16px;
+    top: 10px;
     content: '';
     width: 8px;
     height: 8px;
@@ -45,7 +42,6 @@
 }
 
 .party_poster1 {
-    padding-top: 50px;
     margin: 0 auto;
     width: 1280px;
     display: grid;
@@ -82,3 +78,5 @@
     background-color: #295bde;
     color: #fff;
 }
+
+

@@ -27,8 +27,17 @@
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-}
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
 
+}
+.Gall_GridItem>img{
+    filter: brightness(70%);
+}
+.Gall_GridItem>img:hover{
+    filter: brightness(100%);
+    transform: translateY(-20px);
+}
 
 .Gall_GridItem:nth-child(1) {
     grid-row-start: 1;

@@ -21,3 +21,10 @@
 .party_poster {
     width: 256px;
 }
+
+.party_poster_img{
+    transition: transform 0.3s ease-in-out;
+}
+.party_poster_img:hover{
+    transform: translateY(-5%);
+}
