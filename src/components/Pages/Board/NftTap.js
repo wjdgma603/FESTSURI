@@ -63,7 +63,8 @@ const NftTap = ({ NftData, ClickNftInfor, ComponentChange }) => {
     const renderItems = () => {
         const indexOfLastItem = currentPage * itemsPerPage;
         const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-        const currentItems = NftData.slice(indexOfFirstItem, indexOfLastItem).reverse(); // 내림차순으로 변경
+        const currentItems = NftData.slice(indexOfFirstItem, indexOfLastItem)
+        // .reverse(); // 내림차순으로 변경
 
         return currentItems.map((NftItemIt, index) => {
             const startingIndex = (currentPage - 1) * itemsPerPage;
