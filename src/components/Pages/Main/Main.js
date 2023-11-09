@@ -13,8 +13,11 @@ import MainEventSection from './SubComponents/MainEventSection';
 import ItrFESTSURI from '../Introduce/SubComponents/ItrFESTSURI';
 // 소개페이지 컴포넌트
 import PartyPoster from '../Party/Comp/Party_poster';
-import PartyComp from '../Party/Comp/Party_poster.json';
+import PartyJson from '../Party/Comp/Party_poster.json';
 // 행사페이지 컴포넌트
+import ExhibitionPoster from '../Exhibition/Comp/Poster';
+import ExhibitionJson from '../Exhibition/Comp/Poster1.json';
+// 공연전시 페이지 컴포넌트
 const Main = ({IsHeaderLoaded}) => {
     IsHeaderLoaded();
     useEffect(() => {
@@ -192,11 +195,15 @@ const Main = ({IsHeaderLoaded}) => {
             </section>
             <MainTitleWrap {...mainTitleItem[0]}/>
             <section className='Main_PtySection'>
-                
+                {PartyJson.slice(0,10).map((PartyJsonData)=>
+                    <PartyPoster key={PartyJsonData.id} {...PartyJsonData}/>
+                )}
             </section>
             <MainTitleWrap {...mainTitleItem[1]}/>
             <section className='Main_ExbSection'>
-
+                {ExhibitionJson.slice(0,5).map((ExhibitionJsonData)=>
+                    <ExhibitionPoster key={ExhibitionJsonData.id} {...ExhibitionJsonData}/>
+                )}
             </section>
             <MainTitleWrap {...mainTitleItem[2]}/>
             <MainEventSection/>
