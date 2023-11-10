@@ -67,7 +67,9 @@ function Exhibition() {
                             onClick={() => setActivePage(index)}
                         >
                             {index + 1}
+                            
                         </button>
+                        
                     ))}
                 </div>
             </section>
