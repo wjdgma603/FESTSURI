@@ -1,6 +1,6 @@
 import "./Gallery.css";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import GallHeader from "./SubComponents/GallHeader";
 import GallDeps from "./SubComponents/GallDeps";
 import GallData from "./SubComponents/GallDeta.json";
@@ -82,7 +82,9 @@ const Gallery = () => {
     ) : null;
 
   // -------------------
-
+  useEffect(()=>{
+    window.scrollTo(0,250)
+  },[activeTab])
   return (
     <section className="Gallery">
       <article>

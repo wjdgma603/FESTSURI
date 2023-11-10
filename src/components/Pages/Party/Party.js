@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Party.css';
 import PartyPoster from './Comp/Party_poster';
 import Party_comp from './Comp/Party_poster.json';
@@ -18,6 +18,9 @@ function Party() {
         (selectedTab - 1) * itemsPerPage,
         selectedTab * itemsPerPage
     );
+    useEffect(()=>{
+        window.scrollTo(0,250)
+    },[selectedTab])
     return (
         <div className="party">
             <section className='party_top'>

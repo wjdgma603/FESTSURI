@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Exhibition.css';
 import Poster from './Comp/Poster.js';
 import Poster_comp1 from './Comp/Poster1.json';
@@ -20,6 +20,9 @@ function Exhibition() {
         }
         return chunkedArray;
     };
+    useEffect(()=>{
+        window.scrollTo(0,250)
+    },[activePage])
     const paginatedPosters = chunkArray(Poster_comp2, itemsPerPage);
     return (
         <div className="Exhibition">
@@ -56,7 +59,7 @@ function Exhibition() {
                     {activeTab === 'show' &&
                         paginatedPosters[activePage].map((PosComp) => (
                             <Poster key={PosComp.id} {...PosComp} />
-                        ))
+                            ))
                     }
                 </div>
                 <div className="Exhibition_tapNum">
