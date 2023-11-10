@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FESTSURI/static/css/main.3295561b.css",
-    "main.js": "/FESTSURI/static/js/main.59c1789e.js",
+    "main.js": "/FESTSURI/static/js/main.e4061566.js",
     "static/media/slide02.jpg": "/FESTSURI/static/media/slide02.281070ddced3347b04ac.jpg",
     "static/media/A_palace_artists.png": "/FESTSURI/static/media/A_palace_artists.c0d2a0d15da701175f23.png",
     "static/media/slide07.jpg": "/FESTSURI/static/media/slide07.20b51d64f759b1c99653.jpg",
@@ -210,10 +210,10 @@
     "static/media/ItrFESTSURI_04.svg": "/FESTSURI/static/media/ItrFESTSURI_04.7c459ae46201d7dcd6a9.svg",
     "index.html": "/FESTSURI/index.html",
     "main.3295561b.css.map": "/FESTSURI/static/css/main.3295561b.css.map",
-    "main.59c1789e.js.map": "/FESTSURI/static/js/main.59c1789e.js.map"
+    "main.e4061566.js.map": "/FESTSURI/static/js/main.e4061566.js.map"
   },
   "entrypoints": [
     "static/css/main.3295561b.css",
-    "static/js/main.59c1789e.js"
+    "static/js/main.e4061566.js"
   ]
 }
