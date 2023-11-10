@@ -1,6 +1,8 @@
 import './Board.css';
 import { useState, useEffect } from 'react';
 
+import { useLocation } from 'react-router-dom';
+
 import NftjsonData from './NftData.json';
 import NftTap from './NftTap';
 import NftCrt from './NftCrt';
@@ -18,15 +20,16 @@ NftjsonData.sort((a, b) => b.NftId - a.NftId);
 
 const Board = () => {
     const [componentName, setComponentName] = useState('NftTap');
-
+    const location = useLocation();
     useEffect(() => {
+        if (location.pathname === '/board') {
             setComponentName('NftTap');
-        }, []);
+        }
+    }, [location]);
 
     const ComponentChange = (componentName) => {
         setComponentName(componentName);
     };
-
     // 공지사항 페이지 관련 함수 모음
     const [NftData, setNftData] = useState(NftjsonData);
 

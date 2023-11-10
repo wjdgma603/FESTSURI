@@ -4,7 +4,7 @@ const SliderItem = ({sliderNum, sliderLink}) => {
     return ( 
         <div className='Slide'>
             <Link to={sliderLink}>
-                <img src={require("../../../../images/Main/pcSlide/slide0"+sliderNum+".jpg")} alt=""/>
+                <img src={require("../images/pcSlide/slide0"+sliderNum+".jpg")} alt=""/>
             </Link>
         </div>
         
