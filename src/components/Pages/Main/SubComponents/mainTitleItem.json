@@ -2,13 +2,13 @@
     {
         "ItemTitle" : "행사",
         "ItemSubTitle" : "페스츠리에서 행사를 확인해보세요.",
-        "ItemLink" : "",
+        "ItemLink" : "/party",
         "ItemEndPoint" : "행사 바로가기"
     },
     {
         "ItemTitle" : "공연·전시",
         "ItemSubTitle" : "페스츠리에서 공연·전시를 확인해보세요.",
-        "ItemLink" : "",
+        "ItemLink" : "/exhibition",
         "ItemEndPoint" : "공연·전시 바로가기"
     },
     {
