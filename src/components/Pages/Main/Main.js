@@ -85,10 +85,9 @@ const Main = ({IsHeaderLoaded}) => {
     const PrevStart = 3 // 첫번째 슬라이드 시작부분
     const PrevEnd = (TotalSlides * 2/3) - 2; //첫번째 슬라이드 마지막부분
     const [slideState, setSlideState] = useState({number: START,}) 
-    
     const events = SlideEvent;
     threeTimesEvents = [...events, ...events, ...events];
-
+    
     function setInitialPosition() {
         SlideRef.current.style.transform = `translateX(-${(SlideWidth + SlideMargin) * (MaxSlides - 1)}px)`;
     }
