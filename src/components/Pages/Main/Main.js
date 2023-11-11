@@ -76,7 +76,7 @@ const Main = ({IsHeaderLoaded}) => {
     const SlideWidth = 1280; // 슬라이드 넓이값
     const MaxSlides = SlideEvent.length; // 현 슬라이드 숫자 = json 객체 숫자
     const TotalSlides = MaxSlides * 3; // 전체 슬라이드 숫자 = 앞 뒤로 존재하는 슬라이드 포함
-    const SlideRef = useRef(); // 슬라이드 감싸는 요소 찾기용 Ref
+    const SlideRef = useRef(); // 슬라이드 감싸는 요소 찾기용 Ref   
     let threeTimesEvents = []; // 슬라이드 앞 뒤로 복사하는 내용을 저장하는 배열
     const NextEnd = TotalSlides - 2; // 마지막 슬라이드 마지막 부분
     const PrevStart = 2 // 첫번째 슬라이드 시작부분
@@ -142,7 +142,7 @@ const Main = ({IsHeaderLoaded}) => {
             let SlideHeight = SlideRef.current.clientHeight
             MainSlideSec.style.height = `${SlideHeight + SlideMargin}px`
         }, 50)
-    })
+    },[])
 
     // 슬라이드 상하 여백 계산
     return ( 
