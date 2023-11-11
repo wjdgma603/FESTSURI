@@ -119,13 +119,16 @@ const Main = ({IsHeaderLoaded}) => {
         }   
     }
     // 슬라이드 버튼 함수
+
+
     useEffect(()=>{
         let SlideMargin = 60;
         let SlideHeight = SlideRef.current.clientHeight
         const MainSlideSec = document.querySelector('.Main_SlideSection')
         MainSlideSec.style.height = `${SlideHeight + SlideMargin}px`
-        SlideRef.current.style.margin = `0 ${(window.innerWidth - SlideWidth) / 2}px`
     },[])
+
+
     // 슬라이드 상하 여백 계산
 
     useEffect(()=>{
