@@ -73,7 +73,6 @@ const Main = ({IsHeaderLoaded}) => {
     }, [])
     // useEffect 사용한 three.js 부분
 
-    const [eventState, setEventsState] = useState([]);
     const SlideWidth = 1280; // 슬라이드 넓이값
     const SlideMargin = 0; // 슬라이드 마진값 (사용안함)
     const MaxSlides = SlideEvent.length; // 현 슬라이드 숫자 = json 객체 숫자
@@ -86,12 +85,10 @@ const Main = ({IsHeaderLoaded}) => {
     const PrevStart = 3 // 첫번째 슬라이드 시작부분
     const PrevEnd = (TotalSlides * 2/3) - 2; //첫번째 슬라이드 마지막부분
     const [slideState, setSlideState] = useState({number: START,}) 
+    
+    const events = SlideEvent;
+    threeTimesEvents = [...events, ...events, ...events];
 
-    async function loadEvents(){
-        const events = SlideEvent;
-        threeTimesEvents = [...events, ...events, ...events];
-        setEventsState(threeTimesEvents);
-    }
     function setInitialPosition() {
         SlideRef.current.style.transform = `translateX(-${(SlideWidth + SlideMargin) * (MaxSlides - 1)}px)`;
     }
@@ -132,7 +129,6 @@ const Main = ({IsHeaderLoaded}) => {
     }
     // 슬라이드 버튼 함수
     useEffect(()=>{
-        loadEvents()
         setInitialPosition();
         // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
@@ -172,10 +168,10 @@ const Main = ({IsHeaderLoaded}) => {
             <section className="Main_SlideSection">
                 <div className='MainSlide_BlackBg'></div>
                 <article className='Main_Slider' ref={SlideRef}>
-                    {eventState.map((event, index)=> 
+                    {threeTimesEvents.map((event, index)=> 
                         <div className={`Slide Slide${index}`} key={event.id = index} style={slideStyle(index)}>
                             <Link to={event.sliderLink}>
-                                <img src={require("./images/pcSlide/slide0"+event.sliderNum+".jpg")} alt={`slidenum${event.id}`}/>
+                                <img src={require("./images/pcSlide/slide0"+event.sliderNum+".jpg")} alt={`slidenum${event.sliderNum}`}/>
                             </Link>
                         </div>
                     )}
