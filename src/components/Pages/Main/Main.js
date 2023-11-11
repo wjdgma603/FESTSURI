@@ -89,19 +89,21 @@ const Main = ({IsHeaderLoaded}) => {
 
     function moveTo(setNumber, setMotion){
         setSlideState({
-            memo: slideState.number,
             number: setNumber,
             hasMotion: setMotion
         })
-    }// 슬라이드 움직이는 함수(슬라이드 번호, 전환효과)
+    }
+    // 슬라이드 움직이는 함수(슬라이드 번호, 전환효과)
 
     function slideAfterMove(setNumber, setMotion) {
         setTimeout(()=>{
             moveTo(setNumber, setMotion)
-        }, 1)
-    }// 슬라이드 움직이는 함수 지연시간
+        }, 10)
+    }
+    
+    // 슬라이드 움직이는 함수 지연시간
     function handleSlideRight() {
-        if(slideState.number === NextEnd && slideState.memo === NextEnd - 1) {
+        if(slideState.number === NextEnd) {
             moveTo(PrevEnd, false);
             slideAfterMove(PrevEnd + 1, true);
         } else {
@@ -109,7 +111,7 @@ const Main = ({IsHeaderLoaded}) => {
         }
     }
     function handleSlideLeft() {
-        if(slideState.number === PrevStart && slideState.memo === PrevStart + 1) {
+        if(slideState.number === PrevStart) {
             moveTo(NextStart, false);
             slideAfterMove(NextStart - 1, true);
         } else {
