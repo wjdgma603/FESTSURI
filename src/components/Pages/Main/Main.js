@@ -79,9 +79,9 @@ const Main = ({IsHeaderLoaded}) => {
     const SlideRef = useRef(); // 슬라이드 감싸는 요소 찾기용 Ref
     let threeTimesEvents = []; // 슬라이드 앞 뒤로 복사하는 내용을 저장하는 배열
     const NextEnd = TotalSlides - 2; // 마지막 슬라이드 마지막 부분
-    const PrevStart = 3 // 첫번째 슬라이드 시작부분
+    const PrevStart = 2 // 첫번째 슬라이드 시작부분
     const START = (TotalSlides * 1/3) - 1; // 기본 슬라이드 위치
-    const NextStart = (TotalSlides * 2/3) + 3; // 마지막 슬라이드 시작 부분 
+    const NextStart = (TotalSlides * 2/3) + 2; // 마지막 슬라이드 시작 부분 
     const PrevEnd = (TotalSlides * 1/3) - 2; //첫번째 슬라이드 마지막부분
     const [slideState, setSlideState] = useState({number: START,}) 
     const events = SlideEvent;
@@ -106,21 +106,15 @@ const Main = ({IsHeaderLoaded}) => {
     function handleSlideRight() {
         if(slideState.number === NextEnd && slideState.memo === NextEnd - 1) {
             moveTo(PrevEnd, false);
-            slideAfterMove(PrevEnd + 2, true);
-        } else if (slideState.number === NextStart && slideState.memo === NextStart - 1){
-            moveTo(PrevStart, false)
-            slideAfterMove(PrevStart + 1, true);
+            slideAfterMove(PrevEnd + 1, true);
         } else {
             moveTo(slideState.number + 1, true);
         }
     }
     function handleSlideLeft() {
-        if(slideState.number === PrevEnd && slideState.memo === PrevEnd + 1) {
-            moveTo(NextEnd, false);
-            slideAfterMove(NextEnd - 1, true);
-        } else if (slideState.number === PrevStart && slideState.memo === PrevStart + 1){
-            moveTo(NextStart, false)
-            slideAfterMove(NextStart, true);
+        if(slideState.number === PrevStart && slideState.memo === PrevStart + 1) {
+            moveTo(NextStart, false);
+            slideAfterMove(NextStart - 1, true);
         } else {
             moveTo(slideState.number - 1, true);
         }
