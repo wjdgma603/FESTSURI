@@ -118,17 +118,15 @@ const Main = ({IsHeaderLoaded}) => {
     }
     // 슬라이드 버튼 함수
     useEffect(()=>{
-        setTimeout(()=>{
-            let SlideMargin = 60;
-            const MainSlideSec = document.querySelector('.Main_SlideSection')
-            let SlideHeight = SlideRef.current.clientHeight
-            MainSlideSec.style.height = `${SlideHeight + SlideMargin}px`
-        }, 50)
+        let SlideMargin = 60;
+        const MainSlideSec = document.querySelector('.Main_SlideSection')
+        let SlideHeight = SlideRef.current.clientHeight
+        SlideRef.current.style.margin = `0 ${(window.innerWidth - SlideWidth) / 2}px`
+        MainSlideSec.style.height = `${SlideHeight + SlideMargin}px`
     },[])
     // 슬라이드 상하 여백 계산
 
     useEffect(()=>{
-        SlideRef.current.style.margin = `0 ${(window.innerWidth - SlideWidth) / 2}px`
         SlideRef.current.style.transform = `translateX(-${slideState.number * SlideWidth}px)`
         SlideRef.current.style.transition = slideState.hasMotion ? 'all 0.3s ease-in-out' : '';
     }, [slideState])
