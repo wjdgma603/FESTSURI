@@ -87,9 +87,6 @@ const Main = ({IsHeaderLoaded}) => {
     const events = SlideEvent;
     threeTimesEvents = [...events, ...events, ...events];
 
-    function setInitialPosition() {
-        SlideRef.current.style.transform = `translateX(-${SlideWidth * (MaxSlides - 1)}px)`;
-    }
     function moveTo(setNumber, setMotion){
         setSlideState({
             memo: slideState.number,
@@ -121,9 +118,15 @@ const Main = ({IsHeaderLoaded}) => {
     }
     // 슬라이드 버튼 함수
     useEffect(()=>{
-        setInitialPosition();
-        // eslint-disable-next-line react-hooks/exhaustive-deps
+        setTimeout(()=>{
+            let SlideMargin = 60;
+            const MainSlideSec = document.querySelector('.Main_SlideSection')
+            let SlideHeight = SlideRef.current.clientHeight
+            MainSlideSec.style.height = `${SlideHeight + SlideMargin}px`
+        }, 50)
     },[])
+    // 슬라이드 상하 여백 계산
+
     useEffect(()=>{
         SlideRef.current.style.margin = `0 ${(window.innerWidth - SlideWidth) / 2}px`
         SlideRef.current.style.transform = `translateX(-${slideState.number * SlideWidth}px)`
@@ -135,16 +138,8 @@ const Main = ({IsHeaderLoaded}) => {
         else{return{filter : `brightness(50%)`}}
     }
     // 슬라이드 배경 필터 스타일 함수
-    useEffect(()=>{
-        setTimeout(()=>{
-            let SlideMargin = 60;
-            const MainSlideSec = document.querySelector('.Main_SlideSection')
-            let SlideHeight = SlideRef.current.clientHeight
-            MainSlideSec.style.height = `${SlideHeight + SlideMargin}px`
-        }, 50)
-    },[])
 
-    // 슬라이드 상하 여백 계산
+
     return ( 
         <main className="Main">
             <section className="Main_IntroSection">
