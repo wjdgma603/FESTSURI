@@ -74,15 +74,15 @@ const Main = ({IsHeaderLoaded}) => {
     // useEffect 사용한 three.js 부분
 
     const SlideWidth = 1280; // 슬라이드 넓이값
-    const MaxSlides = SlideEvent.length; // 현 슬라이드 숫자 = json 객체 숫자
-    const TotalSlides = MaxSlides * 3; // 전체 슬라이드 숫자 = 앞 뒤로 존재하는 슬라이드 포함
-    const SlideRef = useRef(); // 슬라이드 감싸는 요소 찾기용 Ref   
+    const SlideRef = useRef(); // 슬라이드 랩을 찾는 Ref
+    const MaxSlides = SlideEvent.length; // json 객체 내용의 갯수
+    const TotalSlides = MaxSlides * 3; // 복사를 포함한 전체 슬라이드 숫자
     let threeTimesEvents = []; // 슬라이드 앞 뒤로 복사하는 내용을 저장하는 배열
-    const NextEnd = TotalSlides - 2; // 마지막 슬라이드 마지막 부분
-    const PrevStart = 2 // 첫번째 슬라이드 시작부분
-    const START = (TotalSlides * 1/3) - 1; // 기본 슬라이드 위치
-    const NextStart = (TotalSlides * 2/3) + 2; // 마지막 슬라이드 시작 부분 
-    const PrevEnd = (TotalSlides * 1/3) - 2; //첫번째 슬라이드 마지막부분
+    const NextEnd = TotalSlides - 2; 
+    const PrevStart = 2;
+    const START = (TotalSlides * 1/3) - 1;
+    const NextStart = (TotalSlides * 2/3) + 2; 
+    const PrevEnd = (TotalSlides * 1/3) - 2;
     const [slideState, setSlideState] = useState({number: START,}) 
     const events = SlideEvent;
     threeTimesEvents = [...events, ...events, ...events];
@@ -114,7 +114,7 @@ const Main = ({IsHeaderLoaded}) => {
             slideAfterMove(NextStart - 1, true);
         } else {
             moveTo(slideState.number - 1, true);
-        }
+        }   
     }
     // 슬라이드 버튼 함수
     useEffect(()=>{
