@@ -74,7 +74,6 @@ const Main = ({IsHeaderLoaded}) => {
     // useEffect 사용한 three.js 부분
 
     const SlideWidth = 1280; // 슬라이드 넓이값
-    const SlideMargin = 0; // 슬라이드 마진값 (사용안함)
     const MaxSlides = SlideEvent.length; // 현 슬라이드 숫자 = json 객체 숫자
     const TotalSlides = MaxSlides * 3; // 전체 슬라이드 숫자 = 앞 뒤로 존재하는 슬라이드 포함
     const SlideRef = useRef(); // 슬라이드 감싸는 요소 찾기용 Ref
@@ -87,9 +86,9 @@ const Main = ({IsHeaderLoaded}) => {
     const [slideState, setSlideState] = useState({number: START,}) 
     const events = SlideEvent;
     threeTimesEvents = [...events, ...events, ...events];
-    
+
     function setInitialPosition() {
-        SlideRef.current.style.transform = `translateX(-${(SlideWidth + SlideMargin) * (MaxSlides - 1)}px)`;
+        SlideRef.current.style.transform = `translateX(-${SlideWidth * (MaxSlides - 1)}px)`;
     }
     function moveTo(setNumber, setMotion){
         setSlideState({
@@ -133,7 +132,7 @@ const Main = ({IsHeaderLoaded}) => {
     },[])
     useEffect(()=>{
         SlideRef.current.style.margin = `0 ${(window.innerWidth - SlideWidth) / 2}px`
-        SlideRef.current.style.transform = `translateX(-${slideState.number * (SlideWidth + SlideMargin)}px)`
+        SlideRef.current.style.transform = `translateX(-${slideState.number * SlideWidth}px)`
         SlideRef.current.style.transition = slideState.hasMotion ? 'all 0.3s ease-in-out' : '';
     }, [slideState])
     // 슬라이드 마무리
