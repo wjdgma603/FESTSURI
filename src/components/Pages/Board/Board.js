@@ -18,7 +18,8 @@ import FAQTap from './FAQTap';
 
 NftjsonData.sort((a, b) => b.NftId - a.NftId);
 
-const Board = () => {
+const Board = ({IsFooterLoaded}) => {
+    IsFooterLoaded()
     const [componentName, setComponentName] = useState('NftTap');
     const location = useLocation();
     useEffect(() => {
